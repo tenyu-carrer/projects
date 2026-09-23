@@ -105,8 +105,9 @@ export function validatePost(post, account) {
   if (post.hashtags.length > HASHTAG_MAX) errors.push(`ハッシュタグが ${HASHTAG_MAX} 個を超えています`);
   for (const m of post.media) {
     if (!m.src) { errors.push('空のファイル指定があります'); continue; }
-    if (m.kind === 'image' && !/\.jpe?g$/i.test(m.src)) errors.push(`画像は JPEG のみ対応です: ${m.src}`);
-    if (m.kind === 'video' && !/\.(mp4|mov)$/i.test(m.src)) errors.push(`動画は MP4 / MOV のみ対応です: ${m.src}`);
+    const file = isUrl(m.src) ? new URL(m.src).pathname : m.src;
+    if (m.kind === 'image' && !/\.jpe?g$/i.test(file)) errors.push(`画像は JPEG のみ対応です: ${m.src}`);
+    if (m.kind === 'video' && !/\.(mp4|mov)$/i.test(file)) errors.push(`動画は MP4 / MOV のみ対応です: ${m.src}`);
     if (!isUrl(m.src) && !existsSync(path.join(account.dir, 'images', m.src))) {
       errors.push(`ファイルが見つかりません: content/${account.key}/images/${m.src}`);
     }
@@ -128,6 +129,24 @@ export function publicUrl(account, src) {
   if (!base) throw new Error('IMAGE_BASE_URL が未設定のため、画像の公開 URL を作れません');
   const rel = path.relative(REPO_ROOT, path.join(account.dir, 'images', src)).split(path.sep).join('/');
   return `${base.replace(/\/$/, '')}/${rel.split('/').map(encodeURIComponent).join('/')}`;
+}
+
+const IMAGE_MAX_BYTES = 8 * 1024 * 1024; // Instagram の画像上限
+
+// URL から JPEG をダウンロードして保存する（Canva の書き出し URL は一時的なので、投稿日まで残すため）
+export async function downloadJpeg(url, dest) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`ダウンロードに失敗しました (${res.status})`);
+  const buf = Buffer.from(await res.arrayBuffer());
+  // JPEG は先頭が FF D8 FF
+  if (buf[0] !== 0xff || buf[1] !== 0xd8 || buf[2] !== 0xff) {
+    throw new Error('JPEG ではありません。Canva から JPG 形式で書き出してください');
+  }
+  if (buf.length > IMAGE_MAX_BYTES) {
+    throw new Error(`画像が大きすぎます (${(buf.length / 1024 / 1024).toFixed(1)}MB)。品質を下げて書き出してください`);
+  }
+  await writeFile(dest, buf);
+  return buf.length;
 }
 
 export async function graph(account, { token }, method, endpoint, params = {}) {

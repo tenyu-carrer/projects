@@ -11,12 +11,28 @@ Instagram 公式の API（Instagram Graph API）を使い、GitHub Actions が�
 ## 仕組み
 
 ```
-instagram/content/<アカウント>/posts/2026-10-01.json   ← 投稿内容（キャプション・ハッシュタグ・画像名）
-instagram/content/<アカウント>/images/2026-10-01.jpg   ← 画像
+【週1回】Claude（定期実行）
+   方針書 GUIDE.md を読む → 7日分の文面を作る
+   → Canva: ひな形を複製して文字を差し替え → JPG で書き出し
+   → posts/2026-10-01.json（キャプション・書き出しURL）を push
             │
-            ▼  毎日 GitHub Actions が起動
+            ▼  push 直後に GitHub Actions（instagram-prepare）
+   Canva の画像をダウンロードして images/ に保存 → 投稿データをチェック
+            │
+            ▼  毎朝 GitHub Actions（instagram 占い / 前向きな言葉）
    今日の日付のファイルを探す → Instagram API で投稿 → posted.json に記録（二重投稿防止）
 ```
+
+| ファイル | 役割 |
+| --- | --- |
+| `content/<アカウント>/GUIDE.md` | 方針書（キャラ・投稿の型・禁止事項）。部長の役 |
+| `content/<アカウント>/canva.json` | Canva のひな形デザインIDと、差し替える文字の目安 |
+| `content/<アカウント>/posts/` | 日付ごとの投稿データ |
+| `content/<アカウント>/images/` | 投稿画像（Canva から自動で保存される） |
+| `.claude/skills/instagram-weekly/` | 週1回の制作手順（Claude が従う手順書） |
+
+Canva のデザインは Canva 上にも残るので、Instagram に出る前に Canva で直接直すこともできます。
+直したときは、Claude に「◯日の画像を差し替えて」と伝えてください。
 
 - 投稿データを先に何日分でも入れておけば、その日付になると自動で投稿されます。
 - 1日に複数投稿したいときは `2026-10-01.json`, `2026-10-01-2.json`, ... のように付け足します（この順で投稿）。

@@ -1,0 +1,48 @@
+# 投稿データが push されたら:
+#  1. Canva の一時 URL の画像をダウンロードしてリポジトリに保存（URL は約20時間で切れるため）
+#  2. 投稿データをチェック
+name: instagram 投稿データの準備とチェック
+
+on:
+  push:
+    paths:
+      - "instagram/**"
+  pull_request:
+    paths:
+      - "instagram/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-posted-log
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Canva の画像を保存
+        run: node instagram/scripts/localize-images.mjs
+
+      - name: 保存した画像をコミット
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add instagram/content
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "instagram: Canva の画像を保存"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
+
+      - name: 投稿データをチェック
+        run: node instagram/scripts/validate.mjs
