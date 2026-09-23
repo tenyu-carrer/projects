@@ -19,13 +19,6 @@ if (!all && !now && !key) {
   process.exit(1);
 }
 
-// GitHub Actions からは全 Secrets を JSON で受け取る（アカウントを増やしてもワークフローの変更が不要）
-if (process.env.ALL_SECRETS) {
-  for (const [k, v] of Object.entries(JSON.parse(process.env.ALL_SECRETS))) {
-    if (k.startsWith('IG_') && !process.env[k]) process.env[k] = v;
-  }
-}
-
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 // メディアコンテナの処理完了を待つ（動画・カルーセルは数十秒かかることがある）

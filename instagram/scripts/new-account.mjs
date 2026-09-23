@@ -23,6 +23,17 @@ const envPrefix = `IG_${key.toUpperCase().replace(/-/g, '_')}`;
 accounts[key] = { displayName, postTime, envPrefix, apiHost: 'facebook', defaultHashtags: [], enabled: false };
 await writeFile(accountsFile, JSON.stringify(accounts, null, 2) + '\n');
 
+// ワークフローにこのアカウントのトークンを渡す行を追記する
+const MARK = '          # --- ここまで ---';
+for (const wf of ['instagram-prepare.yml', 'instagram-publish.yml']) {
+  const file = path.join(IG_ROOT, '..', '.github', 'workflows', wf);
+  const text = await readFile(file, 'utf8');
+  if (!text.includes(MARK)) throw new Error(`${wf} にトークン欄の目印がありません`);
+  const add = `          ${envPrefix}_ACCESS_TOKEN: \${{ secrets.${envPrefix}_ACCESS_TOKEN }}\n`
+    + `          ${envPrefix}_USER_ID: \${{ secrets.${envPrefix}_USER_ID }}\n`;
+  await writeFile(file, text.replace(MARK, add + MARK));
+}
+
 const dir = path.join(IG_ROOT, 'content', key);
 for (const sub of ['posts', 'images']) await mkdir(path.join(dir, sub), { recursive: true });
 await writeFile(path.join(dir, 'images', '.gitkeep'), '');

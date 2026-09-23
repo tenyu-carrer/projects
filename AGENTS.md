@@ -43,7 +43,7 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 1. `node instagram/scripts/new-account.mjs <キー> <表示名> <投稿時刻>` を実行（フォルダ・方針書のひな形・登録を作る）
 2. 方針書 `GUIDE.md` を書き、Canva のひな形を作って `canva.json` に登録する
 3. オーナーが GitHub Secrets に `IG_<キー>_ACCESS_TOKEN` / `IG_<キー>_USER_ID` を登録する
-4. `accounts.json` の `enabled` を `true` にする → 翌日から毎日投稿される（ワークフローの変更は不要）
+4. `accounts.json` の `enabled` を `true` にする → 翌日から毎日投稿される（ワークフローへのトークン欄の追記は `new-account.mjs` が自動で行う）
 
 ## 役割分担
 

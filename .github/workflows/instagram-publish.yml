@@ -38,7 +38,14 @@ jobs:
 
       - name: 投稿
         env:
-          ALL_SECRETS: ${{ toJSON(secrets) }}
+          # --- Instagram アカウントのトークン（new-account.mjs が自動で追記する） ---
+          IG_FORTUNE_ACCESS_TOKEN: ${{ secrets.IG_FORTUNE_ACCESS_TOKEN }}
+          IG_FORTUNE_USER_ID: ${{ secrets.IG_FORTUNE_USER_ID }}
+          IG_POSITIVE_ACCESS_TOKEN: ${{ secrets.IG_POSITIVE_ACCESS_TOKEN }}
+          IG_POSITIVE_USER_ID: ${{ secrets.IG_POSITIVE_USER_ID }}
+          IG_PSYCHOLOGY_ACCESS_TOKEN: ${{ secrets.IG_PSYCHOLOGY_ACCESS_TOKEN }}
+          IG_PSYCHOLOGY_USER_ID: ${{ secrets.IG_PSYCHOLOGY_USER_ID }}
+          # --- ここまで ---
           ACCOUNT: ${{ inputs.account }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
           IMAGE_BASE_URL: ${{ vars.IMAGE_BASE_URL }}
