@@ -41,3 +41,10 @@ npm run test:e2e:ui
 `playwright.config.ts` の `use.launchOptions.executablePath` でそのパスを直接指定しています。
 別環境で実行する場合は `npx playwright install chromium` でブラウザを取得し、
 `executablePath` の指定を削除してください。
+
+---
+
+## Instagram 自動投稿
+
+2つの Instagram アカウント（毎日占い / 前向きな言葉）を GitHub Actions で自動投稿する仕組みは
+[`instagram/README.md`](instagram/README.md) を参照してください。

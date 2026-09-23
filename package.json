@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node server.js",
     "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e:ui": "playwright test --ui",
+    "ig:validate": "node instagram/scripts/validate.mjs",
+    "ig:check": "node instagram/scripts/check-account.mjs",
+    "ig:publish": "node instagram/scripts/publish.mjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.0"

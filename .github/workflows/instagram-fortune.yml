@@ -1,0 +1,23 @@
+# 毎日占いアカウント: 毎朝 6:30 (日本時間) に投稿
+# ※ GitHub の定期実行は混雑時に数分〜数十分遅れることがあります
+name: instagram 占い
+
+on:
+  schedule:
+    - cron: "30 21 * * *" # UTC 21:30 = 日本時間 6:30
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "ドライラン（実際には投稿しない）"
+        type: boolean
+        default: true
+
+jobs:
+  publish:
+    uses: ./.github/workflows/instagram-publish.yml
+    with:
+      account: fortune
+      dry_run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+    secrets:
+      ACCESS_TOKEN: ${{ secrets.IG_FORTUNE_ACCESS_TOKEN }}
+      USER_ID: ${{ secrets.IG_FORTUNE_USER_ID }}

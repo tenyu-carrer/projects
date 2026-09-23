@@ -1,0 +1,14 @@
+{
+  "fortune": {
+    "displayName": "毎日占いアカウント",
+    "envPrefix": "IG_FORTUNE",
+    "apiHost": "facebook",
+    "defaultHashtags": []
+  },
+  "positive": {
+    "displayName": "前向きな言葉アカウント",
+    "envPrefix": "IG_POSITIVE",
+    "apiHost": "facebook",
+    "defaultHashtags": []
+  }
+}
