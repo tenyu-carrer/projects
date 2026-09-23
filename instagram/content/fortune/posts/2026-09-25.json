@@ -1,7 +1,13 @@
 {
   "type": "image",
-  "image": "https://export-download.canva.com/nwFZI/DAHV_OnwFZI/-1/0/0001-1554258625633780546.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260922%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260922T102523Z&X-Amz-Expires=71929&X-Amz-Signature=3b526d8ab46a5e5f363384851c84d730d5fcbde1b39aa28945aa8ef7b4fc3359&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2023%20Sep%202026%2006%3A24%3A12%20GMT",
+  "image": "2026-09-25.jpg",
   "canvaDesignId": "DAHV_OnwFZI",
   "caption": "【9月25日（金）今日の運勢】\n1位は…かに座♋\n\n大切な人との時間が、運気を上げてくれる日。\nいつもは照れくさくて言えない「ありがとう」を、\n素直に伝えてみてね。\n\nラッキーカラー：シルバー\nラッキーアイテム：ハンカチ\n\n保存して、夜に見返してみてね🌙",
-  "hashtags": ["占い", "今日の運勢", "星座占い", "かに座", "12星座"]
+  "hashtags": [
+    "占い",
+    "今日の運勢",
+    "星座占い",
+    "かに座",
+    "12星座"
+  ]
 }
