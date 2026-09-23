@@ -3,6 +3,16 @@
 このファイルは、このリポジトリに関わるすべての AI とオーナーが読む**共通の最新情報**です。
 作業を始める前に必ず読み、役割や運用ルールが変わったらこのファイルを更新してください。
 
+## 呼び方（オーナーと AI の共通認識）
+
+| 呼び方 | 指すもの |
+| --- | --- |
+| **天祐自動化**（正式名: 天祐AI運用本部） | 会社全体。オーナー 山本、AI-CEO ASTRA、6人の取締役と各部署 |
+| TENYU本部・本部リポジトリ | `tenyu-carrer/tenyu-meta-social-automation`（Threads・記事・TENYU公式Instagram など。Vercel で動く） |
+| **Instagram部** | 天祐自動化の CMO サラ配下の部署。正本はこのリポジトリ `tenyu-carrer/projects`（GitHub Actions で動く） |
+
+オーナーが「天祐自動化の Instagram部の続き」と言ったら、このファイルと `instagram/ORGANIZATION.md` から状況を把握して再開する。
+
 ## プロジェクト: Instagram 事業部（複数アカウントの毎日自動運用）
 
 組織上は、天祐AI運用本部の **CMO・メディア集客担当取締役 サラ配下の「Instagram部」** です（2026-09-23 オーナー決定）。
