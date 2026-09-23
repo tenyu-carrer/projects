@@ -1,21 +1,22 @@
-# 各アカウントの投稿ワークフローから呼び出される共通処理
-name: instagram-publish (共通)
+# Instagram 毎日投稿（全アカウント共通）
+# 30分ごとに起動し、各アカウントの投稿時刻（instagram/accounts.json の postTime）を過ぎていて
+# まだ投稿していない今日の分があれば投稿する。アカウントを増やしてもこのファイルは変更不要。
+# ※ GitHub の定期実行は混雑時に数分〜数十分遅れることがあります
+name: instagram 毎日投稿
 
 on:
-  workflow_call:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
     inputs:
       account:
-        required: true
+        description: "アカウント（空欄なら投稿時刻を過ぎた全アカウント）"
         type: string
+        default: ""
       dry_run:
-        required: false
+        description: "ドライラン（実際には投稿しない）"
         type: boolean
-        default: false
-    secrets:
-      ACCESS_TOKEN:
-        required: false
-      USER_ID:
-        required: false
+        default: true
 
 permissions:
   contents: write
@@ -35,24 +36,25 @@ jobs:
 
       - name: 投稿
         env:
+          ALL_SECRETS: ${{ toJSON(secrets) }}
           ACCOUNT: ${{ inputs.account }}
-          DRY_RUN: ${{ inputs.dry_run }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
           IMAGE_BASE_URL: ${{ vars.IMAGE_BASE_URL }}
           GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          USER_ID: ${{ secrets.USER_ID }}
         run: |
-          PREFIX=$(node -e "console.log(require('./instagram/accounts.json')[process.env.ACCOUNT].envPrefix)")
-          export "${PREFIX}_ACCESS_TOKEN=$ACCESS_TOKEN" "${PREFIX}_USER_ID=$USER_ID"
-          node instagram/scripts/publish.mjs "$ACCOUNT"
+          if [ -n "$ACCOUNT" ]; then
+            node instagram/scripts/publish.mjs "$ACCOUNT"
+          else
+            node instagram/scripts/publish.mjs --all
+          fi
 
       - name: 投稿履歴を保存
-        if: always() && !inputs.dry_run
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add instagram/content/*/posted.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "instagram: ${{ inputs.account }} の投稿履歴を更新"
+          git commit -m "instagram: 投稿履歴を更新"
           for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
           exit 1

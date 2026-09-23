@@ -1,14 +1,18 @@
 {
   "fortune": {
     "displayName": "毎日占いアカウント",
+    "postTime": "06:30",
     "envPrefix": "IG_FORTUNE",
     "apiHost": "facebook",
-    "defaultHashtags": []
+    "defaultHashtags": [],
+    "enabled": false
   },
   "positive": {
     "displayName": "前向きな言葉アカウント",
+    "postTime": "07:00",
     "envPrefix": "IG_POSITIVE",
     "apiHost": "facebook",
-    "defaultHashtags": []
+    "defaultHashtags": [],
+    "enabled": false
   }
 }

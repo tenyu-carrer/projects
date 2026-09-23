@@ -1,18 +1,27 @@
 // 今日（日本時間）の投稿を Instagram に公開する
-//   node instagram/scripts/publish.mjs <account> [--dry-run] [--date YYYY-MM-DD]
+//   node instagram/scripts/publish.mjs --all [--dry-run]            投稿時刻（accounts.json の postTime）を過ぎた全アカウント
+//   node instagram/scripts/publish.mjs <account> [--dry-run] [--date YYYY-MM-DD]   指定アカウント（時刻に関係なく）
 import {
-  getAccount, credentials, todayJst, listPostFiles, readPost, readPostedLog, writePostedLog,
-  normalizePost, validatePost, publicUrl, graph,
+  loadAccounts, getAccount, credentials, todayJst, nowTimeJst, listPostFiles, readPost, readPostedLog,
+  writePostedLog, normalizePost, validatePost, publicUrl, graph,
 } from './lib.mjs';
 
 const args = process.argv.slice(2);
-const key = args.find((a) => !a.startsWith('--'));
+const all = args.includes('--all');
+const key = args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--date');
 const dryRun = args.includes('--dry-run') || process.env.DRY_RUN === 'true';
 const dateArg = args.includes('--date') ? args[args.indexOf('--date') + 1] : null;
 
-if (!key) {
-  console.error('使い方: node instagram/scripts/publish.mjs <account> [--dry-run] [--date YYYY-MM-DD]');
+if (!all && !key) {
+  console.error('使い方: node instagram/scripts/publish.mjs (--all | <account>) [--dry-run] [--date YYYY-MM-DD]');
   process.exit(1);
+}
+
+// GitHub Actions からは全 Secrets を JSON で受け取る（アカウントを増やしてもワークフローの変更が不要）
+if (process.env.ALL_SECRETS) {
+  for (const [k, v] of Object.entries(JSON.parse(process.env.ALL_SECRETS))) {
+    if (k.startsWith('IG_') && !process.env[k]) process.env[k] = v;
+  }
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -60,46 +69,70 @@ async function createContainer(account, creds, post) {
   return graph(account, creds, 'POST', `${userId}/media`, { image_url: url(post.media[0]), caption: post.caption });
 }
 
-const account = await getAccount(key);
-const date = dateArg || todayJst();
-const posted = await readPostedLog(account);
-const due = (await listPostFiles(account)).filter((f) => f.startsWith(date) && !posted[f]);
+// 1アカウント分を処理し、失敗件数を返す
+async function publishAccount(account, date) {
+  const posted = await readPostedLog(account);
+  const due = (await listPostFiles(account)).filter((f) => f.startsWith(date) && !posted[f]);
 
-console.log(`[${account.displayName}] ${date} の未投稿: ${due.length} 件${dryRun ? '（ドライラン）' : ''}`);
-if (due.length === 0) {
-  console.log('投稿予定がありません。posts/ に今日の日付のファイルがあるか確認してください。');
-  process.exit(0);
+  console.log(`[${account.displayName}] ${date} の未投稿: ${due.length} 件${dryRun ? '（ドライラン）' : ''}`);
+  if (due.length === 0) return 0;
+
+  let creds;
+  if (!dryRun) {
+    try {
+      creds = credentials(account);
+    } catch (e) {
+      console.error(`✗ ${e.message}`);
+      return due.length;
+    }
+  }
+
+  let failed = 0;
+  for (const file of due) {
+    const post = normalizePost(await readPost(account, file), account);
+    const errors = validatePost(post, account);
+    if (errors.length) {
+      console.error(`✗ ${file}: 内容に問題があります\n  - ${errors.join('\n  - ')}`);
+      failed++;
+      continue;
+    }
+    if (dryRun) {
+      console.log(`○ ${file} (${post.type}, ${post.media.length} 件のメディア)`);
+      for (const m of post.media) console.log(`   ${m.kind}: ${process.env.IMAGE_BASE_URL || process.env.GITHUB_SHA ? publicUrl(account, m.src) : m.src}`);
+      console.log(post.caption.split('\n').map((l) => `   | ${l}`).join('\n'));
+      continue;
+    }
+    try {
+      const { id: containerId } = await createContainer(account, creds, post);
+      await waitUntilReady(account, creds, containerId);
+      const { id: mediaId } = await graph(account, creds, 'POST', `${creds.userId}/media_publish`, { creation_id: containerId });
+      const { permalink } = await graph(account, creds, 'GET', mediaId, { fields: 'permalink' }).catch(() => ({}));
+      posted[file] = { mediaId, permalink: permalink || null, postedAt: new Date().toISOString() };
+      await writePostedLog(account, posted);
+      console.log(`✓ ${file} を投稿しました ${permalink || mediaId}`);
+    } catch (e) {
+      console.error(`✗ ${file}: ${e.message}`);
+      failed++;
+    }
+  }
+  return failed;
 }
 
-const creds = dryRun ? null : credentials(account);
+const date = dateArg || todayJst();
 let failed = 0;
 
-for (const file of due) {
-  const post = normalizePost(await readPost(account, file), account);
-  const errors = validatePost(post, account);
-  if (errors.length) {
-    console.error(`✗ ${file}: 内容に問題があります\n  - ${errors.join('\n  - ')}`);
-    failed++;
-    continue;
+if (all) {
+  const now = nowTimeJst();
+  for (const [k, conf] of Object.entries(await loadAccounts())) {
+    if (conf.enabled === false) continue;
+    if (!dateArg && conf.postTime && now < conf.postTime) {
+      console.log(`[${conf.displayName}] 投稿時刻 ${conf.postTime} 前のためスキップ（現在 ${now}）`);
+      continue;
+    }
+    failed += await publishAccount(await getAccount(k), date);
   }
-  if (dryRun) {
-    console.log(`○ ${file} (${post.type}, ${post.media.length} 件のメディア)`);
-    for (const m of post.media) console.log(`   ${m.kind}: ${process.env.IMAGE_BASE_URL || process.env.GITHUB_SHA ? publicUrl(account, m.src) : m.src}`);
-    console.log(post.caption.split('\n').map((l) => `   | ${l}`).join('\n'));
-    continue;
-  }
-  try {
-    const { id: containerId } = await createContainer(account, creds, post);
-    await waitUntilReady(account, creds, containerId);
-    const { id: mediaId } = await graph(account, creds, 'POST', `${creds.userId}/media_publish`, { creation_id: containerId });
-    const { permalink } = await graph(account, creds, 'GET', mediaId, { fields: 'permalink' }).catch(() => ({}));
-    posted[file] = { mediaId, permalink: permalink || null, postedAt: new Date().toISOString() };
-    await writePostedLog(account, posted);
-    console.log(`✓ ${file} を投稿しました ${permalink || mediaId}`);
-  } catch (e) {
-    console.error(`✗ ${file}: ${e.message}`);
-    failed++;
-  }
+} else {
+  failed = await publishAccount(await getAccount(key), date);
 }
 
 process.exit(failed ? 1 : 0);

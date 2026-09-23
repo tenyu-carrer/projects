@@ -45,6 +45,11 @@ export function todayJst(date = new Date()) {
   return new Date(date.getTime() + 9 * 3600 * 1000).toISOString().slice(0, 10);
 }
 
+// 日本時間の時刻 (HH:MM)
+export function nowTimeJst(date = new Date()) {
+  return new Date(date.getTime() + 9 * 3600 * 1000).toISOString().slice(11, 16);
+}
+
 // posts/ 配下の投稿ファイル一覧（ファイル名順 = 投稿順）
 export async function listPostFiles(account) {
   const dir = path.join(account.dir, 'posts');

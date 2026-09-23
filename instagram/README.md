@@ -1,9 +1,8 @@
-# Instagram 自動投稿（2アカウント運用）
+# Instagram 自動投稿（複数アカウント運用）
 
-| キー | アカウント | 投稿時刻（日本時間） | ワークフロー |
-| --- | --- | --- | --- |
-| `fortune` | 毎日占い | 毎朝 6:30 | `.github/workflows/instagram-fortune.yml` |
-| `positive` | 前向きな言葉 | 毎朝 7:00 | `.github/workflows/instagram-positive.yml` |
+アカウントの一覧と投稿時刻は `accounts.json` で管理します（`postTime` が投稿時刻、`enabled` が稼働スイッチ）。
+投稿は `.github/workflows/instagram-publish.yml` が30分ごとに起動し、投稿時刻を過ぎたアカウントの今日の分を投稿します。
+アカウントを増やす手順はリポジトリ直下の `AGENTS.md` を参照してください。
 
 Instagram 公式の API（Instagram Graph API）を使い、GitHub Actions が毎日決まった時刻に自動投稿します。
 パスワードでのログインや非公式ツールは使わないので、アカウント停止のリスクを抑えられます。
@@ -106,11 +105,11 @@ Instagram の API は「インターネット上の URL から画像を取りに
     （Vercel / GitHub Pages など）を指定する
   - 投稿 JSON の画像欄に、Canva などで書き出した画像の公開 URL（`https://...jpg`）を直接書く
 
-### 7. 動作確認
+### 7. 動作確認と稼働開始
 
-1. このブランチを main にマージ（定期実行は main 上のワークフローだけが動きます）
-2. Actions タブ →「instagram 占い」→ Run workflow（**ドライランにチェック** のまま）→ 投稿内容が表示されれば OK
-3. ドライランのチェックを外して実行すると、今日の分が本当に投稿されます
+1. このブランチをデフォルトブランチ（main）に取り込む（定期実行はデフォルトブランチ上のワークフローだけが動きます）
+2. Actions タブ →「instagram 毎日投稿」→ Run workflow で、アカウント名を入れ **ドライランにチェック** のまま実行 → 投稿内容が表示されれば OK
+3. `accounts.json` の該当アカウントの `enabled` を `true` にする → 以後、毎日自動で投稿されます
 
 ---
 
@@ -138,7 +137,7 @@ Instagram の API は「インターネット上の URL から画像を取りに
 - 画像は **JPEG（.jpg）** のみ。推奨サイズはフィード 1080×1350（縦4:5）、ストーリーズ・リール 1080×1920
 - キャプションは 2,200 文字まで、ハッシュタグは 30 個まで
 - 毎回付けたいハッシュタグは `instagram/accounts.json` の `defaultHashtags` に書いておくと自動で付きます
-- 投稿時刻を変えたい場合は各ワークフローの `cron`（UTC 表記。日本時間 − 9時間）を変更
+- 投稿時刻を変えたい場合は `accounts.json` の `postTime`（日本時間）を変更
 
 ## コマンド（ローカルで確認したいとき）
 
