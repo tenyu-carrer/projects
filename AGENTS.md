@@ -5,9 +5,11 @@
 
 ## プロジェクト: Instagram 事業部（複数アカウントの毎日自動運用）
 
-**TENYU（`tenyu-carrer/tenyu-meta-social-automation`）とは別の、独立したプロジェクト**です（2026-09-23 オーナー決定）。
-TENYU の Instagram 自動投稿（転職相談ブランド、Vercel Cron）とは投稿先アカウントも仕組みも別で、二重化ではありません。
-このリポジトリの Instagram 運用は **Claude が担当**します（TENYU での Claude の役割＝監査役とは別）。
+組織上は、天祐AI運用本部の **CMO・メディア集客担当取締役 サラ配下の「Instagram部」** です（2026-09-23 オーナー決定）。
+部長の下にアカウントごとの課長を置きます。組織図は `instagram/ORGANIZATION.md`。
+**仕組み（実行基盤）は TENYU（`tenyu-carrer/tenyu-meta-social-automation`）の Vercel とは別**で、このリポジトリの GitHub Actions で動きます。
+TENYU の Instagram 自動投稿（TENYU公式課、Vercel Cron）とは投稿先アカウントも仕組みも別で、二重化ではありません。
+Instagram部の運用は **Claude が担当**します（TENYU 本体での Claude の役割＝監査役とは別）。
 
 アカウントの一覧・投稿時刻・稼働状態の正本は `instagram/accounts.json`。現時点:
 
@@ -15,6 +17,7 @@ TENYU の Instagram 自動投稿（転職相談ブランド、Vercel Cron）と�
 | --- | --- | --- | --- |
 | 毎日占い (`fortune`) | 今日の運勢・12星座ランキング・星座別の傾向と注意・今月のいい日 | 毎朝 6:30 | 準備中（トークン未登録） |
 | 前向きな言葉 (`positive`) | 1日1つの前向きな言葉（曜日テーマあり） | 毎朝 7:00 | 準備中（トークン未登録） |
+| 心理学の言葉 (`psychology`) | 心理効果を今日から使えるひと言に | 毎晩 20:00 | 準備中（トークン未登録） |
 
 目的: 毎日投稿を続けてフォロワーを増やす。アカウントは今後増やしていく。自動フォロー・自動いいね等の規約違反はしない。
 
@@ -48,6 +51,7 @@ TENYU の Instagram 自動投稿（転職相談ブランド、Vercel Cron）と�
 
 | パス | 内容 |
 | --- | --- |
+| `instagram/ORGANIZATION.md` | **Instagram部の組織図**（部長・課長・課の一覧） |
 | `instagram/content/<account>/GUIDE.md` | **方針書**（キャラ・口調・投稿の型・禁止事項）。文面を作る前に必ず読む |
 | `instagram/content/<account>/canva.json` | Canva のひな形デザインID と、差し替える文字の目安 |
 | `instagram/content/<account>/posts/YYYY-MM-DD.json` | 投稿データ（1日1ファイル） |

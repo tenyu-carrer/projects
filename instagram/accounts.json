@@ -14,5 +14,13 @@
     "apiHost": "facebook",
     "defaultHashtags": [],
     "enabled": false
+  },
+  "psychology": {
+    "displayName": "心理学の言葉アカウント",
+    "postTime": "20:00",
+    "envPrefix": "IG_PSYCHOLOGY",
+    "apiHost": "facebook",
+    "defaultHashtags": [],
+    "enabled": false
   }
 }
