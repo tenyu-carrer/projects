@@ -18,7 +18,8 @@ description: Instagram部（占い・前向きな言葉・心理学の言葉な�
 
 2. **1日分ずつ作る**（未登録の日それぞれについて）
    1. 方針書の曜日の型に沿って、画像に入れる文字とキャプションを決める
-   2. Canva: `copy-design` で `canva.json` の `master` を複製する
+   2. Canva（デザイン部の作業。ルールは `design/README.md`）: `copy-design` で `canva.json` の `master` を複製し、
+      `move-item-to-folder` で `canva.json` の `folder`（アカウントのフォルダ）へ移動する
    3. `read-design`（`open_transaction: true`）でテキスト要素の `locator_id` を取得し、
       `edit-design` の `replace_text` で文字を差し替える
    4. 文字数の目安は `canva.json` の `textFields` に従う。返ってきたサムネイルで、文字のはみ出し・重なりがないか確認する。問題があれば
@@ -27,7 +28,7 @@ description: Instagram部（占い・前向きな言葉・心理学の言葉な�
       `<account> YYYY-MM-DD` にする
    6. `get-export-formats` → `export-design`（jpg, width 1080, quality 90）で書き出す
    7. `instagram/content/<account>/posts/YYYY-MM-DD.json` を書く。`image` には**書き出し URL をそのまま**入れ、
-      `canvaDesignId` に複製したデザインIDを入れる。
+      `canvaDesignId` に複製したデザインIDを、`brief` にデザイン依頼の内容（`design/README.md` の形式）を入れる。
       push すると GitHub Actions（instagram-prepare）が画像をダウンロードして `images/` に保存し、
       JSON をファイル名に書き換える。書き出し URL は約20時間で切れるので、**書き出したらその日のうちに push する**
 

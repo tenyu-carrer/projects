@@ -17,6 +17,8 @@ TENYU の Vercel・Cron・Function の枠は使いません。
       │  ├─ （アカウント4 準備枠）
       │  └─ （アカウント5 準備枠）
       └─ YouTube・Facebook部
+
+（画像づくりは CCO 配下の「デザイン部」（Canva）が担当。各課に担当デザイナーがつく → `design/README.md`）
 ```
 
 名前の（仮）は Claude の仮案です。オーナーが自由に決めてください。
@@ -27,6 +29,7 @@ TENYU の Vercel・Cron・Function の枠は使いません。
 | --- | --- | --- |
 | Instagram部長 | 部全体の方針、アカウントの追加・停止、課長の方針書の承認、週次の結果報告 | Claude（この `ORGANIZATION.md` と `AGENTS.md`） |
 | 各課長 | 1アカウントの企画・文面・画像・投稿品質に責任を持つ | 各アカウントの方針書 `content/<account>/GUIDE.md` に従って Claude が週次制作 |
+| デザイン部（CCO配下） | 各課の依頼（ブリーフ）を受けて Canva で画像を作る。課ごとに担当デザイナー（占い: セイラ／前向き: コハル／心理学: シズク、いずれも案） | `design/README.md` に従って Claude が Canva を操作 |
 | 投稿の実行 | 毎日、投稿時刻に Instagram へ公開 | GitHub Actions `instagram-publish`（AI不要） |
 | TENYU公式課 | TENYU の Instagram | TENYU の既存の仕組み（Vercel `api/cron/instagram.js`）。このリポジトリでは扱わない |
 

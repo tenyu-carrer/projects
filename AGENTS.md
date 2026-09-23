@@ -62,6 +62,7 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 | オーナー | 方針の決定、最終確認、各種アカウント・トークンの管理 |
 | Claude | Instagram 事業部の担当。週次制作（文面・Canva 画像・登録）、アカウント追加、仕組みの保守 |
 | GPT など他の AI | 企画・文面案・レビュー。**投稿データを直接作る場合は、事前にこのファイルの「作業中」に書く**（同じ日を二重に作らないため） |
+| デザイン部（Canva） | CCO 配下。Instagram部の各課の依頼を受けて画像を作る（担当 AI は Claude） |
 | GitHub Actions | 画像の保存、チェック、毎朝の投稿（AI は不要） |
 
 ## 作業中（重複防止のため、作業を始める AI がここに書き、終わったら消す）
@@ -73,6 +74,8 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 | パス | 内容 |
 | --- | --- |
 | `instagram/ORGANIZATION.md` | **Instagram部の組織図**（部長・課長・課の一覧） |
+| `design/README.md` | **デザイン部（Canva）の運用書**（担当デザイナー・連携の流れ・ルール）。画像を作る前に必ず読む |
+| `design/canva.json` | Canva のフォルダ ID（デザイン部の親フォルダ・ひな形・アカウント別） |
 | `instagram/content/<account>/GUIDE.md` | **方針書**（キャラ・口調・投稿の型・禁止事項）。文面を作る前に必ず読む |
 | `instagram/content/<account>/canva.json` | Canva のひな形デザインID と、差し替える文字の目安 |
 | `instagram/content/<account>/posts/YYYY-MM-DD.json` | 投稿データ（1日1ファイル） |

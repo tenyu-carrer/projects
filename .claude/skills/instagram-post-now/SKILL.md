@@ -16,7 +16,9 @@ description: Instagram部で、オーナーの指示を受けて1件の投稿を
    - `AGENTS.md` の「作業中」欄を確認し、ほかの AI が同じアカウントを作業中でないか見る
 
 2. **投稿を作る**（画像はオーナー指定がなければ Canva で作る。手順は `instagram-weekly` の 2-2〜2-6 と同じ）
-   - Canva: `canva.json` の `master` を複製 → 文字を差し替え → サムネイルで確認 → commit → JPG 書き出し
+   - デザイン部の作業（ルールは `design/README.md`）: `canva.json` の `master` を複製 → アカウントのフォルダ（`canva.json` の `folder`）へ移動 →
+     文字を差し替え → サムネイルで確認 → commit → JPG 書き出し
+   - 投稿データに `brief`（デザイン依頼の内容）を残す
 
 3. **投稿データを置く**
    - ファイル名: `instagram/content/<account>/posts/<今日の日付(JST)>-now-<連番>.json`（例: `2026-09-23-now-1.json`）
