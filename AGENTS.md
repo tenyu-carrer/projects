@@ -10,6 +10,7 @@
 | **天祐自動化**（正式名: 天祐AI運用本部） | 会社全体。オーナー 山本、AI-CEO ASTRA、6人の取締役と各部署 |
 | TENYU本部・本部リポジトリ | `tenyu-carrer/tenyu-meta-social-automation`（Threads・記事・TENYU公式Instagram など。Vercel で動く） |
 | **Instagram部** | 天祐自動化の CMO サラ配下の部署。正本はこのリポジトリ `tenyu-carrer/projects`（GitHub Actions で動く） |
+| **デザイン部**／**キャン太朗** | 天祐自動化の CCO 配下の部署で、Canva で画像を作る。部長は **キャン太朗**（オーナー決定）。運用書は `design/README.md` |
 
 オーナーが「天祐自動化の Instagram部の続き」と言ったら、このファイルと `instagram/ORGANIZATION.md` から状況を把握して再開する。
 
@@ -62,7 +63,7 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 | オーナー | 方針の決定、最終確認、各種アカウント・トークンの管理 |
 | Claude | Instagram 事業部の担当。週次制作（文面・Canva 画像・登録）、アカウント追加、仕組みの保守 |
 | GPT など他の AI | 企画・文面案・レビュー。**投稿データを直接作る場合は、事前にこのファイルの「作業中」に書く**（同じ日を二重に作らないため） |
-| デザイン部（Canva） | CCO 配下。Instagram部の各課の依頼を受けて画像を作る（担当 AI は Claude） |
+| デザイン部（Canva・部長 キャン太朗） | CCO 配下。Instagram部の各課の依頼を受けて画像を作る（担当 AI は Claude） |
 | GitHub Actions | 画像の保存、チェック、毎朝の投稿（AI は不要） |
 
 ## 作業中（重複防止のため、作業を始める AI がここに書き、終わったら消す）

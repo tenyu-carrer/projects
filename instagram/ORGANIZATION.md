@@ -18,7 +18,7 @@ TENYU の Vercel・Cron・Function の枠は使いません。
       │  └─ （アカウント5 準備枠）
       └─ YouTube・Facebook部
 
-（画像づくりは CCO 配下の「デザイン部」（Canva）が担当。各課に担当デザイナーがつく → `design/README.md`）
+（画像づくりは CCO 配下の「デザイン部」（Canva、部長 キャン太朗）が担当。各課に担当デザイナーがつく → `design/README.md`）
 ```
 
 名前の（仮）は Claude の仮案です。オーナーが自由に決めてください。
