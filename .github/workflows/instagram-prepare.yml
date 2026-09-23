@@ -1,7 +1,8 @@
 # 投稿データが push されたら:
 #  1. Canva の一時 URL の画像をダウンロードしてリポジトリに保存（URL は約20時間で切れるため）
 #  2. 投稿データをチェック
-name: instagram 投稿データの準備とチェック
+#  3. "publish": "now" の付いた今日の投稿（指示投稿）があれば、すぐ Instagram に投稿する
+name: instagram 準備と指示投稿
 
 on:
   push:
@@ -29,6 +30,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
       - name: Canva の画像を保存
         run: node instagram/scripts/localize-images.mjs
@@ -36,8 +40,6 @@ jobs:
       - name: 保存した画像をコミット
         if: github.event_name != 'pull_request'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add instagram/content
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "instagram: Canva の画像を保存"
@@ -46,3 +48,23 @@ jobs:
 
       - name: 投稿データをチェック
         run: node instagram/scripts/validate.mjs
+
+      - name: 指示投稿（今すぐ投稿）
+        if: github.event_name != 'pull_request'
+        env:
+          ALL_SECRETS: ${{ toJSON(secrets) }}
+          IMAGE_BASE_URL: ${{ vars.IMAGE_BASE_URL }}
+          GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
+        run: |
+          # 画像の公開 URL は、画像を保存したコミットを指す必要がある
+          export GITHUB_SHA=$(git rev-parse HEAD)
+          node instagram/scripts/publish.mjs --now
+
+      - name: 投稿履歴を保存
+        if: always() && github.event_name != 'pull_request'
+        run: |
+          git add instagram/content/*/posted.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "instagram: 投稿履歴を更新"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1

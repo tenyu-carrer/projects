@@ -1,6 +1,7 @@
 // 今日（日本時間）の投稿を Instagram に公開する
 //   node instagram/scripts/publish.mjs --all [--dry-run]            投稿時刻（accounts.json の postTime）を過ぎた全アカウント
 //   node instagram/scripts/publish.mjs <account> [--dry-run] [--date YYYY-MM-DD]   指定アカウント（時刻に関係なく）
+//   node instagram/scripts/publish.mjs --now [--dry-run]            "publish": "now" の付いた今日の投稿を、全アカウントですぐ投稿（指示投稿）
 import {
   loadAccounts, getAccount, credentials, todayJst, nowTimeJst, listPostFiles, readPost, readPostedLog,
   writePostedLog, normalizePost, validatePost, publicUrl, graph,
@@ -8,12 +9,13 @@ import {
 
 const args = process.argv.slice(2);
 const all = args.includes('--all');
+const now = args.includes('--now');
 const key = args.find((a, i) => !a.startsWith('--') && args[i - 1] !== '--date');
 const dryRun = args.includes('--dry-run') || process.env.DRY_RUN === 'true';
 const dateArg = args.includes('--date') ? args[args.indexOf('--date') + 1] : null;
 
-if (!all && !key) {
-  console.error('使い方: node instagram/scripts/publish.mjs (--all | <account>) [--dry-run] [--date YYYY-MM-DD]');
+if (!all && !now && !key) {
+  console.error('使い方: node instagram/scripts/publish.mjs (--all | --now | <account>) [--dry-run] [--date YYYY-MM-DD]');
   process.exit(1);
 }
 
@@ -69,12 +71,19 @@ async function createContainer(account, creds, post) {
   return graph(account, creds, 'POST', `${userId}/media`, { image_url: url(post.media[0]), caption: post.caption });
 }
 
-// 1アカウント分を処理し、失敗件数を返す
-async function publishAccount(account, date) {
+// 1アカウント分を処理し、失敗件数を返す（onlyNow: "publish": "now" の投稿だけを対象にする）
+async function publishAccount(account, date, { onlyNow = false } = {}) {
   const posted = await readPostedLog(account);
-  const due = (await listPostFiles(account)).filter((f) => f.startsWith(date) && !posted[f]);
+  const due = [];
+  for (const f of await listPostFiles(account)) {
+    if (!f.startsWith(date) || posted[f]) continue;
+    if (onlyNow && (await readPost(account, f)).publish !== 'now') continue;
+    due.push(f);
+  }
 
-  console.log(`[${account.displayName}] ${date} の未投稿: ${due.length} 件${dryRun ? '（ドライラン）' : ''}`);
+  const label = onlyNow ? '今すぐ投稿の指示' : '未投稿';
+  if (onlyNow && due.length === 0) return 0;
+  console.log(`[${account.displayName}] ${date} の${label}: ${due.length} 件${dryRun ? '（ドライラン）' : ''}`);
   if (due.length === 0) return 0;
 
   let creds;
@@ -121,12 +130,17 @@ async function publishAccount(account, date) {
 const date = dateArg || todayJst();
 let failed = 0;
 
-if (all) {
-  const now = nowTimeJst();
+if (now) {
+  // 指示投稿はオーナーの明示的な指示なので、enabled（毎日投稿のスイッチ）に関係なく投稿する
+  for (const k of Object.keys(await loadAccounts())) {
+    failed += await publishAccount(await getAccount(k), date, { onlyNow: true });
+  }
+} else if (all) {
+  const time = nowTimeJst();
   for (const [k, conf] of Object.entries(await loadAccounts())) {
     if (conf.enabled === false) continue;
-    if (!dateArg && conf.postTime && now < conf.postTime) {
-      console.log(`[${conf.displayName}] 投稿時刻 ${conf.postTime} 前のためスキップ（現在 ${now}）`);
+    if (!dateArg && conf.postTime && time < conf.postTime) {
+      console.log(`[${conf.displayName}] 投稿時刻 ${conf.postTime} 前のためスキップ（現在 ${time}）`);
       continue;
     }
     failed += await publishAccount(await getAccount(k), date);

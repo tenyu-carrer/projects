@@ -21,7 +21,18 @@ Instagram部の運用は **Claude が担当**します（TENYU 本体での Clau
 
 目的: 毎日投稿を続けてフォロワーを増やす。アカウントは今後増やしていく。自動フォロー・自動いいね等の規約違反はしない。
 
+### 現在のフェーズ: 開発中（2026-09-23 オーナー指示）
+
+- **毎日の自動投稿は停止中**（`instagram-publish` の schedule をコメントアウト、全アカウント `enabled: false`）。オーナーの再開指示まで動かさない
+- **週1回の自動制作も未設定**。オーナーの指示まで設定しない
+- 今は「**指示したら投稿できる**」（指示投稿）を開発・検証する段階。手順は `.claude/skills/instagram-post-now/SKILL.md`
+
 ## 全体の流れ（すべてクラウドで動くので、オーナーの PC は不要）
+
+**指示投稿（今すぐ）**: オーナーが Claude に指示 → Claude が文面と Canva 画像を作り、`"publish": "now"` を付けた今日の投稿データを push →
+GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が画像保存・チェック・投稿まで実行 → Claude が投稿 URL を確認して報告
+
+**毎日投稿（停止中・再開はオーナー指示）**:
 
 1. **週1回・制作**（Claude の定期実行）: 方針書に沿って文面を作り、Canva で画像を作り、`posts/` に登録して push
 2. **push 直後・準備**（GitHub Actions `instagram-prepare`）: Canva の画像を `images/` に保存し、内容をチェック
@@ -57,7 +68,8 @@ Instagram部の運用は **Claude が担当**します（TENYU 本体での Clau
 | `instagram/content/<account>/posts/YYYY-MM-DD.json` | 投稿データ（1日1ファイル） |
 | `instagram/content/<account>/images/` | 投稿画像（JPEG, 1080×1350） |
 | `instagram/content/<account>/posted.json` | 投稿済みの記録（自動更新。手で編集しない） |
-| `.claude/skills/instagram-weekly/SKILL.md` | 週次制作の手順書 |
+| `.claude/skills/instagram-post-now/SKILL.md` | 指示投稿（今すぐ投稿）の手順書 |
+| `.claude/skills/instagram-weekly/SKILL.md` | 週次制作の手順書（毎日投稿の再開後に使う） |
 | `instagram/README.md` | 仕組みとセットアップの詳細 |
 
 ## 投稿データの形式

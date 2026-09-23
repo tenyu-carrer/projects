@@ -6,7 +6,7 @@ TENYU の Vercel・Cron・Function の枠は使いません。
 
 ```
 オーナー 山本
-└─ AI-CEO
+└─ AI-CEO ASTRA
    └─ CMO・メディア集客担当取締役 サラ
       ├─ Threads部長 ハル
       ├─ Instagram部長 ソラ（仮）  ← 担当AI: Claude
