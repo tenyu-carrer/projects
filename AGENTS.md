@@ -21,7 +21,7 @@
 部長の下にアカウントごとの課長を置きます。組織図は `instagram/ORGANIZATION.md`。
 **仕組み（実行基盤）は TENYU（`tenyu-carrer/tenyu-meta-social-automation`）の Vercel とは別**で、このリポジトリの GitHub Actions で動きます。
 TENYU の Instagram 自動投稿（TENYU公式課、Vercel Cron）とは投稿先アカウントも仕組みも別で、二重化ではありません。
-Claude はオーナー直属のAI監査役です（オーナー決定）。制作・投稿を担当するAIは未決定（オーナー決定待ち）で、それまでは Claude がオーナーから明示的に依頼された作業だけを代行し、結果を監査します。
+Claude はオーナー直属のAI監査役であり、あわせて **Instagram部（部長・各課長）とデザイン部（Canva 制作）の担当AI** です（2026-09-25 オーナー決定）。企画・文面・Canva 画像・指示投稿・結果報告まで Claude が行い、監査役として投稿URL・重複・失敗も自分で確認します。毎日の自動投稿は停止中のまま（再開はオーナー指示）。
 
 アカウントの一覧・投稿時刻・稼働状態の正本は `instagram/accounts.json`。現時点:
 
@@ -54,7 +54,7 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 
 **毎日投稿（停止中・再開はオーナー指示）**:
 
-1. **週1回・制作**（定期実行。担当AIは未決定・オーナーの再開指示まで設定しない）: 方針書に沿って文面を作り、Canva で画像を作り、`posts/` に登録して push
+1. **週1回・制作**（定期実行。担当は Claude・オーナーの再開指示まで設定しない）: 方針書に沿って文面を作り、Canva で画像を作り、`posts/` に登録して push
 2. **push 直後・準備**（GitHub Actions `instagram-prepare`）: Canva の画像を `images/` に保存し、内容をチェック
 3. **毎日・投稿**（GitHub Actions `instagram-publish`、30分ごとに起動）: 各アカウントの投稿時刻を過ぎたら、その日の投稿を Instagram API で公開
 
@@ -70,9 +70,9 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 | 担当 | やること |
 | --- | --- |
 | オーナー | 方針の決定、最終確認、各種アカウント・トークンの管理 |
-| Claude | オーナー直属のAI監査役。予定と実績の照合、投稿URL・重複・失敗の確認。制作・投稿・保守はオーナーが明示的に依頼した場合だけ代行する |
+| Claude | Instagram部（部長・各課長）とデザイン部の担当AI。企画・文面・Canva 画像・指示投稿・保守・結果報告。あわせてオーナー直属のAI監査役として、予定と実績の照合、投稿URL・重複・失敗を確認する |
 | GPT など他の AI | 企画・文面案・レビュー。**投稿データを直接作る場合は、事前にこのファイルの「作業中」に書く**（同じ日を二重に作らないため） |
-| デザイン部（Canva・部長 キャン太朗） | CCO 配下。Instagram部の各課の依頼を受けて画像を作る（制作担当AIは未決定。オーナーの明示依頼時は Claude が代行） |
+| デザイン部（Canva・部長 キャン太朗） | CCO 配下。Instagram部の各課の依頼を受けて画像を作る（制作担当AIは Claude） |
 | GitHub Actions | 画像の保存、チェック、毎朝の投稿（AI は不要） |
 
 ## 作業中（重複防止のため、作業を始める AI がここに書き、終わったら消す）
