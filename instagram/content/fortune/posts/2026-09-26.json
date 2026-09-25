@@ -1,0 +1,14 @@
+{
+  "type": "image",
+  "image": "https://export-download.canva.com/hwk9c/DAHWNihwk9c/-1/0/0001-7612726276333199471.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260925%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260925T114430Z&X-Amz-Expires=16428&X-Amz-Signature=1e2ff0d80e75dafbc021db664e98d92f0ada3499866221345703ccd7618ca6c8&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Fri%2C%2025%20Sep%202026%2016%3A18%3A18%20GMT",
+  "canvaDesignId": "DAHWNihwk9c",
+  "caption": "【9月26日（土）今日の運勢】\n1位は…しし座♌\n\n笑顔がいちばんの魅力になる日。\n気になっていた場所へ、ふらっと出かけてみてね。\n思いがけない出会いがあるかも。\n\nラッキーカラー：オレンジ\nラッキーアイテム：サングラス\n\n保存して、夜に見返してみてね🌙",
+  "hashtags": ["占い", "今日の運勢", "星座占い", "しし座", "12星座"],
+  "brief": {
+    "template": "master",
+    "texts": { "日付": "9月26日（土）", "星座": "しし座", "メッセージ": "笑顔がいちばんの魅力に\nなる日。気になる場所へ\n出かけてみてね", "ラッキー": "ラッキーカラー：オレンジ\nラッキーアイテム：サングラス" },
+    "mood": "週末のお出かけ。明るく前向き",
+    "designer": "セイラ",
+    "note": "本部の既存経路 /api/instagram/post での実投稿テスト用（2026-09-25 オーナー指示）"
+  }
+}
