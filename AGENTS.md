@@ -77,7 +77,7 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 
 ## 作業中（重複防止のため、作業を始める AI がここに書き、終わったら消す）
 
-- なし
+- 2026-09-25 Claude：`fortune`（@happy_cristal7）の GitHub Secrets 登録後の連携確認と、初回の指示投稿
 
 ## どこに何があるか
 
