@@ -1,0 +1,63 @@
+# Instagram 予約箱の投稿（2026-09-26 オーナー承認）
+# instagram-queue ブランチの予約箱（instagram/queue/queue.json）が更新されたら、
+# GitHub の電子署名（OIDC トークン）付きで本部の /api/instagram/dispatch を呼ぶ。
+# 本部は予定時刻を過ぎた未投稿の予約だけを、予約ごとに1回だけ投稿する。合言葉は使わない。
+name: instagram 予約箱の投稿
+
+on:
+  push:
+    branches: [instagram-queue]
+    paths: ["instagram/queue/queue.json"]
+  workflow_dispatch:
+
+permissions:
+  id-token: write   # GitHub OIDC トークンの発行（本部への署名付き呼び出し）
+  contents: write   # 投稿結果の記録
+
+concurrency:
+  group: instagram-dispatch
+  cancel-in-progress: false
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: instagram-queue
+
+      - name: 本部に投稿を依頼（GitHub の電子署名付き）
+        id: call
+        run: |
+          TOKEN=$(curl -sS -H "Authorization: bearer $ACTIONS_ID_TOKEN_REQUEST_TOKEN" \
+            "$ACTIONS_ID_TOKEN_REQUEST_URL&audience=tenyu-instagram-dispatch" | jq -r .value)
+          echo "::add-mask::$TOKEN"
+          for i in 1 2 3; do
+            CODE=$(curl -sS -o result.json -w "%{http_code}" -X POST \
+              -H "Authorization: Bearer $TOKEN" \
+              https://tenyu-meta-social-automation-psi.vercel.app/api/instagram/dispatch) || CODE=000
+            echo "HTTP $CODE"
+            [ "$CODE" = "200" ] || [ "$CODE" = "502" ] || [ "$CODE" = "401" ] && break
+            sleep 20
+          done
+          jq . result.json || cat result.json
+          echo "code=$CODE" >> "$GITHUB_OUTPUT"
+
+      - name: 投稿結果を記録
+        if: always()
+        run: |
+          [ -s result.json ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          f="instagram/queue/results/$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_RUN_ID}.json"
+          jq . result.json > "$f" 2>/dev/null || cp result.json "$f"
+          git add "$f"
+          git commit -m "instagram: 予約箱の投稿結果を記録" || exit 0
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 5; done
+          exit 1
+
+      - name: 失敗したら止める
+        if: steps.call.outputs.code != '200'
+        run: |
+          echo "本部の応答が 200 ではありません（${{ steps.call.outputs.code }}）"
+          exit 1

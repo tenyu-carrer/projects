@@ -1,0 +1,13 @@
+{
+  "_readme": "Instagram 予約箱。本部 /api/instagram/dispatch がこの items を読み、publishAt を過ぎた未投稿の予約を id ごとに1回だけ投稿する。投稿済みの予約は消さずに残す（id の再利用禁止）。",
+  "items": [
+    {
+      "id": "20260926-fortune-leo-test",
+      "account": "fortune",
+      "publishAt": "2026-09-26T00:50:00+09:00",
+      "caption": "【9月26日（土）今日の運勢】\n1位は…しし座♌\n\n笑顔がいちばんの魅力になる日。\n気になっていた場所へ、ふらっと出かけてみてね。\n思いがけない出会いがあるかも。\n\nラッキーカラー：オレンジ\nラッキーアイテム：サングラス\n\n保存して、夜に見返してみてね🌙\n\n#占い #今日の運勢 #星座占い #しし座 #12星座",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/07fac084d02f4078c6f3ee3f293b847f04b75fa5/instagram/content/fortune/images/2026-09-26.jpg",
+      "canvaDesignId": "DAHWNihwk9c"
+    }
+  ]
+}
