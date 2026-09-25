@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "mcp__Canva"
+      "mcp__Canva",
+      "Bash(git push:*)"
     ]
   }
 }
