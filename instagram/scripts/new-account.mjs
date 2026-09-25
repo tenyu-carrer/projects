@@ -31,7 +31,7 @@ for (const wf of ['instagram-prepare.yml', 'instagram-publish.yml']) {
   if (!text.includes(MARK)) throw new Error(`${wf} にトークン欄の目印がありません`);
   const add = `          ${envPrefix}_ACCESS_TOKEN: \${{ secrets.${envPrefix}_ACCESS_TOKEN }}\n`
     + `          ${envPrefix}_USER_ID: \${{ secrets.${envPrefix}_USER_ID }}\n`;
-  await writeFile(file, text.replace(MARK, add + MARK));
+  await writeFile(file, text.replaceAll(MARK, add + MARK));
 }
 
 const dir = path.join(IG_ROOT, 'content', key);

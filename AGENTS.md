@@ -39,6 +39,14 @@ Claude はオーナー直属のAI監査役です（オーナー決定）。制�
 - **週1回の自動制作も未設定**。オーナーの指示まで設定しない
 - 今は「**指示したら投稿できる**」（指示投稿）を開発・検証する段階。手順は `.claude/skills/instagram-post-now/SKILL.md`
 
+### 最新の実績（新しいものを上に追記）
+
+- **2026-09-25 ChatGPT Work**：新しく連携した Instagram アカウント **@happy_cristal7** に、Canva 画像2枚のカルーセルを投稿（投稿ID `18135517288631232`、Meta API で公開成功を確認済みとの報告）。
+  Canva デザイン「fortune かに座 誕生日TOP3 2026-09-25」（`DAHWM_EMrrk`）、プロフィール画像「happy_cristal7 プロフィール画像」（`DAHWMkf9DcU`）。
+  この投稿は **ChatGPT 側の Meta 連携から直接** 行われたもので、このリポジトリの GitHub Actions 経由ではない（`posted.json` には記録なし）。定期投稿の設定は変更なし。
+  - 未確認：@happy_cristal7 がどのアカウントキー（`fortune` など）に当たるか、GitHub Secrets（`IG_<キー>_ACCESS_TOKEN` / `_USER_ID`）に登録済みか。
+    push のたびに `instagram-prepare` の「Instagram 連携確認（読み取りのみ）」ステップでユーザー名・フォロワー数が確認できる。
+
 ## 全体の流れ（すべてクラウドで動くので、オーナーの PC は不要）
 
 **指示投稿（今すぐ）**: オーナーが Claude に指示 → Claude が文面と Canva 画像を作り、`"publish": "now"` を付けた今日の投稿データを push →
