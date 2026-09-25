@@ -41,6 +41,12 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 
 ### 最新の実績（新しいものを上に追記）
 
+- **2026-09-25〜26 Claude**：@happy_cristal7（占い・`fortune`）への実投稿テスト1件を準備中。
+  - 投稿経路：本部の方針変更（本部 `docs/handoff-log.md` 2026-09-25 5報目・ChatGPT）により、Instagram の投稿は**本部 Vercel の `/api/instagram/post`**（`INSTAGRAM_USER_ID` / `INSTAGRAM_ACCESS_TOKEN`）で行う。このリポジトリの GitHub Actions からの投稿（`IG_*` Secrets）は使わない
+  - 本部の手動投稿は「1日1回」の枠だったため、投稿ごとに1回にする修正（`action=now`＋`requestId`）を本部 PR #153 で提出（オーナーのマージ待ち）
+  - 画像：Canva「fortune 2026-09-26」（`DAHWNihwk9c`）→ `instagram/content/fortune/images/2026-09-26.jpg`、投稿データ `posts/2026-09-26.json`
+  - 実行：投稿ボタンの合言葉（`INSTAGRAM_POST_KEY`）はオーナーが入れて開く。結果（media ID・投稿URL）を Claude が確認して記録する
+
 - **2026-09-25 ChatGPT Work**：新しく連携した Instagram アカウント **@happy_cristal7** に、Canva 画像2枚のカルーセルを投稿（投稿ID `18135517288631232`、Meta API で公開成功を確認済みとの報告）。
   Canva デザイン「fortune かに座 誕生日TOP3 2026-09-25」（`DAHWM_EMrrk`）、プロフィール画像「happy_cristal7 プロフィール画像」（`DAHWMkf9DcU`）。
   この投稿は **ChatGPT 側の Meta 連携から直接** 行われたもので、このリポジトリの GitHub Actions 経由ではない（`posted.json` には記録なし）。定期投稿の設定は変更なし。
@@ -112,6 +118,8 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 - 作ったら `node instagram/scripts/validate.mjs` でチェックする
 
 ## ルール
+
+- Canva の画像制作は、Claude が毎回オーナーに確認せずに行ってよい（2026-09-25 オーナー決定）。Instagram部の制作の流れに組み込む（ひな形そのものの変更だけはオーナー確認）
 
 - 方針書の禁止事項を守る（不安をあおらない・断定しない・医療や投資の助言をしない・出典不明の名言を使わない）
 - `posted.json` とワークフローの秘密情報（トークン）には触らない。トークンをファイルやチャットに書かない
