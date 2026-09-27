@@ -47,6 +47,13 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 
 ### 最新の実績（新しいものを上に追記）
 
+- **2026-09-27 Claude：2アカウントの実投稿に成功（予約箱経由）**
+  - 占い @happy_cristal7（カルーセル2枚・みずがめ座）：media ID `18105896111096158`、https://www.instagram.com/p/DdyDDQFjLj6/
+  - 前向きな言葉 @tenyu.worklife（初投稿）：media ID `17900463933668226`、https://www.instagram.com/p/DdyDEX7jPoD/
+  - 経路：`instagram-queue` の `queue.json` → Actions「instagram 予約箱の投稿」（GitHub OIDC）→ 本部 `/api/instagram/dispatch`（本部 PR #154・#156）
+  - **毎朝 6:50 JST の定期実行を設定**（Routine `trig_01CQNjESJZggGQh5LBkrRPDt`、このセッションを起こして `.claude/skills/instagram-daily/SKILL.md` の手順で2アカウント投稿）
+  - Meta の鍵：ページトークンは期限なし。`data_access_expires_at` が 2026-12-26 頃なので、12月中旬に再認証が必要
+
 - **2026-09-25〜26 Claude**：@happy_cristal7（占い・`fortune`）への実投稿テスト1件を準備中。
   - 投稿経路：本部の方針変更（本部 `docs/handoff-log.md` 2026-09-25 5報目・ChatGPT）により、Instagram の投稿は**本部 Vercel の `/api/instagram/post`**（`INSTAGRAM_USER_ID` / `INSTAGRAM_ACCESS_TOKEN`）で行う。このリポジトリの GitHub Actions からの投稿（`IG_*` Secrets）は使わない
   - 本部の手動投稿は「1日1回」の枠だったため、投稿ごとに1回にする修正（`action=now`＋`requestId`）を本部 PR #153 で提出（オーナーのマージ待ち）
@@ -89,7 +96,7 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 
 ## 作業中（重複防止のため、作業を始める AI がここに書き、終わったら消す）
 
-- 2026-09-27 Claude：@tenyu.worklife を Instagram部の新しい課（`worklife`）として追加準備（オーナー指示：毎日投稿）。テーマ・Meta連携をオーナーに確認中
+- なし
 
 ## どこに何があるか
 

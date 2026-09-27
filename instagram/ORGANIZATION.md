@@ -39,9 +39,9 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 
 | 課 | キー | 投稿時刻 | 状態 | 方針書 |
 | --- | --- | --- | --- | --- |
-| 占い課 | `fortune`（@happy_cristal7） | 06:30 | 連携確認中（2026-09-25 オーナーが Secrets 登録） | `content/fortune/GUIDE.md` |
+| 占い課 | `fortune`（@happy_cristal7） | 毎朝 6:50 ごろ | **稼働中**（2026-09-27〜、カルーセル2枚） | `content/fortune/GUIDE.md` |
 | 前向き課 | `positive` | 07:00 | 準備中（トークン未登録） | `content/positive/GUIDE.md` |
-| ワークライフ課 | `worklife`（@tenyu.worklife） | 07:00（案） | 準備中（2026-09-27 オーナー指示：前向きな1日ひとこと。Meta連携待ち） | `content/worklife/GUIDE.md` |
+| ワークライフ課 | `worklife`（@tenyu.worklife） | 毎朝 6:50 ごろ | **稼働中**（2026-09-27〜、前向きな1日ひとこと） | `content/worklife/GUIDE.md` |
 | 心理学課 | `psychology` | 20:00 | 準備中（トークン未登録） | `content/psychology/GUIDE.md` |
 
 ## 課を増やすとき
