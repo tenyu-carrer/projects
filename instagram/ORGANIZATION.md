@@ -14,7 +14,7 @@ TENYU の Vercel・Cron・Function の枠は使いません。
       │  ├─ 占い課     課長 ルナ（仮）     アカウント1: 毎日占い        毎朝 6:30
       │  ├─ 前向き課   課長 ヒナタ（仮）   アカウント2: 前向きな言葉    毎朝 7:00
       │  ├─ 心理学課   課長 ミナト（仮）   アカウント3: 心理学の言葉    毎晩 20:00
-      │  ├─ （アカウント4 準備枠）
+      │  ├─ ワークライフ課 課長（未定） アカウント4: @tenyu.worklife（2026-09-27 オーナー指示で追加・準備中）
       │  └─ （アカウント5 準備枠）
       └─ YouTube・Facebook部
 
@@ -41,6 +41,7 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 | --- | --- | --- | --- | --- |
 | 占い課 | `fortune`（@happy_cristal7） | 06:30 | 連携確認中（2026-09-25 オーナーが Secrets 登録） | `content/fortune/GUIDE.md` |
 | 前向き課 | `positive` | 07:00 | 準備中（トークン未登録） | `content/positive/GUIDE.md` |
+| ワークライフ課 | `worklife`（@tenyu.worklife） | 未定 | 準備中（2026-09-27 オーナー指示。テーマ・Meta連携は確認中） | 未作成 |
 | 心理学課 | `psychology` | 20:00 | 準備中（トークン未登録） | `content/psychology/GUIDE.md` |
 
 ## 課を増やすとき

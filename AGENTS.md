@@ -83,7 +83,7 @@ GitHub Actions `instagram-prepare`（「instagram 準備と指示投稿」）が
 
 ## 作業中（重複防止のため、作業を始める AI がここに書き、終わったら消す）
 
-- 2026-09-25 Claude：`fortune`（@happy_cristal7）の GitHub Secrets 登録後の連携確認と、初回の指示投稿
+- 2026-09-27 Claude：@tenyu.worklife を Instagram部の新しい課（`worklife`）として追加準備（オーナー指示：毎日投稿）。テーマ・Meta連携をオーナーに確認中
 
 ## どこに何があるか
 
