@@ -9,6 +9,30 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/07fac084d02f4078c6f3ee3f293b847f04b75fa5/instagram/content/fortune/images/2026-09-26.jpg",
       "canvaDesignId": "DAHWNihwk9c",
       "note": "初回テスト（2026-09-26 オーナー指示）。予約箱からの初投稿"
+    },
+    {
+      "id": "20260927-fortune-aquarius",
+      "account": "fortune",
+      "publishAt": "2026-09-27T07:12:27.146Z",
+      "caption": "【9月27日（日）今日の運勢】\n総合運1位は…みずがめ座♒\n\nひらめきを一つ、形にしてみてね。\nメモに書くだけでも、明日の自分の力になります。\n\nラッキーカラー：ラベンダー\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：1月4日生まれ\n恋愛運1位：7月6日生まれ\n金運1位：11月24日生まれ\n\n当てはまったら、今日の小さな一歩を🌙\n\n#占い #今日の運勢 #星座占い #みずがめ座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/600c555d4c60dc8acd075235cd3fbfe56c918ec6/instagram/content/fortune/images/2026-09-27-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/600c555d4c60dc8acd075235cd3fbfe56c918ec6/instagram/content/fortune/images/2026-09-27-2.jpg"
+      ],
+      "canvaDesignIds": [
+        "DAHWT7uOwzQ",
+        "DAHWT56R4jk"
+      ],
+      "note": "2アカウント初回テスト（カルーセル）"
+    },
+    {
+      "id": "20260927-worklife-first",
+      "account": "worklife",
+      "publishAt": "2026-09-27T07:12:27.146Z",
+      "caption": "来週の楽しみを、ひとつ決めておこう。\n月曜日が少し軽くなるから。\n\n日曜の夜に気持ちが重くなるのは、自然なこと。\n「来週これがある」と思える小さな楽しみがあるだけで、\n週のはじまりの景色は少し変わります。\n\n▶ 今日ひとつだけ試すなら\n来週の予定に、自分のための楽しみを1つ書き込んでみてください（好きなお店のランチ、見たいドラマ、早く帰る日 など）\n\n保存して、疲れた日に見返してね🌿\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #日曜日 #来週も頑張ろう",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/600c555d4c60dc8acd075235cd3fbfe56c918ec6/instagram/content/worklife/images/2026-09-27.jpg",
+      "canvaDesignId": "DAHWXxx5ROw",
+      "note": "@tenyu.worklife 初投稿"
     }
   ]
 }
