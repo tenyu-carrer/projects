@@ -39,6 +39,12 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 - **週1回の自動制作も未設定**。オーナーの指示まで設定しない
 - 今は「**指示したら投稿できる**」（指示投稿）を開発・検証する段階。手順は `.claude/skills/instagram-post-now/SKILL.md`
 
+### 運用するアカウント（2026-09-27 オーナー決定）
+
+- **2アカウントで運用する**：占い（@happy_cristal7・`fortune`）と、前向きな言葉（@tenyu.worklife・`worklife`）
+- 投稿は本部 Vercel の予約箱経由（`/api/instagram/dispatch`）。画像は Claude が Canva で作る
+- 開始条件：オーナーが本部 Vercel に期限のないページ用アクセストークンを入れること（1回だけ）。worklife 用の鍵・ユーザーIDの受け渡し方は、占いの投稿成功を確認してから決める
+
 ### 最新の実績（新しいものを上に追記）
 
 - **2026-09-25〜26 Claude**：@happy_cristal7（占い・`fortune`）への実投稿テスト1件を準備中。
