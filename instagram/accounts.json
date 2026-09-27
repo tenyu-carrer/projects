@@ -22,5 +22,13 @@
     "apiHost": "facebook",
     "defaultHashtags": [],
     "enabled": false
+  },
+  "worklife": {
+    "displayName": "@tenyu.worklife（前向きなワークライフ）",
+    "postTime": "07:00",
+    "envPrefix": "IG_WORKLIFE",
+    "apiHost": "facebook",
+    "defaultHashtags": [],
+    "enabled": false
   }
 }
