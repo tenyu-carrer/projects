@@ -2,7 +2,29 @@
   "permissions": {
     "allow": [
       "mcp__Canva",
-      "Bash(git push:*)"
+      "mcp__Canva__*",
+      "mcp__github__actions_list",
+      "mcp__github__actions_get",
+      "mcp__github__get_job_logs",
+      "Bash(git push:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git show:*)",
+      "Bash(git log:*)",
+      "Bash(git status:*)",
+      "Bash(node instagram/scripts/*)",
+      "Bash(node -e:*)",
+      "Bash(curl -s:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(TZ=Asia/Tokyo date:*)",
+      "Bash(for i in:*)",
+      "Read",
+      "Edit",
+      "Write"
     ]
   }
 }
