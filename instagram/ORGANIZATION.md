@@ -1,52 +1,46 @@
 # Instagram部 組織図
 
-天祐AI運用本部の **CMO・メディア集客担当取締役 サラ** の配下にある部署です（2026-09-23 オーナー決定）。
-組織上は TENYU の一部署ですが、**仕組み（投稿の実行基盤）は TENYU の Vercel とは別**で、このリポジトリの GitHub Actions で動きます。
-TENYU の Vercel・Cron・Function の枠は使いません。
+**最新版：2026-09-28（オーナー確認済み）**
+
+天祐AI運用本部の **CMO・メディア集客担当取締役 サラ** の配下にある部署です。担当AIは **Claude**（Instagram部長・各課長）。
+画像の背景デザインは CCO 配下の **デザイン部（部長 キャン太朗）** が Canva で作ります（制作担当AIも Claude）。
 
 ```
 オーナー 山本
 └─ AI-CEO ASTRA
-   └─ CMO・メディア集客担当取締役 サラ
-      ├─ Threads部長 ハル
-      ├─ Instagram部長 ソラ（仮）  ← 担当AI: Claude
-      │  ├─ TENYU公式課      TENYU の Instagram（Vercel Cron 07:35、既存の仕組み）
-      │  ├─ 占い課     課長 ルナ（仮）     アカウント1: 毎日占い        毎朝 6:30
-      │  ├─ 前向き課   課長 ヒナタ（仮）   アカウント2: 前向きな言葉    毎朝 7:00
-      │  ├─ 心理学課   課長 ミナト（仮）   アカウント3: 心理学の言葉    毎晩 20:00
-      │  ├─ ワークライフ課 課長（未定） アカウント4: @tenyu.worklife（2026-09-27 オーナー指示で追加・準備中）
-      │  └─ （アカウント5 準備枠）
-      └─ YouTube・Facebook部
-
-（画像づくりは CCO 配下の「デザイン部」（Canva、部長 キャン太朗）が担当。各課に担当デザイナーがつく → `design/README.md`）
+   ├─ CMO・メディア集客担当取締役 サラ
+   │  ├─ Threads部長 ハル
+   │  └─ Instagram部長（担当AI: Claude）
+   │     ├─ 占い課          @happy_cristal7   毎朝 自動投稿（カルーセル2枚）  稼働中
+   │     ├─ 前向きな言葉課   @tenyu.worklife   毎朝 自動投稿（1枚）            稼働中
+   │     └─ （3つ目の課：準備枠。2アカウントが安定してからオーナーがテーマを決める）
+   └─ CCO
+      └─ デザイン部 部長 キャン太朗（Canva。背景デザインの作成・変更）
 ```
-
-名前の（仮）は Claude の仮案です。オーナーが自由に決めてください。
-
-Claude はオーナー直属のAI監査役であり、あわせて **Instagram部（部長・各課長）とデザイン部（Canva 制作）の担当AI** です（2026-09-25 オーナー決定）。企画・文面・Canva 画像・指示投稿・結果報告まで Claude が行い、監査役として投稿URL・重複・失敗も自分で確認します。毎日の自動投稿は停止中のまま（再開はオーナー指示）。
 
 ## 役割
 
-| 役職 | 担当 | 実体（何がその役をするか） |
+| 役職 | やること | 実体 |
 | --- | --- | --- |
-| Instagram部長 | 部全体の方針、アカウントの追加・停止、課長の方針書の承認、週次の結果報告 | Claude |
-| 各課長 | 1アカウントの企画・文面・画像・投稿品質に責任を持つ | 各アカウントの方針書 `content/<account>/GUIDE.md` に従って Claude が制作 |
-| デザイン部（CCO配下） | 各課の依頼（ブリーフ）を受けて Canva で画像を作る。課ごとに担当デザイナー（占い: セイラ／前向き: コハル／心理学: シズク、いずれも案） | `design/README.md` に従って Claude が Canva を操作 |
-| 投稿の実行 | 毎日、投稿時刻に Instagram へ公開 | GitHub Actions `instagram-publish`（AI不要） |
-| TENYU公式課 | TENYU の Instagram | TENYU の既存の仕組み（Vercel `api/cron/instagram.js`）。このリポジトリでは扱わない |
+| Instagram部長 | 部全体の方針、アカウントの追加、毎朝の確認と報告 | Claude |
+| 占い課長・前向きな言葉課長 | 文面（`instagram/auto/content/`）と方針書（`instagram/content/<account>/GUIDE.md`）の品質 | Claude |
+| デザイン部 | 文字なしの背景デザイン（各5パターンのもと）を Canva で作る・変える | Claude（オーナーが PC の前にいるときだけ） |
+| 毎日の画像づくり | 背景に文字を載せて作り置き（約2〜3か月分） | プログラム `instagram/auto/build.mjs`（毎週日曜に Claude が補充） |
+| 毎日の投稿 | 予約箱から予約IDごとに1回だけ投稿 | 本部 Vercel Cron `/api/cron/instagram`（AI 不要） |
 
-## 課の一覧（正本は `accounts.json`）
+## 課の一覧
 
-| 課 | キー | 投稿時刻 | 状態 | 方針書 |
+| 課 | キー | 投稿 | 状態 | 方針書 |
 | --- | --- | --- | --- | --- |
-| 占い課 | `fortune`（@happy_cristal7） | 毎朝 6:50 ごろ | **稼働中**（2026-09-27〜、カルーセル2枚） | `content/fortune/GUIDE.md` |
-| 前向き課 | `positive` | 07:00 | 準備中（トークン未登録） | `content/positive/GUIDE.md` |
-| ワークライフ課 | `worklife`（@tenyu.worklife） | 毎朝 6:50 ごろ | **稼働中**（2026-09-27〜、前向きな1日ひとこと） | `content/worklife/GUIDE.md` |
-| 心理学課 | `psychology` | 20:00 | 準備中（トークン未登録） | `content/psychology/GUIDE.md` |
+| 占い課 | `fortune`（@happy_cristal7） | 毎朝 7〜8時台 | **稼働中**（12/31 分まで予約済み） | `content/fortune/GUIDE.md` |
+| 前向きな言葉課 | `worklife`（@tenyu.worklife） | 毎朝 7〜8時台 | **稼働中**（12/31 分まで予約済み） | `content/worklife/GUIDE.md` |
 
-## 課を増やすとき
+旧案の `positive`・`psychology` は使いません。
 
-1. オーナーがテーマを決める（例: アカウント4「◯◯」）
-2. 部長（Claude）が `new-account.mjs` で課を作り、方針書と Canva のひな形を用意してオーナーに確認
-3. オーナーがトークンを登録 → `enabled: true` で稼働開始
-4. このファイルの組織図と課の一覧、TENYU の `docs/organization.md` を更新する
+## 課を増やすとき（3つ目以降）
+
+1. オーナーがテーマを決める
+2. Claude が方針書・文面・背景デザイン（Canva・オーナーが PC の前にいるとき）を用意する
+3. PC作業担当（オーナーPCの Claude Code）が Facebook ページ作成・Instagram 連携・鍵を本部 Vercel に設定する（1回だけ）
+4. Claude が本部の予約箱にアカウントを追加し、テスト投稿のあと作り置きに加える
+5. このファイルと `AGENTS.md`、本部の `docs/daily-operations.md` を更新する

@@ -1,6 +1,6 @@
 ---
 name: instagram-weekly
-description: Instagram部（占い・前向きな言葉・心理学の言葉など全アカウント）の翌週分の投稿を、Canva で画像を作って予約する週次作業。「来週分を作って」「インスタの投稿を作成」や、週1回の定期実行で使う。
+description: 【旧方式・2026-09-28 で終了】Canva で翌週分を作る週次作業。今は instagram/auto の作り置き方式（毎週日曜の Routine が build.mjs で補充）なので使わない。
 ---
 
 # Instagram 週次制作
