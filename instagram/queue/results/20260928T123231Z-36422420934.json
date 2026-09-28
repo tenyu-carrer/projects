@@ -1,0 +1,41 @@
+{
+  "ok": false,
+  "department": "instagram",
+  "trigger": {
+    "event": "push",
+    "ref": "refs/heads/instagram-queue",
+    "run": "36422420934"
+  },
+  "status": "ok",
+  "ref": "db1b31ca12918779468fa4d4b2f9d5ea06c0ab05",
+  "results": [
+    {
+      "id": "20260926-fortune-leo-test",
+      "status": "expired",
+      "publishAt": "2026-09-26T00:50:00+09:00"
+    },
+    {
+      "id": "20260927-fortune-aquarius",
+      "status": "already_published",
+      "mediaId": "18105896111096158",
+      "url": "https://www.instagram.com/p/DdyDDQFjLj6/"
+    },
+    {
+      "id": "20260927-worklife-first",
+      "status": "already_published",
+      "mediaId": "17900463933668226",
+      "url": "https://www.instagram.com/p/DdyDEX7jPoD/"
+    },
+    {
+      "id": "20260928-fortune-taurus",
+      "status": "published",
+      "mediaId": "18109689161130969",
+      "url": "https://www.instagram.com/p/Dd1MSjplz7M/"
+    },
+    {
+      "id": "20260928-worklife-1",
+      "status": "failed",
+      "error": "meta:Media ID is not available"
+    }
+  ]
+}
