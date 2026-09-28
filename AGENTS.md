@@ -45,13 +45,13 @@ Instagram 2アカウント（占い・前向きな言葉）は、**約3か月分
 - 詳しい手順：`instagram/auto/README.md`
 - **毎日の作業で Canva は使わない**（Canva はセッションで使うたびに許可の確認が出て、無人だと止まるため）。Canva を使うのは背景デザインを変えるときだけで、オーナーが PC の前にいるときに行う
 
-## 5. Claude の定期実行（Routine）
+## 5. Claude の定期実行（Routine・チャット「天祐自動化 Instagram部（2026-09-29〜）」session_019TTe61T4sM8kKqgrEf69ij に届く）
 
 | 時刻 | Routine | 内容 |
 | --- | --- | --- |
-| 毎朝 08:10 | `trig_01CQNjESJZggGQh5LBkrRPDt` | 今日の2件が投稿されたか確認（未投稿なら予約箱の再実行で投稿）して報告 |
-| 毎週日曜 10:10 | `trig_01LGmTGx87x3FzuD5PurG5An` | 作り置きを60日先まで補充 |
-| 2026-12-10 09:10 | `trig_01SKooWhmRNYYWAdUdUHmSjW` | Meta の鍵の再認証をオーナーにお知らせ |
+| 毎朝 08:10 | `trig_01AjJ1b3k9Ze5UJA5t9pcC8d` | 今日の2件が投稿されたか確認（未投稿なら予約箱の再実行で投稿）して報告 |
+| 毎週日曜 10:10 | `trig_016rNLwUDFTXaeTbvsyLiDCZ` | 作り置きを60日先まで補充 |
+| 2026-12-10 09:10 | `trig_011bqDMNVXXyMvbzDMGwDv7X` | Meta の鍵の再認証をオーナーにお知らせ |
 
 ## 6. 大事な日程
 
