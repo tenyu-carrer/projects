@@ -20,7 +20,7 @@
 組織上は、天祐AI運用本部の **CMO・メディア集客担当取締役 サラ配下の「Instagram部」** です。組織図は `instagram/ORGANIZATION.md`。
 Claude はオーナー直属のAI監査役であり、あわせて **Instagram部（部長・各課長）とデザイン部（Canva 制作）の担当AI** です。企画・文面・Canva 画像・投稿・確認・報告まで Claude が行います。
 
-### 運用中のアカウント（毎朝 6:50 JST・稼働中）
+### 運用中のアカウント（作り置き方式・毎朝自動投稿）
 
 | アカウント | キー | 内容 | 形式 |
 | --- | --- | --- | --- |
@@ -30,8 +30,8 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 - **2026-09-29〜 作り置き方式（オーナー決定 2026-09-28）**：Canva で1回だけ作った文字なしの背景（各5パターン）に、プログラムで文字を載せた画像を `instagram/auto/` に作り置き（12/31 分まで予約済み）。投稿は毎朝の本部 Vercel Cron `/api/cron/instagram` が予約IDごとに1回だけ行う。Claude は 08:10 に確認（Routine `trig_01CQNjESJZggGQh5LBkrRPDt`）、毎週日曜に補充（`trig_01LGmTGx87x3FzuD5PurG5An`）。**毎日の作業で Canva は使わない**。詳しくは `instagram/auto/README.md`
 - 他の AI（GPT など）は予約箱・`instagram/auto`・投稿データを直接変えない。変えたいことはオーナー経由で Claude に依頼する
 - （旧）毎朝 6:50 JST に Claude が Canva で制作していた方式は 2026-09-28 で終了
-- **オーナーの日々の作業なし・PC不要**。Claude のセッションのモードは「編集を受け入れる」のまま（毎朝の操作は `.claude/settings.json` で事前許可済み）
-- 手順の正本：`.claude/skills/instagram-daily/SKILL.md`
+- **オーナーの日々の作業なし・PC不要**
+- 仕組みと手順の正本：`instagram/auto/README.md`（`.claude/skills/instagram-daily/SKILL.md` は旧方式。特別な投稿を手で入れるときだけ参考にする）
 - 枠：Vercel の Cron・Project・環境変数は増やさない。GPT は使わない。GitHub Actions は無料範囲。Claude Pro の使用量は使うので、アカウント追加時は様子を見る
 - Meta の鍵：本部 Vercel の `INSTAGRAM_*`（占い）と `INSTAGRAM_WORKLIFE_*`（前向き）。期限なしのページトークン。**12月中旬に再認証**（data_access 期限 2026-12-26 頃）
 - 旧 `positive`・`psychology` アカウント案と、このリポジトリの `instagram-publish`（GitHub Actions の毎日投稿・`IG_*` Secrets）は使わない
@@ -62,17 +62,16 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
   - 未確認：@happy_cristal7 がどのアカウントキー（`fortune` など）に当たるか、GitHub Secrets（`IG_<キー>_ACCESS_TOKEN` / `_USER_ID`）に登録済みか。
     push のたびに `instagram-prepare` の「Instagram 連携確認（読み取りのみ）」ステップでユーザー名・フォロワー数が確認できる。
 
-## 全体の流れ（すべてクラウド。オーナーの PC は不要）
+## 全体の流れ（すべてクラウド。オーナーの PC は不要・2026-09-29〜）
 
 ```
-毎朝 6:50  Claude（定期実行）
-  ├ Canva：ひな形を複製 → 文字を差し替え → 確認 → JPG 書き出し
-  ├ posts/<日付>.json を push → Actions「instagram 準備と指示投稿」が画像を images/ に保存
-  └ instagram-queue の queue.json に予約を追加して push
-        ↓ Actions「instagram 予約箱の投稿」（GitHub OIDC 署名）
-     本部 /api/instagram/dispatch → Instagram（予約IDごとに1回だけ）
+作り置き（Claude・毎週日曜に60日先まで補充。Canva は使わない）
+  ├ instagram/auto/build.mjs：文字なしの背景（Canva で1回だけ作成・各5パターン）に文字を載せて画像を作る
+  └ instagram/auto/queue.mjs：instagram-queue の queue.json に各日 06:50 の予約を入れる
         ↓
-  Claude が instagram/queue/results/ で media ID・URL を確認して報告
+毎朝 7〜8時台  本部 Vercel Cron /api/cron/instagram → Instagram（予約IDごとに1回だけ）
+        ↓
+08:10  Claude が予約箱を再実行して確認（未投稿ならここで投稿）→ 結果を報告
 ```
 
 ## アカウントを増やすとき（3つ目以降・2アカウントが数日安定してから）

@@ -1,9 +1,11 @@
 ---
 name: instagram-daily
-description: Instagram部の毎朝の投稿（占い @happy_cristal7 と 前向きな言葉 @tenyu.worklife）。Canva で画像を作り、予約箱に入れて投稿し、media ID と URL を確認する。毎朝の定期実行（Routine）と「今日の分を投稿して」で使う。
+description: 【旧方式・2026-09-28 で終了】Canva で毎朝画像を作って投稿する手順。毎日の投稿は instagram/auto の作り置き方式（instagram/auto/README.md）で自動なので、毎朝の定期実行では使わない。オーナーが特別な1件を Canva で作ってほしいと言ったときだけ参考にする。
 ---
 
-# 毎朝の投稿（2アカウント）— 2026-09-27 オーナー決定
+# 【旧方式】毎朝の投稿（2アカウント）— 2026-09-27 オーナー決定
+
+> **2026-09-28 で終了**。毎日の投稿は `instagram/auto/README.md` の作り置き方式で自動。毎朝の定期実行では Canva を使わない（許可の確認で止まるため）。
 
 担当：Claude（Instagram部長・デザイン部）。Canva の制作はオーナー確認不要（オーナー決定）。
 投稿経路：`instagram-queue` ブランチの `instagram/queue/queue.json` → GitHub Actions「instagram 予約箱の投稿」→ 本部 `/api/instagram/dispatch`（GitHub OIDC 署名）→ Instagram。
