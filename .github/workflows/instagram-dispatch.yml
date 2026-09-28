@@ -43,7 +43,7 @@ jobs:
           # Instagram 側の画像準備が間に合わなかった失敗（投稿されていない）だけ、1分待って同じ予約IDで最大2回やり直す。
           # 投稿済みの予約は本部が「1回だけ」を守るので二重投稿しない。それ以外の失敗はやり直さない。
           for r in 1 2; do
-            [ "$CODE" = "200" ] || break
+            [ "$CODE" = "200" ] || [ "$CODE" = "502" ] || break
             jq -e '[.results[]? | select(.status=="failed" and ((.error // "") | test("Media ID is not available|container_|not ready"; "i")))] | length > 0' result.json >/dev/null || break
             echo "画像の準備待ちで失敗した予約があるため、60秒後にやり直します（${r}回目）"
             cp result.json "result-try$r.json"
