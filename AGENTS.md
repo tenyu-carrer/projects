@@ -27,7 +27,9 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 | 占い @happy_cristal7 | `fortune` | 総合運1位の星座／誕生日別ラッキー運（仕事・恋愛・金運） | カルーセル2枚 |
 | 前向きな言葉 @tenyu.worklife | `worklife` | 仕事・家事・育児・プライベートの前向きな1日ひとこと | 1枚 |
 
-- 毎朝 6:50 JST に Claude の定期実行（Routine `trig_01CQNjESJZggGQh5LBkrRPDt`、このセッションを起こす）が、2アカウントを**順番に**制作・投稿・確認する。時間はずらさない（自然に数分ずれる）
+- **2026-09-29〜 作り置き方式（オーナー決定 2026-09-28）**：Canva で1回だけ作った文字なしの背景（各5パターン）に、プログラムで文字を載せた画像を `instagram/auto/` に作り置き（12/31 分まで予約済み）。投稿は毎朝の本部 Vercel Cron `/api/cron/instagram` が予約IDごとに1回だけ行う。Claude は 08:10 に確認（Routine `trig_01CQNjESJZggGQh5LBkrRPDt`）、毎週日曜に補充（`trig_01LGmTGx87x3FzuD5PurG5An`）。**毎日の作業で Canva は使わない**。詳しくは `instagram/auto/README.md`
+- 他の AI（GPT など）は予約箱・`instagram/auto`・投稿データを直接変えない。変えたいことはオーナー経由で Claude に依頼する
+- （旧）毎朝 6:50 JST に Claude が Canva で制作していた方式は 2026-09-28 で終了
 - **オーナーの日々の作業なし・PC不要**。Claude のセッションのモードは「編集を受け入れる」のまま（毎朝の操作は `.claude/settings.json` で事前許可済み）
 - 手順の正本：`.claude/skills/instagram-daily/SKILL.md`
 - 枠：Vercel の Cron・Project・環境変数は増やさない。GPT は使わない。GitHub Actions は無料範囲。Claude Pro の使用量は使うので、アカウント追加時は様子を見る
