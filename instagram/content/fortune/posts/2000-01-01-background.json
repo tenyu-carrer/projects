@@ -1,0 +1,10 @@
+{
+  "type": "carousel",
+  "images": [
+    "https://export-download.canva.com/12BPg/DAHWfa12BPg/-1/0/0001-4062764175506415367.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T172350Z&X-Amz-Expires=77575&X-Amz-Signature=cf78a0bafe19b34befaf41a8e23cc37595e068d321e830899a24611087fd4695&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2028%20Sep%202026%2014%3A56%3A45%20GMT",
+    "https://export-download.canva.com/8krng/DAHWfe8krng/-1/0/0001-6588157662325592493.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260927%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260927T145035Z&X-Amz-Expires=88270&X-Amz-Signature=e0ed31e3d31534c1916c3f8a608e5241ecbf7b1b0d1768a6f7e5faa0eb18afb3&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2028%20Sep%202026%2015%3A21%3A45%20GMT"
+  ],
+  "canvaDesignIds": ["DAHWfa12BPg", "DAHWfe8krng"],
+  "caption": "背景画像の保存用（投稿しない）",
+  "hashtags": []
+}
