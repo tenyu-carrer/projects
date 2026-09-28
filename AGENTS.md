@@ -36,6 +36,11 @@ Claude はオーナー直属のAI監査役であり、あわせて **Instagram�
 
 ### 最新の実績（新しいものを上に追記）
 
+- **2026-09-28 Claude：毎朝の定期実行で2アカウント投稿（Canva の一時エラーで夜 21:32 頃にずれた）**
+  - 占い（おうし座）：media ID `18109689161130969`、https://www.instagram.com/p/Dd1MSjplz7M/
+  - 前向きな言葉：media ID `18102532412345142`、https://www.instagram.com/p/Dd1MbW9F4fU/
+  - 前向きは1回目が `meta:Media ID is not available`（画像の準備待ちで未投稿）→ 同じ予約IDのまま予約箱を再実行して投稿。占いは `already_published` で二重投稿なし
+
 - **2026-09-27 Claude：2アカウントの実投稿に成功（予約箱経由）**
   - 占い @happy_cristal7（カルーセル2枚・みずがめ座）：media ID `18105896111096158`、https://www.instagram.com/p/DdyDDQFjLj6/
   - 前向きな言葉 @tenyu.worklife（初投稿）：media ID `17900463933668226`、https://www.instagram.com/p/DdyDEX7jPoD/
