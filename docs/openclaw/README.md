@@ -17,9 +17,9 @@ wsl --install
 
 ### ② Node.jsを入れる（Ubuntuの画面で実行）
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
 sudo apt install -y nodejs
-node -v   # v22 以上ならOK
+node -v   # v24.16 以上ならOK（最新の OpenClaw は Node 24.16 以上が必要）
 ```
 
 ### ③ OpenClawを入れて初期設定する
@@ -27,6 +27,7 @@ node -v   # v22 以上ならOK
 npm install -g openclaw@latest
 openclaw onboard --install-daemon
 ```
+- `npm warn install-scripts` と出たら、インストール時の処理が飛ばされています。表示どおり `sudo npm install -g --allow-scripts=@google/genai,esbuild,koffi,protobufjs,openclaw openclaw@latest` で入れ直します
 - AIの選択：**OpenAI Codex（ChatGPTでログイン）** → ChatGPT Proのアカウントでログインします（月額内で使えます）
 - 連絡手段：**Telegram** がいちばん簡単です（BotFatherでボットを作り、発行されたトークンを貼り付けます）
 
