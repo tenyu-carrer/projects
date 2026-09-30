@@ -50,3 +50,4 @@
 - [ ] 記事本文の生成方法を決める（テーマ・文字数・トーン）
 - [ ] 投稿スクリプト作成
 - [ ] タスク スケジューラで毎日自動実行
+- [ ] OpenClaw を Windows PC に導入（手順: `docs/openclaw-setup-prompt.md`）
