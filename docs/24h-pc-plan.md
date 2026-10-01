@@ -16,7 +16,7 @@ OpenClaw の基本設定は `claude/ecstatic-dirac-wegwoj` ブランチの `docs
 ## OpenClaw に足す見張り（貼り付け用）
 
 鍵は使いません。下の4つは鍵なしで読める公開の情報だけです。
-**`/api/report` や `/api/threads/slot` は使わないこと**（読み取り用の鍵が Threads の投稿もできる鍵と同じため、OpenClaw に渡さない）。
+**`/api/report` や `/api/threads/slot` は使わないこと**（Threads は見張り・報告の対象外）（読み取り用の鍵が Threads の投稿もできる鍵と同じため、OpenClaw に渡さない）。
 
 ```text
 天祐自動化の見張りを次の時刻に追加してください。読むだけで、投稿・再実行・設定変更はしないこと。
@@ -29,14 +29,11 @@ OpenClaw の基本設定は `claude/ecstatic-dirac-wegwoj` ブランチの `docs
 
 2) 毎朝 08:20：本部の状態
    https://tenyu-meta-social-automation-psi.vercel.app/api/health
-   progress.departments の note と wordpress の status、progress.departments.threads.slots の朝枠（slot 1）の receipt.url を報告。
+   progress.departments の note と wordpress の status を報告。
    commit（本番に入っているコードの版）も1行添える。
+   ※ Threads は報告しない（2026-10-01 オーナー決定）。
 
-3) 毎晩 21:30：Threads 夜投稿
-   同じ /api/health の progress.departments.threads.slots のうち slot 3 に receipt.url があれば「✅ Threads 夜（URL）」。
-   なければ「⚠️ Threads 夜 未投稿」。昼（slot 2）も同じように 12:45 に確認する。
-
-4) 毎朝 08:30（既存）：Instagram
+3) 毎朝 08:30（既存）：Instagram
    tenyu-carrer/projects の instagram-queue ブランチ instagram/queue/results/ の最新ファイル。
    今日の2件が published / already_published かに加えて、
    「最初に published になったファイルの時刻が 08:10 より前か後か」も書く
@@ -49,7 +46,29 @@ OpenClaw の基本設定は `claude/ecstatic-dirac-wegwoj` ブランチの `docs
 
 1. **WordPress 08:00 の復旧**：GCP `metal-direction-413601` の Cloud Scheduler `wordpress-daily-0800` の実行履歴と、Cloud Run のログを見て、止まっている場所（未起動・認証・Cloud Run・WordPress API）を特定して直す。直す前に公開REST APIで当日分がないか確認し、二重投稿しない。
 2. **Instagram 本線（Vercel Cron 07:35）が動いていない原因**：Vercel（チーム tenyu-carrier）→ プロジェクト → Cron Jobs と Logs で `/api/cron/instagram` と `/api/cron/report` の実行記録を見る。401（`CRON_SECRET` 未設定）・未実行・エラーのどれかを確かめる。予備の 08:10 で毎日投稿されているので急ぎではないが、予備は Claude の定期実行1本に頼っている。
-3. **Threads 修正の反映確認**：本部の修正（ブランチ `claude/intelligent-lamport-7ufu0k`）を main に取り込んだあと、`/api/health` の commit が新しくなったことと、その日 21:00 の夜投稿の URL を確認する。ChatGPT の「Threads夜投稿」タスクが有効のままかも画面で見る。
+
+### PCの Claude Code に貼る文（そのまま使えます）
+
+```text
+天祐自動化の障害を2つ直してください。まず tenyu-carrer/tenyu-meta-social-automation の最新 main の
+AGENTS.md・docs/daily-operations.md・docs/handoff-log.md を読み、ルール（新しい Cron・経路を作らない、
+二重投稿しない、鍵の値を表示しない）を守ること。
+
+1. WordPress 08:00 の自動公開（9/28から止まっている）
+   - Google Cloud（プロジェクト metal-direction-413601）の Cloud Scheduler「wordpress-daily-0800」の
+     有効状態・直近の実行結果・ターゲットを確認し、対応する Cloud Run のログを見て止まっている場所を特定する
+   - 原因を直す。直す前に https://career-design.co.jp/wp-json/wp/v2/posts?per_page=5&_fields=id,date,link
+     で当日分が無いことを確かめ、手動で流すのは当日分1本だけ
+   - 翌朝 08:00 の実行で公開URL・投稿IDが出たら復旧とする
+
+2. Instagram の本線（Vercel Cron 07:35 /api/cron/instagram）が投稿していない
+   - Vercel（チーム tenyu-carrier・プロジェクト tenyu-meta-social-automation）の Cron Jobs と Logs で
+     /api/cron/instagram と /api/cron/report の実行記録とステータスを確認する
+   - 401 なら環境変数 CRON_SECRET の有無を確認（値は表示しない）。未実行・エラーなら原因を特定して直す
+   - 08:10 の Claude の予備で毎日投稿は出ているので、二重投稿にならないよう予約箱は触らない
+
+終わったら docs/handoff-log.md の先頭に結果を書き、オーナーに3行で報告すること。
+```
 
 ## やらないこと
 
