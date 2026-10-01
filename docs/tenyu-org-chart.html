@@ -212,9 +212,11 @@ footer{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padd
 <section id="todo">
   <h2>いま残っている宿題</h2>
   <ul class="todo">
-    <li><span class="chip bad">至急</span><div><strong>Threads夜枠の時刻を21:00に合わせる</strong><p class="note">本部リポジトリ <code>api/threads/slot.js</code> の1行。オーナーOKが出ればClaudeが直します。</p></div></li>
-    <li><span class="chip bad">至急</span><div><strong>WordPress 08:00の自動公開を復旧確認</strong><p class="note">9/28・9/29が未公開（9/29は夜に手動で補填）。GCPの実行ログを見られる環境（オーナーPCのClaude Code）で原因を特定する。</p></div></li>
-    <li><span class="chip warn">確認</span><div><strong>夜の失敗を誰が見るか決める</strong><p class="note">ThreadsはClaude監査の対象外。OpenClawに「21:30にThreads夜投稿を確認」を足すのが一番軽い方法です。</p></div></li>
+    <li><span class="chip new">修正済み</span><div><strong>Threads夜枠を21:00に合わせた</strong><p class="note">本部のブランチ <code>claude/intelligent-lamport-7ufu0k</code> に修正とテスト（78件成功）。mainに取り込むと本番に反映されます。反映後の21:00の投稿URLで確定。</p></div></li>
+    <li><span class="chip bad">至急</span><div><strong>WordPress 08:00の自動公開が止まったまま</strong><p class="note">9/28から定時記事がなく、9/29夜以降も修復記録なし。GCPに入れるPCのClaude Codeで、Cloud SchedulerとCloud Runのログから原因を特定する。</p></div></li>
+    <li><span class="chip warn">要調査</span><div><strong>Instagramの本線（07:35 Vercel Cron）が投稿していない</strong><p class="note">9/29〜10/1の3日とも、08:10の予備（Claude→GitHub Actions）が投稿。投稿は続いているが、予備1本頼み。Vercelの画面でCronの実行記録を確認する。</p></div></li>
+    <li><span class="chip warn">設定</span><div><strong>12時監査からnote・WordPressが見えない</strong><p class="note">クラウド環境のネットワーク制限で「取得不能」が3日続いている。環境の Network access を広げるか、24時間PCのOpenClawに見張りを任せる。</p></div></li>
+    <li><span class="chip warn">確認</span><div><strong>夜の失敗を見る係</strong><p class="note">OpenClawに21:30のThreads夜投稿確認を追加（手順は <code>docs/24h-pc-plan.md</code>）。</p></div></li>
     <li><span class="chip warn">12/10</span><div><strong>Metaの鍵の再認証（期限12/26ごろ）</strong><p class="note">12/10にClaudeとOpenClawからお知らせが届きます。</p></div></li>
     <li><span class="chip new">次</span><div><strong>WordPressアイキャッチのCanva化</strong><p class="note">WordPressの毎日公開が安定してから、キャン太朗が型を作ります。</p></div></li>
   </ul>
@@ -230,14 +232,14 @@ const EVENTS=[
   {t:"06:00",n:"本番日次処理",s:"idle",lane:0},
   {t:"07:00",n:"note記事公開（ChatGPT）",s:"ok",lane:1},
   {t:"07:30",n:"Threads 朝",s:"ok",lane:2},
-  {t:"07:35",n:"Instagram 2件（Vercel Cron）",s:"ok",lane:3},
+  {t:"07:35",n:"Instagram 本線（Vercel Cron）",s:"warn",lane:3},
   {t:"07:45",n:"日次集計（Vercel）",s:"ok",lane:0},
   {t:"08:00",n:"WordPress（GCP）",s:"bad",lane:1},
-  {t:"08:10",n:"Instagram確認（Claude）",s:"ok",lane:2},
+  {t:"08:10",n:"Instagram 予備（実際に投稿中）",s:"ok",lane:2},
   {t:"08:30",n:"見張り報告（OpenClaw）",s:"ok",lane:3},
   {t:"11:55",n:"監査報告（Claude）",s:"ok",lane:0},
   {t:"12:15",n:"Threads 昼",s:"ok",lane:1},
-  {t:"21:00",n:"Threads 夜",s:"bad",lane:0},
+  {t:"21:00",n:"Threads 夜（修正済み・反映待ち）",s:"bad",lane:0},
   {t:"21:15",n:"最終報告（COO）",s:"warn",lane:1}
 ];
 const STATUS={ok:"稼働中",bad:"止まっている",warn:"要確認",idle:"待機",new:"新規"};
