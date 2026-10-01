@@ -1,0 +1,320 @@
+<title>天祐AI運用本部 組織図</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: 1カラムの業務資料。上から「異常 → 24時間の流れ → 組織 → Canva/WordPress計画 → 宿題」 */
+:root{
+  --bg:#f3f5f9; --surface:#ffffff; --ink:#18213a; --muted:#5b6479; --line:#d9deea;
+  --accent:#2b4c8c; --accent-soft:#e3e9f6;
+  --ok:#1f7a4d; --ok-bg:#e2f3ea; --warn:#9a6200; --warn-bg:#fbefd6;
+  --bad:#b4282e; --bad-bg:#fbe3e3; --idle:#6b7285; --idle-bg:#eceef3;
+  --new:#6a3fb0; --new-bg:#efe7fb;
+  --f-body:"Zen Kaku Gothic New","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#10141f; --surface:#171d2b; --ink:#e7ebf4; --muted:#9aa3b8; --line:#2a3246;
+  --accent:#8fb0f0; --accent-soft:#1f2a44;
+  --ok:#6fd3a0; --ok-bg:#163327; --warn:#f0bf62; --warn-bg:#382a10;
+  --bad:#ff8a8a; --bad-bg:#3d1a1d; --idle:#a3aabb; --idle-bg:#232a3a;
+  --new:#c6a6ff; --new-bg:#2b2142; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#10141f; --surface:#171d2b; --ink:#e7ebf4; --muted:#9aa3b8; --line:#2a3246;
+  --accent:#8fb0f0; --accent-soft:#1f2a44;
+  --ok:#6fd3a0; --ok-bg:#163327; --warn:#f0bf62; --warn-bg:#382a10;
+  --bad:#ff8a8a; --bad-bg:#3d1a1d; --idle:#a3aabb; --idle-bg:#232a3a;
+  --new:#c6a6ff; --new-bg:#2b2142; color-scheme:dark;}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.75;padding-inline:16px;padding-block:28px 64px}
+.wrap{max-width:1080px;margin:0 auto;display:grid;gap:40px}
+h1,h2,h3{text-wrap:balance;margin:0;line-height:1.35}
+h1{font-size:clamp(26px,4.5vw,38px);font-weight:900;letter-spacing:.02em}
+h2{font-size:21px;font-weight:700;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2 small{font-size:13px;font-weight:500;color:var(--muted)}
+h3{font-size:16px;font-weight:700}
+p{margin:0}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--accent);font-weight:700}
+header{display:grid;gap:10px}
+header p{color:var(--muted);max-width:70ch}
+section{display:grid;gap:16px;min-width:0}
+
+/* 状態チップ */
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:2px 10px;border-radius:999px;white-space:nowrap}
+.chip::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.ok{color:var(--ok);background:var(--ok-bg)} .warn{color:var(--warn);background:var(--warn-bg)}
+.bad{color:var(--bad);background:var(--bad-bg)} .idle{color:var(--idle);background:var(--idle-bg)}
+.new{color:var(--new);background:var(--new-bg)}
+.legend{display:flex;flex-wrap:wrap;gap:8px}
+
+/* 異常パネル */
+.incident{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--bad);border-radius:6px;padding:20px 22px;display:grid;gap:14px}
+.incident .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.incident .grid>div{min-width:0;display:grid;gap:6px;align-content:start}
+.k{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.06em}
+code{font-family:var(--f-mono);font-size:.88em;background:var(--accent-soft);padding:1px 6px;border-radius:4px;word-break:break-all}
+.calc{overflow-x:auto}
+.calc table{border-collapse:collapse;font-size:14px;min-width:340px}
+.calc td,.calc th{padding:4px 12px 4px 0;text-align:left;border-bottom:1px solid var(--line)}
+.calc th{font-size:12px;color:var(--muted);font-weight:700}
+
+/* 24時間タイムライン */
+.tl-scroll{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:18px 18px 10px}
+.tl{position:relative;min-width:860px;height:300px}
+.tl .axis{position:absolute;left:0;right:0;top:34px;height:10px;border-radius:5px;
+  background:linear-gradient(90deg,var(--idle-bg) 0 25%,var(--accent-soft) 25% 79%,var(--idle-bg) 79% 100%)}
+.tl .hr{position:absolute;top:0;font-size:11px;color:var(--muted);transform:translateX(-50%)}
+.tl .tick{position:absolute;top:30px;width:1px;height:18px;background:var(--line)}
+.ev{position:absolute;transform:translateX(-50%);display:grid;justify-items:center;gap:2px;width:96px;text-align:center}
+.ev .pin{width:12px;height:12px;border-radius:50%;border:2px solid var(--surface);box-shadow:0 0 0 1px var(--line)}
+.ev .t{font-family:var(--f-mono);font-size:11px;font-weight:600}
+.ev .n{font-size:11.5px;line-height:1.35}
+.ev .stem{width:1px;background:var(--line)}
+.p-ok{background:var(--ok)} .p-bad{background:var(--bad)} .p-warn{background:var(--warn)} .p-idle{background:var(--idle)} .p-new{background:var(--new)}
+.tl-list{display:none}
+@media (max-width:640px){
+  .tl-scroll{display:none}
+  .tl-list{display:grid;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+}
+.tl-list .row{display:grid;grid-template-columns:56px 1fr auto;gap:10px;padding:10px 14px;border-bottom:1px solid var(--line);align-items:center}
+.tl-list .row:last-child{border-bottom:0}
+.tl-list .row>*{min-width:0}
+
+/* 組織 */
+.top{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.person{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.person .role{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.04em}
+.person .name{font-size:17px;font-weight:900}
+.person.lead{border-color:var(--accent);background:var(--accent-soft)}
+.exec{display:grid;gap:10px}
+.exec-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;border-bottom:2px solid var(--ink);padding-bottom:6px}
+.exec-head .who{font-size:13px;color:var(--muted)}
+.depts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.dept{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px 16px;display:grid;gap:8px;align-content:start;min-width:0}
+.dept .hd{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.dept .hd>div{min-width:0}
+.dept .lead-name{font-size:12.5px;color:var(--muted)}
+.dept ul{margin:0;padding-left:1.1em;display:grid;gap:2px;font-size:14px}
+.dept .meta{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:13px;color:var(--muted)}
+.dept .meta dt{font-weight:700}
+.dept .meta dd{margin:0;min-width:0}
+.dept.alert{border-color:var(--bad)}
+.dept.fresh{border-color:var(--new)}
+
+/* Canva×WordPress 流れ */
+.flow{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;counter-reset:s}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;display:grid;gap:6px;align-content:start;counter-increment:s}
+.step .no::before{content:"STEP " counter(s);font-family:var(--f-mono);font-size:11px;color:var(--accent);font-weight:600;letter-spacing:.08em}
+.media{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.media table{border-collapse:collapse;width:100%;min-width:640px;font-size:14px}
+.media th,.media td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+.media th{font-size:12px;color:var(--muted);background:var(--bg)}
+.media tr:last-child td{border-bottom:0}
+
+/* 宿題 */
+.todo{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.todo li{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 16px;display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start}
+.todo li>div{min-width:0}
+.note{font-size:13px;color:var(--muted)}
+footer{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow mono">TENYU AI OPS · 2026-10-01 時点</span>
+  <h1>天祐AI運用本部　全部署の役割と24時間の動き</h1>
+  <p>オーナー山本さんの下で、AI-CEO ASTRAと6人の役員が部署を動かしています。各部署の「誰が・いつ・何を」を1枚にまとめました。新しく加わったCanva（デザイン部）とWordPressの連携計画も入れています。</p>
+  <div class="legend">
+    <span class="chip ok">稼働中</span><span class="chip bad">止まっている</span><span class="chip warn">要確認</span><span class="chip new">新規・拡張予定</span><span class="chip idle">待機（未接続）</span>
+  </div>
+</header>
+
+<!-- ============ 異常 ============ -->
+<section id="threads">
+  <h2>Threadsの夜投稿が出ない原因 <small>コードで原因を確認済み</small></h2>
+  <div class="incident">
+    <p><strong>夜の予約タスクは21:00に動いているのに、受け取り側のVercelが「夜枠は19:30」のままになっていて、21:01以降に届いた投稿を「時間外」として断っています。</strong></p>
+    <div class="grid">
+      <div>
+        <span class="k">ずれている2つの設定</span>
+        <p>ChatGPT予約タスク「Threads夜投稿」：<span class="mono">毎日 21:00</span>（9/27に再開）</p>
+        <p>Vercel <code>api/threads/slot.js</code> の夜枠：<span class="mono">19:30</span>、前後<span class="mono">90分</span>だけ受付</p>
+        <p class="note">受付は18:00〜21:00ちょうどまで。ChatGPTが文章を作って送ると数分かかるので、ほぼ毎回21:01以降に届きます。</p>
+      </div>
+      <div class="calc">
+        <span class="k">実際の判定（同じ計算式で再現）</span>
+        <table>
+          <tr><th>届いた時刻</th><th>19:30との差</th><th>結果</th></tr>
+          <tr><td class="mono">21:00</td><td class="mono">90分</td><td><span class="chip ok">受付</span></td></tr>
+          <tr><td class="mono">21:01</td><td class="mono">91分</td><td><span class="chip bad">403 時間外</span></td></tr>
+          <tr><td class="mono">21:05</td><td class="mono">95分</td><td><span class="chip bad">403 時間外</span></td></tr>
+          <tr><td class="mono">12:15（昼）</td><td class="mono">15分</td><td><span class="chip ok">受付</span></td></tr>
+        </table>
+      </div>
+      <div>
+        <span class="k">気づかれなかった理由</span>
+        <p>12時の監査報告は「Threadsは対象外」（9/28オーナー決定）。07:45の集計は朝なので夜の失敗が載りません。夜の失敗を見る係がいませんでした。</p>
+        <span class="k">直し方（1行）</span>
+        <p><code>slot.js</code> の夜枠を <code>21:00</code>（昼も実際の <code>12:15</code>）に合わせる。Cronも経路も増やさずに直ります。二重投稿防止の仕組みはそのまま効きます。</p>
+      </div>
+    </div>
+    <p class="note">VercelのログはこのClaudeの接続では読めなかった（権限エラー）ため、「403が実際に返っている」ことはログでは未確認です。修正後の21:00に投稿IDと公開URLが出れば確定です。ChatGPT側のタスクが再び無効になっていないかも、あわせて画面で確認してください。</p>
+  </div>
+</section>
+
+<!-- ============ 24時間 ============ -->
+<section id="day">
+  <h2>24時間の流れ <small>日本時間</small></h2>
+  <div class="tl-scroll" role="img" aria-label="日本時間0時から24時までの各部署の作業時刻">
+    <div class="tl" id="tl"></div>
+  </div>
+  <div class="tl-list" id="tl-list"></div>
+  <p class="note">定期で動くのは、ChatGPT予約タスク（記事・Threads文面）、Vercel Cron（Instagram投稿・07:45集計）、GCP Cloud Scheduler（WordPress）、Claude Routine（確認・監査・補充）、OpenClaw（24時間PCの見張り）の5種類です。</p>
+</section>
+
+<!-- ============ 組織 ============ -->
+<section id="org">
+  <h2>組織と各部署の役割</h2>
+  <div class="top">
+    <div class="person"><span class="role">オーナー</span><span class="name">山本（YUKISAN）</span><p>方針・予算・公開範囲を決める。Metaの鍵など本人確認がいる作業。</p></div>
+    <div class="person lead"><span class="role">AI-CEO</span><span class="name">ASTRA</span><p>役員へ指示し、優先順位と毎日の結果に責任を持つ。</p></div>
+    <div class="person"><span class="role">AI監査役（オーナー直属）</span><span class="name">Claude</span><p>予定と実績の照合。12時に監査報告。Instagram部・デザイン部の制作と投稿は兼務。</p></div>
+    <div class="person"><span class="role">24時間PCの見張り役</span><span class="name">OpenClaw（頭脳はChatGPT）</span><p>08:30に投稿確認、月曜に作り置き残数と文面チェックをTelegramで報告。読むだけで投稿はしない。</p></div>
+  </div>
+  <div id="execs" class="wrap" style="gap:28px;max-width:none"></div>
+</section>
+
+<!-- ============ Canva × WordPress ============ -->
+<section id="canva">
+  <h2>Canva × WordPressでビジュアルを上げる計画 <small>デザイン部 キャン太朗が中心</small></h2>
+  <p>Instagramで使っている「Canvaで背景を1回だけ作り、毎日の文字はプログラムで載せる」方式を、ほかの媒体にも広げます。毎日Canvaを動かさないので、許可待ちで止まりません。</p>
+  <div class="flow">
+    <div class="step"><span class="no"></span><h3>型をCanvaで作る</h3><p>キャン太朗（Claude）が媒体ごとの文字なしテンプレートを数パターン作る。オーナーがPCの前にいる時だけ。</p></div>
+    <div class="step"><span class="no"></span><h3>毎日の文字入れは自動</h3><p>記事タイトルや一言をプログラムで画像に載せる（Instagramの <code>build.mjs</code> と同じ仕組み）。</p></div>
+    <div class="step"><span class="no"></span><h3>品質管理部リナが確認</h3><p>文字切れ・誤字・スマホでの見え方をチェックして、問題があれば差し戻す。</p></div>
+    <div class="step"><span class="no"></span><h3>各部署の既存経路で公開</h3><p>WordPressは08:00の既存経路、noteは07:00、Threadsは既存の画像付き投稿口。新しい経路は作らない。</p></div>
+  </div>
+  <div class="media">
+    <table>
+      <tr><th>媒体</th><th>今の画像</th><th>Canva導入後</th><th>状態</th></tr>
+      <tr><td>Instagram（占い・前向き）</td><td>Canva背景＋自動文字入れ。12/31分まで作り置き済み</td><td>3つ目の課を作る時に背景を追加</td><td><span class="chip ok">導入済み</span></td></tr>
+      <tr><td>WordPress（career-design.co.jp）</td><td>Cloud Run側で自動生成した画像3点・表2点</td><td>アイキャッチをCanvaの型で統一。サイト全体の印象をそろえる</td><td><span class="chip new">次の候補</span></td></tr>
+      <tr><td>note</td><td>カバーと図解の2点を自動生成</td><td>カバーをCanvaの型に。WordPressと同じ色・書体で統一</td><td><span class="chip new">予定</span></td></tr>
+      <tr><td>Threads</td><td>文字だけ（画像付き投稿口は9/25に実証済み）</td><td>週数回、Instagram画像を流用した画像付き投稿</td><td><span class="chip new">予定</span></td></tr>
+    </table>
+  </div>
+  <p class="note">順番の提案：①Threads夜枠の修正 → ②WordPressの08:00自動公開の復旧確認 → ③WordPressアイキャッチのCanva化。WordPressが毎日出ていない状態で見た目を変えると、どちらの問題か切り分けられなくなるためです。</p>
+</section>
+
+<!-- ============ 宿題 ============ -->
+<section id="todo">
+  <h2>いま残っている宿題</h2>
+  <ul class="todo">
+    <li><span class="chip bad">至急</span><div><strong>Threads夜枠の時刻を21:00に合わせる</strong><p class="note">本部リポジトリ <code>api/threads/slot.js</code> の1行。オーナーOKが出ればClaudeが直します。</p></div></li>
+    <li><span class="chip bad">至急</span><div><strong>WordPress 08:00の自動公開を復旧確認</strong><p class="note">9/28・9/29が未公開（9/29は夜に手動で補填）。GCPの実行ログを見られる環境（オーナーPCのClaude Code）で原因を特定する。</p></div></li>
+    <li><span class="chip warn">確認</span><div><strong>夜の失敗を誰が見るか決める</strong><p class="note">ThreadsはClaude監査の対象外。OpenClawに「21:30にThreads夜投稿を確認」を足すのが一番軽い方法です。</p></div></li>
+    <li><span class="chip warn">12/10</span><div><strong>Metaの鍵の再認証（期限12/26ごろ）</strong><p class="note">12/10にClaudeとOpenClawからお知らせが届きます。</p></div></li>
+    <li><span class="chip new">次</span><div><strong>WordPressアイキャッチのCanva化</strong><p class="note">WordPressの毎日公開が安定してから、キャン太朗が型を作ります。</p></div></li>
+  </ul>
+</section>
+
+<footer>
+  出典：本部リポジトリ <code>tenyu-meta-social-automation</code> main（<span class="mono">5127d96</span>、9/29 19:26）の AGENTS.md・docs/organization.md・docs/daily-operations.md・docs/handoff-log.md・lib/organization.js・api/threads/slot.js、<code>tenyu-carrer/projects</code> の AGENTS.md・instagram/ORGANIZATION.md・design/README.md・docs/openclaw/TENYU.md。WordPressの状態は9/29夜の記録が最新で、それ以降の公開状況は未確認です。
+</footer>
+</div>
+
+<script>
+const EVENTS=[
+  {t:"06:00",n:"本番日次処理",s:"idle",lane:0},
+  {t:"07:00",n:"note記事公開（ChatGPT）",s:"ok",lane:1},
+  {t:"07:30",n:"Threads 朝",s:"ok",lane:2},
+  {t:"07:35",n:"Instagram 2件（Vercel Cron）",s:"ok",lane:3},
+  {t:"07:45",n:"日次集計（Vercel）",s:"ok",lane:0},
+  {t:"08:00",n:"WordPress（GCP）",s:"bad",lane:1},
+  {t:"08:10",n:"Instagram確認（Claude）",s:"ok",lane:2},
+  {t:"08:30",n:"見張り報告（OpenClaw）",s:"ok",lane:3},
+  {t:"11:55",n:"監査報告（Claude）",s:"ok",lane:0},
+  {t:"12:15",n:"Threads 昼",s:"ok",lane:1},
+  {t:"21:00",n:"Threads 夜",s:"bad",lane:0},
+  {t:"21:15",n:"最終報告（COO）",s:"warn",lane:1}
+];
+const STATUS={ok:"稼働中",bad:"止まっている",warn:"要確認",idle:"待機",new:"新規"};
+const pct=t=>{const[h,m]=t.split(":").map(Number);return (h*60+m)/1440*100};
+const tl=document.getElementById("tl");
+for(let h=0;h<=24;h+=3){
+  tl.insertAdjacentHTML("beforeend",`<span class="hr mono" style="left:${h/24*100}%">${String(h).padStart(2,"0")}:00</span><span class="tick" style="left:${h/24*100}%"></span>`);
+}
+EVENTS.forEach(e=>{
+  const top=60+e.lane*58;
+  tl.insertAdjacentHTML("beforeend",
+   `<div class="ev" style="left:${pct(e.t)}%;top:44px"><span class="stem" style="height:${top-44}px"></span><span class="pin p-${e.s}"></span><span class="t">${e.t}</span><span class="n">${e.n}</span></div>`);
+});
+const list=document.getElementById("tl-list");
+EVENTS.slice().sort((a,b)=>pct(a.t)-pct(b.t)).forEach(e=>{
+  list.insertAdjacentHTML("beforeend",`<div class="row"><span class="mono">${e.t}</span><span>${e.n}</span><span class="chip ${e.s}">${STATUS[e.s]}</span></div>`);
+});
+
+const EXECS=[
+ {title:"CMO・メディア集客担当取締役",who:"サラ",acc:"認知・交流・フォロー・相談導線",depts:[
+  {name:"Threads部",lead:"部長 ハル",s:"bad",cls:"alert",label:"夜だけ停止",
+   role:["朝・昼・夜の1日3投稿（@tenyu_kun）","ChatGPTが文面を作り、Vercelが投稿・二重投稿防止"],
+   when:"07:30 / 12:15 / 21:00",how:"ChatGPT予約タスク → /api/threads/slot"},
+  {name:"Instagram部",lead:"部長（担当AI Claude）",s:"ok",label:"稼働中",
+   role:["占い課 @happy_cristal7：毎朝カルーセル2枚","前向きな言葉課 @tenyu.worklife：毎朝1枚","3つ目の課は準備枠"],
+   when:"07:35枠 投稿 / 08:10 確認 / 日曜 補充",how:"作り置き（12/31分まで188件）→ Vercel Cron"},
+  {name:"YouTube・Facebook部",lead:"",s:"idle",label:"待機",
+   role:["動画・Facebookでの集客（未接続）"],when:"—",how:"接続完了まで待機"}
+ ]},
+ {title:"CCO・コンテンツ担当取締役",who:"",acc:"媒体別の記事・画像制作と公開品質",depts:[
+  {name:"WordPress部",lead:"部長 レン",s:"bad",cls:"alert",label:"復旧未確認",
+   role:["career-design.co.jp に1日1本の記事","画像3点・表2点入り"],
+   when:"08:00",how:"GCP Cloud Scheduler → Cloud Run（唯一の定期経路）"},
+  {name:"note部",lead:"部長 ミオ",s:"ok",label:"稼働中",
+   role:["1日1本、無料記事を公開","カバー＋図解の2点を冒頭に"],
+   when:"07:00",how:"ChatGPT予約タスク → Vercel Sandbox"},
+  {name:"デザイン部",lead:"部長 キャン太朗（担当AI Claude）",s:"new",cls:"fresh",label:"拡張中",
+   role:["Canvaで文字なし背景・テンプレートを作る","今はInstagram担当。次はWordPress・note・Threadsの画像","デザイナー：セイラ（占い）・コハル（前向き）"],
+   when:"背景を変える時だけ（オーナー在席時）",how:"Canvaコネクタ"},
+  {name:"Tips・Brain部",lead:"",s:"idle",label:"依頼時のみ",
+   role:["有料コンテンツの制作"],when:"依頼日",how:"—"}
+ ]},
+ {title:"CQO・品質管理担当取締役",who:"",acc:"公開確認・重複防止・障害判定・費用確認",depts:[
+  {name:"品質管理部",lead:"部長 リナ",s:"ok",label:"稼働中",
+   role:["全部署を横断して公開URL・誤字・事実・画像表示・スマホ表示を確認","問題は担当部長へ差し戻す"],
+   when:"07:45 最終記録",how:"Vercel集計＋目視確認"},
+  {name:"重複・障害管理部",lead:"",s:"ok",label:"稼働中",
+   role:["同じ日・同じ枠の二重投稿を防ぐ","失敗をSlack・Gmailへ通知"],when:"毎日",how:"Redisの冪等キー"}
+ ]},
+ {title:"COO・運用担当取締役",who:"",acc:"日次進行・部署間調整・未完了の回収",depts:[
+  {name:"日次進行部",lead:"",s:"ok",label:"稼働中",role:["その日の予定どおり動いたかを追いかける"],when:"毎日",how:"—"},
+  {name:"統括レポート部",lead:"",s:"warn",label:"夜の報告は要確認",
+   role:["07:45の集計をCEOへ","21:15の全媒体最終報告（定期実行の仕組みは未確認）"],when:"07:45 / 21:15",how:"Vercel Cron /api/cron/report"}
+ ]},
+ {title:"CTO・システム担当取締役",who:"",acc:"Vercel・GitHub・API・実行基盤の安定運用",depts:[
+  {name:"Vercel実行部",lead:"",s:"ok",label:"稼働中",role:["完成原稿の公開・認証・結果記録だけを担当","Cronは2本（07:35 Instagram・07:45 集計）から増やさない"],when:"常時",how:"tenyu-meta-social-automation（本番1つ）"},
+  {name:"GitHub管理部",lead:"",s:"ok",label:"稼働中",role:["プログラムの保管とVercelへの反映","Instagramの予約箱（instagram-queue）"],when:"変更時",how:"GitHub"},
+  {name:"Worker部",lead:"",s:"ok",label:"必要時",role:["Windows PC・24時間PCでの作業（Metaの再認証など）"],when:"必要時",how:"オーナーPCのClaude Code＋OpenClaw"}
+ ]},
+ {title:"CRO・販売担当取締役",who:"",acc:"商品導線・購入率・顧客フォロー",depts:[
+  {name:"AI講座販売部",lead:"",s:"idle",label:"待機",role:["AIスキルアップ講座の販売"],when:"—",how:"接続待ち"},
+  {name:"UTAGE導線部",lead:"",s:"idle",label:"待機",role:["UTAGEでのLINE・ファネル導線"],when:"—",how:"接続待ち"},
+  {name:"販売分析部",lead:"",s:"idle",label:"待機",role:["購入率・反応の分析"],when:"—",how:"接続待ち"}
+ ]}
+];
+const execs=document.getElementById("execs");
+EXECS.forEach(x=>{
+  const cards=x.depts.map(d=>`
+   <article class="dept ${d.cls||""}">
+     <div class="hd"><div><h3>${d.name}</h3>${d.lead?`<div class="lead-name">${d.lead}</div>`:""}</div><span class="chip ${d.s}">${d.label}</span></div>
+     <ul>${d.role.map(r=>`<li>${r}</li>`).join("")}</ul>
+     <dl class="meta"><dt>いつ</dt><dd class="mono">${d.when}</dd><dt>仕組み</dt><dd>${d.how}</dd></dl>
+   </article>`).join("");
+  execs.insertAdjacentHTML("beforeend",`
+   <div class="exec">
+     <div class="exec-head"><h3>${x.title}${x.who?" "+x.who:""}</h3><span class="who">${x.acc}</span></div>
+     <div class="depts">${cards}</div>
+   </div>`);
+});
+</script>
