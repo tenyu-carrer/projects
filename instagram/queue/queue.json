@@ -1,6 +1,6 @@
 {
   "_readme": "Instagram 予約箱。本部 /api/instagram/dispatch がこの items を読み、publishAt を過ぎた未投稿の予約を id ごとに1回だけ投稿する。投稿済みの予約は消さずに残す（id の再利用禁止）。",
-  "lastRun": "2026-10-04T23:11:58Z",
+  "lastRun": "2026-10-05T23:11:14Z",
   "items": [
     {
       "id": "20260926-fortune-leo-test",
