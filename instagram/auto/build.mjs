@@ -74,10 +74,10 @@ const sparkle=`<svg width="90" height="90" viewBox="0 0 100 100" style="vertical
 function worklifeHtml(c){
  const v=WORKLIFE_VARIANTS[c.variant],{m,d,w}=md(c.date);
  return page(BG.worklife,`<div class="bg" style="${v.flip?'transform:scaleX(-1)':''}"></div>
-${v.flip?'<div class="patch"></div>':''}<div class="tint" style="${v.tint?`background:${v.tint};mix-blend-mode:multiply`:''}"></div>
+${v.flip||c.label?'<div class="patch"></div>':''}<div class="tint" style="${v.tint?`background:${v.tint};mix-blend-mode:multiply`:''}"></div>
 <div class="t" style="top:192px;font:41px/1.4 G4;letter-spacing:.05em;color:#5f7666">${m}月${d}日（${w}）</div>
 <div class="t main fitbox" style="top:461px;left:150px;width:780px;height:458px;display:flex;align-items:center;justify-content:center;font:77px/1.6 S5;letter-spacing:-.03em;color:#4c3d2c">${esc(c.text)}</div>
-${v.flip?'<div class="t" style="top:1147px;font:32.5px/1.4 G4;letter-spacing:.1em;color:#5f7666">今日のひとこと</div>':''}`,
+${v.flip||c.label?`<div class="t" style="top:1147px;font:32.5px/1.4 G4;letter-spacing:.1em;color:#5f7666">${esc(c.label||'今日のひとこと')}</div>`:''}`,
  `.patch{position:absolute;top:1135px;left:360px;width:360px;height:65px;background:url(data:image/jpeg;base64,${BG.worklife}) -360px -1050px/1080px 1350px}`);
 }
 function fortune1Html(c){
@@ -126,7 +126,7 @@ ${c.why}
 
 ▶ 今日ひとつだけ試すなら
 ${c.try}
-
+${c.link?'\n📝 くわしい手順は、プロフィールのリンクの記事にまとめています\n':''}
 保存して、疲れた日に見返してね🌿
 
 ${tags([...worklife.fixedTags,...c.tags])}`;
