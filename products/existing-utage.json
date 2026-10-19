@@ -1,0 +1,81 @@
+{
+  "_note": "UTAGE に既にある関連資産（2026-10-19 読み取り）。重複して作らず、紐づけるか確認する",
+  "067": [
+    {
+      "type": "member_site",
+      "id": "N5nOxfQBXa0C",
+      "name": "0からできるKindle出版"
+    }
+  ],
+  "106": [
+    {
+      "type": "funnel",
+      "id": "bJBspSCqi73c",
+      "name": "（新）ASTRA AI SALES COMPANY｜AI講座198,000円"
+    }
+  ],
+  "116": [
+    {
+      "type": "funnel",
+      "id": "nYFafPsiSbqc",
+      "name": "物販自動で売れる仕組み"
+    },
+    {
+      "type": "funnel",
+      "id": "3Xo0ByojMjhl",
+      "name": "AI×物販"
+    },
+    {
+      "type": "product",
+      "id": "JItEl976IJew",
+      "name": "物販自動で売れる仕組み"
+    }
+  ],
+  "121": [
+    {
+      "type": "product",
+      "id": "WujoYXleAZUy",
+      "name": "英会話講座"
+    }
+  ],
+  "124": [
+    {
+      "type": "product",
+      "id": "WujoYXleAZUy",
+      "name": "英会話講座"
+    }
+  ],
+  "159": [
+    {
+      "type": "funnel",
+      "id": "KVBZO18X29Zk",
+      "name": "AI活用力診断"
+    }
+  ],
+  "055": [
+    {
+      "type": "funnel",
+      "id": "5OvdiydlZhy4",
+      "name": "LINE×SNS集客完全攻略電子書籍プレゼント（共有用）"
+    }
+  ],
+  "_shared": [
+    {
+      "type": "funnel",
+      "id": "lDGLdxK7kSPd",
+      "name": "Udemy配布用トリップワイヤーファネル",
+      "use": "B・C の安い商品の型"
+    },
+    {
+      "type": "member_site",
+      "id": "BHqFRpjwRcYb",
+      "name": "AIスキルアップスクール お試し版",
+      "use": "A の配布先候補"
+    },
+    {
+      "type": "line_account",
+      "id": "FkzEiUlMmkUv",
+      "name": "天祐SNS自動化"
+    }
+  ]
+}

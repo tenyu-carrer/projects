@@ -1,0 +1,24 @@
+{
+  "slug": "suzuri-tshirt",
+  "services": [
+    "SUZURI",
+    "Canva"
+  ],
+  "tools_existing": [
+    "wordpress-ai-publisher/src/canva.js",
+    "projects/instagram/auto/build.mjs"
+  ],
+  "needs_check": [
+    "SUZURI の利用規約（デザインの権利・AI 生成画像の扱い・売上と手数料）",
+    "Canva の商用利用（テンプレート素材をグッズに使えるか）"
+  ],
+  "plan": {
+    "A": "Tシャツ用デザインのお試しテンプレ1つ＋出品までの流れ",
+    "B": "出品できるデザイン10枚",
+    "C": "デザイン案を出すプロンプト集＋Canva テンプレ",
+    "D": "デザイン → 出品 → 宣伝の講座"
+  },
+  "no": "017",
+  "terms_urls": [],
+  "commercial_use": "不明（未確認）"
+}
