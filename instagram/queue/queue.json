@@ -665,6 +665,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/0692277d3818e35f408fe55e588406588514710c/instagram/auto/images/worklife/2026-10-21.jpg"
     },
     {
+      "id": "20261021-soundpro-meeting-run",
+      "account": "soundpro",
+      "publishAt": "2026-10-21T07:50:00+09:00",
+      "caption": "英語の会議を進める側になったときに、つい言ってしまう短すぎる一言を5つ集めました。\nそのまま使える言いかえと一緒にまとめています。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4d3bf6ec459cf0f0a57abd2fe0f8016b61eeaae2/instagram/content/soundpro/images/09-meeting-run-5-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4d3bf6ec459cf0f0a57abd2fe0f8016b61eeaae2/instagram/content/soundpro/images/09-meeting-run-5-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4d3bf6ec459cf0f0a57abd2fe0f8016b61eeaae2/instagram/content/soundpro/images/09-meeting-run-5-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4d3bf6ec459cf0f0a57abd2fe0f8016b61eeaae2/instagram/content/soundpro/images/09-meeting-run-5-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4d3bf6ec459cf0f0a57abd2fe0f8016b61eeaae2/instagram/content/soundpro/images/09-meeting-run-5-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4d3bf6ec459cf0f0a57abd2fe0f8016b61eeaae2/instagram/content/soundpro/images/09-meeting-run-5-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4d3bf6ec459cf0f0a57abd2fe0f8016b61eeaae2/instagram/content/soundpro/images/09-meeting-run-5-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYdgCYWNI",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-19T14:26:58.628Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差34.3）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "03ページの文字化け（□）を修正・取り消し線を追加"
+        ]
+      }
+    },
+    {
       "id": "20261022-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-22T06:50:00+09:00",
@@ -1959,21 +1987,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261021-soundpro-meeting-run",
-        "account": "soundpro",
-        "publishAt": "2026-10-21T07:50:00+09:00",
-        "caption": "英語の会議を進める側になったときに、つい言ってしまう短すぎる一言を5つ集めました。\nそのまま使える言いかえと一緒にまとめています。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/09-meeting-run-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/09-meeting-run-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/09-meeting-run-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/09-meeting-run-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/09-meeting-run-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/09-meeting-run-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/09-meeting-run-5-7.jpg"
-        ]
-      },
       {
         "id": "20261022-soundpro-apology",
         "account": "soundpro",
