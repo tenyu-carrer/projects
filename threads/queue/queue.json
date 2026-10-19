@@ -1,19 +1,184 @@
 {
   "note": "Threads 予約箱（2026-10-19 から）。毎朝 7:35 の Vercel Cron が、時刻を過ぎた予約を1回だけ投稿する。リンクは自社サイトの記事を1本まで（広告リンクは貼らない）。account: worklife=@tenyu.worklife / yorukin=@yorukin_nurse / soundpro=@sound_pro_english",
   "items": [
-    {"id":"worklife-20261020","account":"worklife","publishAt":"2026-10-20T07:30:00+09:00","text":"転職エージェントに相談しようか迷っている人へ。\n\n相談先は1つに決めなくて大丈夫です。ただ、登録の前に「何を相談したいか」だけは1行で書いておくと、面談が雑談で終わりません。\n\n・年収を上げたい\n・今の職種のまま場所を変えたい\n・そもそも転職すべきか迷っている\n\nどれに近いかで、合う相談先が変わります。違いをまとめました。\nhttps://best-job.career-design.co.jp/consultation-support/"},
-    {"id":"worklife-20261021","account":"worklife","publishAt":"2026-10-21T07:30:00+09:00","text":"副業の勉強、平日の夜にやろうとして続かない人は多いです。\n\n「空いた時間を探す」より先に、「やらないこと」を1つ決めるほうが時間は残ります。\n\n寝る前のスマホを15分だけやめる、くらいで十分。週に1時間半になります。\n\n時間のつくり方を書きました。\nhttps://fukugyo.career-design.co.jp/2026-10-18-side-job-study-time/"},
-    {"id":"worklife-20261022","account":"worklife","publishAt":"2026-10-22T07:30:00+09:00","text":"職務経歴書の「実績」欄で手が止まる人へ。\n\n数字が書けるなら書く。でも数字だけだと、読む側は「どう動いた人なのか」がわかりません。\n\n「前年比120%」のあとに、そのために何を変えたかを一文。\nそれだけで面接で聞かれることが変わります。\n\n営業職向けに書きましたが、ほかの職種でも同じです。\nhttps://best-job.career-design.co.jp/2026-10-19-sales-resume-achievements/"},
-    {"id":"worklife-20261023","account":"worklife","publishAt":"2026-10-23T07:30:00+09:00","text":"副業スクールに申し込む前に、3つだけ比べてほしいことがあります。\n\n・総額（教材費やツール代を含めていくらか）\n・終わったあと何が手元に残るか\n・質問できる期間と回数\n\n「稼げる」と書いてあるかどうかより、この3つのほうが後悔を減らせます。\nhttps://fukugyo.career-design.co.jp/2026-10-17-side-job-school-how-to-choose/"},
-    {"id":"worklife-20261024","account":"worklife","publishAt":"2026-10-24T07:30:00+09:00","text":"転職するか迷っているときは、「辞めたい理由」と「次に欲しいもの」を分けて書き出すのがおすすめです。\n\n辞めたい理由だけで動くと、次の職場でも同じことで悩みがちです。\n欲しいものが1つでもはっきりすれば、求人の見え方が変わります。\n\n判断のしかたをまとめました。\nhttps://best-job.career-design.co.jp/2026-10-06-career-change-hesitation-decision-steps/"},
-    {"id":"worklife-20261025","account":"worklife","publishAt":"2026-10-25T07:30:00+09:00","text":"副業で最初の実績がない、という悩み。\n\n練習で作ったものも、見せ方を整えれば立派な実績になります。\n「何のために作ったか」「どこを工夫したか」「どれくらいで作れるか」を添えるだけ。\n\n仕事として頼む側が知りたいのは、上手さよりこの3つです。\nhttps://fukugyo.career-design.co.jp/2026-10-19-side-job-first-portfolio/"},
-    {"id":"worklife-20261026","account":"worklife","publishAt":"2026-10-26T07:30:00+09:00","text":"内定が出たら、返事をする前に「労働条件通知書」を必ずもらってください。\n\n面接で聞いた話と、書面の内容がずれていることは珍しくありません。\n特に見てほしいのは、残業代の扱い・試用期間中の条件・休日の数。\n\n確認する項目を一覧にしました。\nhttps://best-job.career-design.co.jp/2026-10-05-labor-conditions-notification-check/"},
-    {"id":"soundpro-20261020","account":"soundpro","publishAt":"2026-10-20T07:30:00+09:00","text":"英語メールの書き出し、Dear Mr. Smith にするか、Hi John にするか。\n\n迷ったら「相手が前のメールで自分をどう名乗ったか」に合わせるのが一番安全です。\n署名が John だけなら、次から Hi John で大丈夫。\n\nもう少し詳しく書きました。\nhttps://language.career-design.co.jp/2026/10/19/2026-10-19-english-email-salutation-titles/"},
-    {"id":"soundpro-20261021","account":"soundpro","publishAt":"2026-10-21T07:30:00+09:00","text":"英語のプレゼンで、次の話題に移るときの一言。\n\nNext, ... だけだと、聞き手はついてこられないことがあります。\n\nThat covers the schedule. Now let's look at the budget.\n（スケジュールは以上です。次は予算を見ていきます）\n\n「終わった」と「次」を両方言うだけで、ぐっと聞きやすくなります。\nhttps://language.career-design.co.jp/2026/10/18/2026-10-18-english-presentation-transitions/"},
-    {"id":"soundpro-20261022","account":"soundpro","publishAt":"2026-10-22T07:30:00+09:00","text":"英語の電話、切る前のひと言で差がつきます。\n\nJust to confirm, we'll send the file by Friday, right?\n（確認ですが、金曜までにファイルを送る、で合っていますか）\n\n決まったことを自分の言葉で言い直すだけ。聞き間違いがあっても、ここで直せます。\nhttps://language.career-design.co.jp/2026/10/16/2026-10-16-english-phone-call-confirm-before-hanging-up/"},
-    {"id":"soundpro-20261023","account":"soundpro","publishAt":"2026-10-23T07:30:00+09:00","text":"英語メールで確認をお願いするとき、Please check. だけだと、相手は何を見ればいいか迷います。\n\nCould you check if the dates on page 2 are correct?\n（2ページ目の日付が合っているか見てもらえますか）\n\n「どこを」「何について」まで書くと、返事が早く来ます。\nhttps://language.career-design.co.jp/2026/10/15/2026-10-15-english-email-asking-for-confirmation/"},
-    {"id":"soundpro-20261024","account":"soundpro","publishAt":"2026-10-24T07:30:00+09:00","text":"英検とTOEIC、仕事のためならどっち？とよく聞かれます。\n\n社内の評価や応募条件に点数が書かれているならTOEIC。\n話す・書く力をまとめて確かめたいなら英検も候補です。\n\n「何のために受けるか」から決めると迷いません。\nhttps://language.career-design.co.jp/2026/10/17/2026-10-17-eiken-toeic-difference-for-work/"},
-    {"id":"soundpro-20261025","account":"soundpro","publishAt":"2026-10-25T07:30:00+09:00","text":"会議で聞き取れなかったとき、Sorry? だけで終わらせていませんか。\n\nSorry, could you say the last part again?\n（すみません、最後のところをもう一度いいですか）\n\n「どこが」聞き取れなかったかを言うと、相手も言い直しやすくなります。"},
-    {"id":"soundpro-20261026","account":"soundpro","publishAt":"2026-10-26T07:30:00+09:00","text":"I think ... を連発すると、自信がなさそうに聞こえることがあります。\n\n意見をはっきり言いたいときは\nIn my view, ...\nMy suggestion is ...\n\n言い切りすぎずに、でも頼りなくは聞こえない。会議で使いやすい言い方です。"}
-  ]
+    {
+      "id": "worklife-20261020",
+      "account": "worklife",
+      "publishAt": "2026-10-20T07:30:00+09:00",
+      "text": "転職エージェントに相談しようか迷っている人へ。\n\n相談先は1つに決めなくて大丈夫です。ただ、登録の前に「何を相談したいか」だけは1行で書いておくと、面談が雑談で終わりません。\n\n・年収を上げたい\n・今の職種のまま場所を変えたい\n・そもそも転職すべきか迷っている\n\nどれに近いかで、合う相談先が変わります。違いをまとめました。\nhttps://best-job.career-design.co.jp/consultation-support/"
+    },
+    {
+      "id": "worklife-20261021",
+      "account": "worklife",
+      "publishAt": "2026-10-21T07:30:00+09:00",
+      "text": "副業の勉強、平日の夜にやろうとして続かない人は多いです。\n\n「空いた時間を探す」より先に、「やらないこと」を1つ決めるほうが時間は残ります。\n\n寝る前のスマホを15分だけやめる、くらいで十分。週に1時間半になります。\n\n時間のつくり方を書きました。\nhttps://fukugyo.career-design.co.jp/2026-10-18-side-job-study-time/"
+    },
+    {
+      "id": "worklife-20261022",
+      "account": "worklife",
+      "publishAt": "2026-10-22T07:30:00+09:00",
+      "text": "職務経歴書の「実績」欄で手が止まる人へ。\n\n数字が書けるなら書く。でも数字だけだと、読む側は「どう動いた人なのか」がわかりません。\n\n「前年比120%」のあとに、そのために何を変えたかを一文。\nそれだけで面接で聞かれることが変わります。\n\n営業職向けに書きましたが、ほかの職種でも同じです。\nhttps://best-job.career-design.co.jp/2026-10-19-sales-resume-achievements/"
+    },
+    {
+      "id": "worklife-20261023",
+      "account": "worklife",
+      "publishAt": "2026-10-23T07:30:00+09:00",
+      "text": "副業スクールに申し込む前に、3つだけ比べてほしいことがあります。\n\n・総額（教材費やツール代を含めていくらか）\n・終わったあと何が手元に残るか\n・質問できる期間と回数\n\n「稼げる」と書いてあるかどうかより、この3つのほうが後悔を減らせます。\nhttps://fukugyo.career-design.co.jp/2026-10-17-side-job-school-how-to-choose/"
+    },
+    {
+      "id": "worklife-20261024",
+      "account": "worklife",
+      "publishAt": "2026-10-24T07:30:00+09:00",
+      "text": "転職するか迷っているときは、「辞めたい理由」と「次に欲しいもの」を分けて書き出すのがおすすめです。\n\n辞めたい理由だけで動くと、次の職場でも同じことで悩みがちです。\n欲しいものが1つでもはっきりすれば、求人の見え方が変わります。\n\n判断のしかたをまとめました。\nhttps://best-job.career-design.co.jp/2026-10-06-career-change-hesitation-decision-steps/"
+    },
+    {
+      "id": "worklife-20261025",
+      "account": "worklife",
+      "publishAt": "2026-10-25T07:30:00+09:00",
+      "text": "副業で最初の実績がない、という悩み。\n\n練習で作ったものも、見せ方を整えれば立派な実績になります。\n「何のために作ったか」「どこを工夫したか」「どれくらいで作れるか」を添えるだけ。\n\n仕事として頼む側が知りたいのは、上手さよりこの3つです。\nhttps://fukugyo.career-design.co.jp/2026-10-19-side-job-first-portfolio/"
+    },
+    {
+      "id": "worklife-20261026",
+      "account": "worklife",
+      "publishAt": "2026-10-26T07:30:00+09:00",
+      "text": "内定が出たら、返事をする前に「労働条件通知書」を必ずもらってください。\n\n面接で聞いた話と、書面の内容がずれていることは珍しくありません。\n特に見てほしいのは、残業代の扱い・試用期間中の条件・休日の数。\n\n確認する項目を一覧にしました。\nhttps://best-job.career-design.co.jp/2026-10-05-labor-conditions-notification-check/"
+    },
+    {
+      "id": "soundpro-20261020",
+      "account": "soundpro",
+      "publishAt": "2026-10-20T07:30:00+09:00",
+      "text": "英語メールの書き出し、Dear Mr. Smith にするか、Hi John にするか。\n\n迷ったら「相手が前のメールで自分をどう名乗ったか」に合わせるのが一番安全です。\n署名が John だけなら、次から Hi John で大丈夫。\n\nもう少し詳しく書きました。\nhttps://language.career-design.co.jp/2026/10/19/2026-10-19-english-email-salutation-titles/"
+    },
+    {
+      "id": "soundpro-20261021",
+      "account": "soundpro",
+      "publishAt": "2026-10-21T07:30:00+09:00",
+      "text": "英語のプレゼンで、次の話題に移るときの一言。\n\nNext, ... だけだと、聞き手はついてこられないことがあります。\n\nThat covers the schedule. Now let's look at the budget.\n（スケジュールは以上です。次は予算を見ていきます）\n\n「終わった」と「次」を両方言うだけで、ぐっと聞きやすくなります。\nhttps://language.career-design.co.jp/2026/10/18/2026-10-18-english-presentation-transitions/"
+    },
+    {
+      "id": "soundpro-20261022",
+      "account": "soundpro",
+      "publishAt": "2026-10-22T07:30:00+09:00",
+      "text": "英語の電話、切る前のひと言で差がつきます。\n\nJust to confirm, we'll send the file by Friday, right?\n（確認ですが、金曜までにファイルを送る、で合っていますか）\n\n決まったことを自分の言葉で言い直すだけ。聞き間違いがあっても、ここで直せます。\nhttps://language.career-design.co.jp/2026/10/16/2026-10-16-english-phone-call-confirm-before-hanging-up/"
+    },
+    {
+      "id": "soundpro-20261023",
+      "account": "soundpro",
+      "publishAt": "2026-10-23T07:30:00+09:00",
+      "text": "英語メールで確認をお願いするとき、Please check. だけだと、相手は何を見ればいいか迷います。\n\nCould you check if the dates on page 2 are correct?\n（2ページ目の日付が合っているか見てもらえますか）\n\n「どこを」「何について」まで書くと、返事が早く来ます。\nhttps://language.career-design.co.jp/2026/10/15/2026-10-15-english-email-asking-for-confirmation/"
+    },
+    {
+      "id": "soundpro-20261024",
+      "account": "soundpro",
+      "publishAt": "2026-10-24T07:30:00+09:00",
+      "text": "英検とTOEIC、仕事のためならどっち？とよく聞かれます。\n\n社内の評価や応募条件に点数が書かれているならTOEIC。\n話す・書く力をまとめて確かめたいなら英検も候補です。\n\n「何のために受けるか」から決めると迷いません。\nhttps://language.career-design.co.jp/2026/10/17/2026-10-17-eiken-toeic-difference-for-work/"
+    },
+    {
+      "id": "soundpro-20261025",
+      "account": "soundpro",
+      "publishAt": "2026-10-25T07:30:00+09:00",
+      "text": "会議で聞き取れなかったとき、Sorry? だけで終わらせていませんか。\n\nSorry, could you say the last part again?\n（すみません、最後のところをもう一度いいですか）\n\n「どこが」聞き取れなかったかを言うと、相手も言い直しやすくなります。"
+    },
+    {
+      "id": "soundpro-20261026",
+      "account": "soundpro",
+      "publishAt": "2026-10-26T07:30:00+09:00",
+      "text": "I think ... を連発すると、自信がなさそうに聞こえることがあります。\n\n意見をはっきり言いたいときは\nIn my view, ...\nMy suggestion is ...\n\n言い切りすぎずに、でも頼りなくは聞こえない。会議で使いやすい言い方です。"
+    },
+    {
+      "id": "worklife-20261027",
+      "account": "worklife",
+      "publishAt": "2026-10-27T07:30:00+09:00",
+      "text": "求人を見比べるとき、給料と休日だけで決めていませんか。\n\n同じ「月給25万円」でも、固定残業代が含まれているかどうかで中身はかなり違います。\n\n比べる項目をそろえた表を1枚作るだけで、迷う時間が減ります。作り方を書きました。\nhttps://best-job.career-design.co.jp/2026-10-11-job-comparison-table-steps/"
+    },
+    {
+      "id": "worklife-20261028",
+      "account": "worklife",
+      "publishAt": "2026-10-28T07:30:00+09:00",
+      "text": "副業を続けられない理由が「疲れ」なら、作業時間より先に休む時間を決めるのが近道です。\n\n週に1日は副業をしない日を作る。それだけで、残りの日の集中が変わります。\n\n無理なく続ける休み方をまとめました。\nhttps://fukugyo.career-design.co.jp/2026-10-12-side-job-fatigue-rest-method/"
+    },
+    {
+      "id": "worklife-20261029",
+      "account": "worklife",
+      "publishAt": "2026-10-29T07:30:00+09:00",
+      "text": "自己PRで「コミュニケーション力があります」と書いて終わっていませんか。\n\n読む側が知りたいのは、その力で「何が起きたか」です。\n困っていた場面 → 自分がしたこと → 結果、の順に一つだけ書くと伝わります。\nhttps://best-job.career-design.co.jp/2026-10-08-how-to-write-self-pr-with-episodes/"
+    },
+    {
+      "id": "worklife-20261030",
+      "account": "worklife",
+      "publishAt": "2026-10-30T07:30:00+09:00",
+      "text": "副業を始めるとき、いきなり大きな目標を立てると続きません。\n\n「月に1件、知り合い以外から依頼をもらう」くらいの小ささで十分。\n目的と数字を先に決めておくと、やることが自然に絞れます。\nhttps://fukugyo.career-design.co.jp/2026-10-10-side-job-purpose-target-setting/"
+    },
+    {
+      "id": "worklife-20261031",
+      "account": "worklife",
+      "publishAt": "2026-10-31T07:30:00+09:00",
+      "text": "働きながらの転職活動、平日の夜に全部やろうとすると疲れてしまいます。\n\n求人を見るのは通勤時間、書類は週末にまとめて、面接は有休を半日。\n作業ごとに「いつやるか」を先に決めると、続けやすくなります。\nhttps://best-job.career-design.co.jp/2026-10-02-how-to-manage-job-hunting-time/"
+    },
+    {
+      "id": "worklife-20261101",
+      "account": "worklife",
+      "publishAt": "2026-11-01T07:30:00+09:00",
+      "text": "「副業を始めたいけど、何から」と迷ったら、今の仕事で人に頼まれることを書き出してみてください。\n\n資料のまとめ、表計算、文章の手直し。社内では当たり前でも、外では仕事になることがあります。\nhttps://fukugyo.career-design.co.jp/2026-10-03-start-small-skill-side-hustle/"
+    },
+    {
+      "id": "worklife-20261102",
+      "account": "worklife",
+      "publishAt": "2026-11-02T07:30:00+09:00",
+      "text": "志望動機が「御社の理念に共感しました」で止まってしまう人へ。\n\n共感した理由を、自分の経験の一場面と結びつけて一文足すだけで、ほかの応募者と違う内容になります。\n\n組み立て方を書きました。\nhttps://best-job.career-design.co.jp/2026-10-04-how-to-write-motivation-career/"
+    },
+    {
+      "id": "soundpro-20261027",
+      "account": "soundpro",
+      "publishAt": "2026-10-27T07:30:00+09:00",
+      "text": "メールの最後、Thank you in advance. は少し押しつけに聞こえることがあります。\n\n代わりに\nThank you for your help.\nI appreciate your time.\n\nお願いの内容が大きいときほど、こちらのほうが感じよく届きます。"
+    },
+    {
+      "id": "soundpro-20261028",
+      "account": "soundpro",
+      "publishAt": "2026-10-28T07:30:00+09:00",
+      "text": "会議で反対意見を言うとき、I disagree. だけだと強く聞こえます。\n\nI see your point, but I'm a bit worried about the timeline.\n（おっしゃることはわかります。ただ、日程が少し心配です）\n\n相手の話を受けてから、心配な点を具体的に言うのがコツです。"
+    },
+    {
+      "id": "soundpro-20261029",
+      "account": "soundpro",
+      "publishAt": "2026-10-29T07:30:00+09:00",
+      "text": "締め切りを延ばしてほしいときの一言。\n\nWould it be possible to extend the deadline to Friday?\n（締め切りを金曜まで延ばしていただくことはできますか）\n\n理由は短く一文、いつまでなら出せるかをはっきり。この2つがあれば、だいたい通ります。\nhttps://language.career-design.co.jp/"
+    },
+    {
+      "id": "soundpro-20261030",
+      "account": "soundpro",
+      "publishAt": "2026-10-30T07:30:00+09:00",
+      "text": "数字を英語で伝えるとき、聞き間違いが多いのが 15 と 50。\n\nfifteen と fifty は、後ろを強く言うかどうかで聞き分けます。\n大事な数字は one-five のように一桁ずつ言い直すと確実です。"
+    },
+    {
+      "id": "soundpro-20261031",
+      "account": "soundpro",
+      "publishAt": "2026-10-31T07:30:00+09:00",
+      "text": "トラブルを英語で報告するとき、最初の一文で「何が起きたか」だけを言うと伝わりやすいです。\n\nThe shipment was delayed by two days.\n（出荷が2日遅れました）\n\n理由と対応は二文目から。結論が先、が英語の報告の基本です。"
+    },
+    {
+      "id": "soundpro-20261101",
+      "account": "soundpro",
+      "publishAt": "2026-11-01T07:30:00+09:00",
+      "text": "オンライン会議で、話し始めがかぶったときの一言。\n\nSorry, go ahead.\n（すみません、どうぞ）\n\n自分が話したいときは\nCould I add something?\n短くて角が立たない、覚えておくと便利な二つです。"
+    },
+    {
+      "id": "soundpro-20261102",
+      "account": "soundpro",
+      "publishAt": "2026-11-02T07:30:00+09:00",
+      "text": "英語のメールで「確認しました」を伝えるとき。\n\nNoted. は短くて便利ですが、相手によってはそっけなく感じます。\n\nThanks, I've got it.\nThank you for letting me know.\n\nひと言足すだけで、印象がやわらかくなります。\nhttps://language.career-design.co.jp/"
+    }
+  ],
+  "drafts": {
+    "yorukin": [
+      "夜勤明けに転職サイトを見て、気づいたら朝になっていた…ということ、ありませんか。\n\n求人を見る前に「これだけは譲れない条件」を3つだけ書き出しておくと、見る求人がぐっと絞れます。\nhttps://best-job.career-design.co.jp/2026-10-09-nurse-career-change-conditions/",
+      "求人票の「夜勤あり」、それだけで判断していませんか。\n\n月に何回か、2交代か3交代か、夜勤明けの次の日は休みか。\n同じ「夜勤あり」でも、働き方はかなり違います。見るところをまとめました。\nhttps://best-job.career-design.co.jp/2026-10-09-nurse-job-posting-night-shift/",
+      "病院・クリニック・訪問看護。\n同じ看護師でも、職場が変わると1日の流れも、求められることも変わります。\n\n「今の職場の何がしんどいか」から考えると、合う職場が見えてきます。\nhttps://best-job.career-design.co.jp/2026-10-09-nurse-career-workplace-differences/",
+      "看護師の面接でよく聞かれる「転職の理由」。\n\n不満をそのまま話すより、「次の職場で何をしたいか」につなげて話すと、前向きに伝わります。\n準備のしかたを書きました。\nhttps://best-job.career-design.co.jp/2026-10-09-nurse-interview-questions-preparation/",
+      "職務経歴書、診療科を並べるだけになっていませんか。\n\n担当していた患者さんの層や、任されていた役割を一言添えるだけで、読む側に「どんな看護師か」が伝わります。\nhttps://best-job.career-design.co.jp/2026-10-09-nurse-resume-department-duties/",
+      "辞めたい気持ちがあっても、言い出せないまま半年…という声をよく聞きます。\n\n退職の伝え方には順番があります。まずは直属の上司に、時期の希望と一緒に。\n一人で抱え込まないでくださいね。",
+      "休みの日まで仕事のことを考えてしまう人へ。\n\n「今の職場を続けるか」を決めるのは、元気なときにしましょう。\n疲れているときの判断は、どうしても極端になりがちです。今日はゆっくり休んでください。"
+    ]
+  }
 }
