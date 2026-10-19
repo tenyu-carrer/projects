@@ -620,6 +620,34 @@
       }
     },
     {
+      "id": "20261020-soundpro-progress",
+      "account": "soundpro",
+      "publishAt": "2026-10-20T07:50:00+09:00",
+      "caption": "上司や取引先への進み具合の報告は、ひとことで印象が変わります。\n短すぎて素人っぽく聞こえる言い方を、伝わる言いかえと一緒に5つまとめました。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/961459589a006a0422d07ae45589755140d31b32/instagram/content/soundpro/images/08-progress-5-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/961459589a006a0422d07ae45589755140d31b32/instagram/content/soundpro/images/08-progress-5-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/961459589a006a0422d07ae45589755140d31b32/instagram/content/soundpro/images/08-progress-5-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/961459589a006a0422d07ae45589755140d31b32/instagram/content/soundpro/images/08-progress-5-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/961459589a006a0422d07ae45589755140d31b32/instagram/content/soundpro/images/08-progress-5-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/961459589a006a0422d07ae45589755140d31b32/instagram/content/soundpro/images/08-progress-5-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/961459589a006a0422d07ae45589755140d31b32/instagram/content/soundpro/images/08-progress-5-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYdt0kwMw",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-19T14:24:22.313Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差50.0）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "不要な数字を削除・02の下の文字切れを修正"
+        ]
+      }
+    },
+    {
       "id": "20261021-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-21T06:50:00+09:00",
@@ -1931,21 +1959,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261020-soundpro-progress",
-        "account": "soundpro",
-        "publishAt": "2026-10-20T07:50:00+09:00",
-        "caption": "上司や取引先への進み具合の報告は、ひとことで印象が変わります。\n短すぎて素人っぽく聞こえる言い方を、伝わる言いかえと一緒に5つまとめました。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/08-progress-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/08-progress-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/08-progress-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/08-progress-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/08-progress-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/08-progress-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/08-progress-5-7.jpg"
-        ]
-      },
       {
         "id": "20261021-soundpro-meeting-run",
         "account": "soundpro",
