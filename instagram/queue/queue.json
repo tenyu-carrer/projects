@@ -590,6 +590,36 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-10-20.jpg"
     },
     {
+      "id": "20261020-yorukin-byouin-igai",
+      "account": "yorukin",
+      "publishAt": "2026-10-20T06:50:00+09:00",
+      "caption": "看護師の職場って、病院だけじゃないんです🏠\n訪問看護、クリニック、保育園、企業…働く時間も仕事の中身もそれぞれ違います🌿\n\n「夜勤がつらいな」「生活に合う働き方がしたいな」と思ったときの参考にしてみてくださいね☺️\n夜勤明けの方も、今日も本当におつかれさまです🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#訪問看護 #クリニック看護師 #看護師 #ナース #看護師あるある #看護師の働き方 #よるきんナース",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-7.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-8.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/82637fee798586c2feca77840832357b3880bdd5/instagram/content/yorukin/images/06-byouin-igai-canva-9.jpg"
+      ],
+      "canvaDesignId": "DAHYdZg2h0I",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-19T23:20:00+09:00",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "職場7ページすべて違う見た目",
+          "check-carousel.mjs 合格（差22.3）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "表紙と締めにフクロウ"
+        ]
+      }
+    },
+    {
       "id": "20261021-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-21T06:50:00+09:00",
@@ -1845,23 +1875,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261020-yorukin-byouin-igai",
-        "account": "yorukin",
-        "publishAt": "2026-10-20T06:50:00+09:00",
-        "caption": "看護師の職場は病院だけではありません。\n働く時間帯や仕事の中身がそれぞれ違うので、自分の生活に合う場所を探すときの参考にしてください。\n\n夜勤明けの方も、今日も本当におつかれさまです🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#訪問看護 #クリニック看護師 #看護師 #ナース #看護師あるある #看護師の働き方 #よるきんナース",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-7.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-8.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/06-byouin-igai-v2-9.jpg"
-        ]
-      },
       {
         "id": "20261024-yorukin-yuukyuu",
         "account": "yorukin",
