@@ -97,7 +97,15 @@ function fortune2Html(c){
 ${box(505,c.birthdays.work,c.birthdayAdvice.work)}${box(772,c.birthdays.love,c.birthdayAdvice.love)}${box(1022,c.birthdays.money,c.birthdayAdvice.money)}`);
 }
 
-// ---- キャプション（方針書の型） ----
+// ---- キャプション ----
+// 2026-10-19 オーナー指示「人間らしく、読者の心をつかむように」：毎回同じ見出し・締めにしない。日付ごとに言い回しを変える。
+const pickBy=(arr,key)=>{let h=0;for(const ch of String(key))h=(h*31+ch.charCodeAt(0))>>>0;return arr[h%arr.length];};
+const POOL={
+ wlTry:['今日はこれだけでOKです👇','よかったら今日、これだけ試してみてください☺️','小さな一歩でいいので、今日はこれを👇','今日のおすすめはこれです✨','できそうなら、今日ひとつだけ🌱','むずかしく考えずに、これだけどうぞ👇'],
+ wlLink:['📝 もっとくわしく知りたい人は、プロフィールのリンクからどうぞ','👉 くわしいやり方は、プロフィールのリンクに置いてあります','📖 続きはプロフィールのリンクの記事で読めます'],
+ wlEnd:['しんどい日は、無理しなくて大丈夫ですよ☕️','読んでくれてありがとう。今日もおつかれさまです🌿','あとで見返せるように、保存しておくと便利です📌','あなたはどうですか？よかったらコメントで教えてください💬','一人で抱えこまず、少しずつでいきましょう🍀','明日のあなたが、ちょっとラクになりますように🌙','できた日は、自分をほめてあげてくださいね😊'],
+ ftEnd:['素敵な一日になりますように🌙','あなたの星座は何位でしたか？✨','今日もいいことがありますように🍀','ピンときた人は、ぜひ試してみてね☺️','いい流れに乗れる一日になりますように🌈','今日も自分のペースでいきましょう🌙']
+};
 const tags=list=>list.map(t=>'#'+t).join(' ');
 function fortuneCaption(c){
  const {m,d,w}=md(c.date),b=c.birthdays,a=c.birthdayAdvice;
@@ -115,7 +123,7 @@ ${c.message}${c.detail}
 恋愛運1位：${b.love}生まれ（${a.love}）
 金運1位：${b.money}生まれ（${a.money}）
 
-当てはまったら、今日の小さな一歩を🌙
+${pickBy(POOL.ftEnd,c.date.replace(/-/g,'')+'-fortune-autoe')}
 
 ${tags(['占い','今日の運勢','星座占い',c.sign.name,'誕生日占い'])}`;
 }
@@ -124,10 +132,10 @@ function worklifeCaption(c){
 
 ${c.why}
 
-▶ 今日ひとつだけ試すなら
+${pickBy(POOL.wlTry,c.date.replace(/-/g,'')+'-worklife-autot')}
 ${c.try}
-${c.link?'\n📝 くわしい手順は、プロフィールのリンクの記事にまとめています\n':''}
-保存して、疲れた日に見返してね🌿
+${c.link?'\n'+pickBy(POOL.wlLink,c.date.replace(/-/g,'')+'-worklife-autol')+'\n':''}
+${pickBy(POOL.wlEnd,c.date.replace(/-/g,'')+'-worklife-autoe')}
 
 ${tags([...worklife.fixedTags,...c.tags])}`;
 }
