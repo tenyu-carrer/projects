@@ -716,6 +716,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-10-24.jpg"
     },
     {
+      "id": "20261024-yorukin-yuukyuu",
+      "account": "yorukin",
+      "publishAt": "2026-10-24T06:50:00+09:00",
+      "caption": "有給、気づいたら使い切れずに退職…ってもったいないですよね😢\n残りの日数を確認して、退職日から逆算するのがコツです📅\n\nシフトが出る前に希望を伝える、引き継ぎを先に終えておく。\n言いにくいときは書面で残しておくと安心です📝\n\nあとで見返せるように保存しておいてくださいね🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師退職 #有給休暇 #有給消化 #看護師 #ナース #看護師の働き方 #よるきんナース",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8f4bb6a987435ebc1c8e271af410cc740969e719/instagram/content/yorukin/images/08-yuukyuu-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8f4bb6a987435ebc1c8e271af410cc740969e719/instagram/content/yorukin/images/08-yuukyuu-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8f4bb6a987435ebc1c8e271af410cc740969e719/instagram/content/yorukin/images/08-yuukyuu-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8f4bb6a987435ebc1c8e271af410cc740969e719/instagram/content/yorukin/images/08-yuukyuu-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8f4bb6a987435ebc1c8e271af410cc740969e719/instagram/content/yorukin/images/08-yuukyuu-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8f4bb6a987435ebc1c8e271af410cc740969e719/instagram/content/yorukin/images/08-yuukyuu-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8f4bb6a987435ebc1c8e271af410cc740969e719/instagram/content/yorukin/images/08-yuukyuu-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYdhuR41w",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-19T14:19:00.782Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差21.4）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "表紙と締めにフクロウ・表紙の誤字「5っ」を修正"
+        ]
+      }
+    },
+    {
       "id": "20261025-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-25T06:50:00+09:00",
@@ -1875,21 +1903,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261024-yorukin-yuukyuu",
-        "account": "yorukin",
-        "publishAt": "2026-10-24T06:50:00+09:00",
-        "caption": "有給休暇を残したまま退職する人は少なくありません。\n使い切るコツは、早めに日数を確認して、最後の出勤日から逆算することです。\n\nあとで見返せるように保存しておくと便利です🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#有給休暇 #看護師退職 #看護師 #ナース #看護師あるある #看護師の働き方 #よるきんナース",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/08-yuukyuu-v2-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/08-yuukyuu-v2-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/08-yuukyuu-v2-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/08-yuukyuu-v2-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/08-yuukyuu-v2-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/08-yuukyuu-v2-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/6e3b20f429785b5b0c6f1686e0518f267506c7bc/instagram/content/yorukin/images/08-yuukyuu-v2-7.jpg"
-        ]
-      },
       {
         "id": "20261020-soundpro-progress",
         "account": "soundpro",
