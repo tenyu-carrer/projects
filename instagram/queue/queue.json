@@ -778,6 +778,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/0692277d3818e35f408fe55e588406588514710c/instagram/auto/images/worklife/2026-10-26.jpg"
     },
     {
+      "id": "20261026-yorukin-yameta-okane",
+      "account": "yorukin",
+      "publishAt": "2026-10-26T06:50:00+09:00",
+      "caption": "看護師をやめたあと、意外とバタバタするのがお金の手続きなんです💸\n失業給付、健康保険、年金、住民税、退職金…先に知っておくだけで気持ちがラクになります🍀\n\n人によって条件が違うものも多いので、ハローワークや就業規則で確認してみてくださいね📝\nあとで見返せるように保存しておいてください🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師退職 #退職後の手続き #失業保険 #看護師 #ナース #看護師の働き方 #よるきんナース",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1640b169e022234c6dfb8e3a8160e3bdd9dc2b81/instagram/content/yorukin/images/02-yameta-okane-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1640b169e022234c6dfb8e3a8160e3bdd9dc2b81/instagram/content/yorukin/images/02-yameta-okane-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1640b169e022234c6dfb8e3a8160e3bdd9dc2b81/instagram/content/yorukin/images/02-yameta-okane-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1640b169e022234c6dfb8e3a8160e3bdd9dc2b81/instagram/content/yorukin/images/02-yameta-okane-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1640b169e022234c6dfb8e3a8160e3bdd9dc2b81/instagram/content/yorukin/images/02-yameta-okane-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1640b169e022234c6dfb8e3a8160e3bdd9dc2b81/instagram/content/yorukin/images/02-yameta-okane-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1640b169e022234c6dfb8e3a8160e3bdd9dc2b81/instagram/content/yorukin/images/02-yameta-okane-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYdmysVIE",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-19T14:22:02.297Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差27.1）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "表紙と締めにフクロウ"
+        ]
+      }
+    },
+    {
       "id": "20261027-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-27T06:50:00+09:00",
@@ -2111,21 +2139,6 @@
           "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-5.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-6.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-7.jpg"
-        ]
-      },
-      {
-        "id": "20261026-yorukin-yameta-okane",
-        "account": "yorukin",
-        "publishAt": "2026-10-26T06:50:00+09:00",
-        "caption": "退職が決まったら、仕事の引き継ぎと同じくらい大事なのが「お金の手続き」です。\n条件や期限は人によって違うので、窓口で早めに確認してください。\n\n夜勤明けの方も、今日も本当におつかれさまです🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師退職 #退職手続き #看護師 #ナース #看護師あるある #看護師の働き方 #よるきんナース",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/02-yameta-okane-v2-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/02-yameta-okane-v2-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/02-yameta-okane-v2-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/02-yameta-okane-v2-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/02-yameta-okane-v2-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/02-yameta-okane-v2-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/02-yameta-okane-v2-7.jpg"
         ]
       },
       {
