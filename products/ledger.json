@@ -7393,29 +7393,38 @@
       "tier_label": "釣り竿（プロンプト・テンプレート・ツール）",
       "genre_name": "Suno AIでオリジナル曲を作る方法",
       "part": "第2部｜AI動画・映像・音声",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "Suno AI オリジナル曲づくり プロンプト集",
+      "target": "Suno を使ってみたいが、思った曲にならない初心者（プレゼント・お店のBGM・動画用）",
+      "deliverables": [
+        "output/036-C/プロンプト集.md"
+      ],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
-        "checked_at": null,
-        "result": null,
-        "issues": []
+        "checked_at": "2026-10-19",
+        "result": "未完",
+        "issues": [
+          "Suno で実際に曲を作る動作テストがまだ（スタイル例10・レシピ12）",
+          "価格未定"
+        ]
       },
       "rights": {
-        "services": [],
-        "terms_urls": [],
-        "checked_at": null,
-        "commercial_use": "不明",
-        "resale": "不明",
-        "notes": null
+        "services": [
+          "Suno"
+        ],
+        "terms_urls": [
+          "https://suno.com/terms"
+        ],
+        "checked_at": "2026-10-19",
+        "commercial_use": "可",
+        "resale": "不可（購入者による再販売）",
+        "notes": "商品そのもの（プロンプト・歌詞のお手本）は天祐の自作。購入者が作る曲は Suno 規約（2026-08-10改定・09-03有効）：無料=非商用のみ、有料=正規ダウンロード分のみ商用可、リミックスは商用不可、著作権の保証なし"
       },
-      "buyer_terms": null,
+      "buyer_terms": "本人のみ利用・集の再配布/再販売は不可・お手本歌詞は自由に使用可",
       "utage": {
         "funnel_id": null,
         "step_id": null,
@@ -7436,7 +7445,12 @@
         "approved_by": null,
         "approved_at": null
       },
-      "history": []
+      "history": [
+        {
+          "date": "2026-10-19",
+          "note": "見本を作成（オーナー確認用ページ）"
+        }
+      ]
     },
     {
       "id": "036-D",
