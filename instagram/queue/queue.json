@@ -952,6 +952,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/0692277d3818e35f408fe55e588406588514710c/instagram/auto/images/worklife/2026-10-28.jpg"
     },
     {
+      "id": "20261028-yorukin-haken",
+      "account": "yorukin",
+      "publishAt": "2026-10-28T06:50:00+09:00",
+      "caption": "派遣で働くの、ちょっと気になる…という方へ🌱\n時給・期間・社会保険など、始める前に知っておくと安心なことを5つまとめました📝\n\n1日だけの単発と、数か月の派遣は別の契約なので、そこもチェックしてみてくださいね☺️\n夜勤明けの方も、今日もおつかれさまです🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#派遣看護師 #看護師派遣 #看護師 #ナース #看護師の働き方 #看護師転職 #よるきんナース",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/e7aa405ce585162fbd235ea90726591157f9d7ae/instagram/content/yorukin/images/05-haken-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/e7aa405ce585162fbd235ea90726591157f9d7ae/instagram/content/yorukin/images/05-haken-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/e7aa405ce585162fbd235ea90726591157f9d7ae/instagram/content/yorukin/images/05-haken-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/e7aa405ce585162fbd235ea90726591157f9d7ae/instagram/content/yorukin/images/05-haken-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/e7aa405ce585162fbd235ea90726591157f9d7ae/instagram/content/yorukin/images/05-haken-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/e7aa405ce585162fbd235ea90726591157f9d7ae/instagram/content/yorukin/images/05-haken-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/e7aa405ce585162fbd235ea90726591157f9d7ae/instagram/content/yorukin/images/05-haken-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYdjsHjDU",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-20T05:32:15.206Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差26.7）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "表紙と締めにフクロウ・01ページを3:4にそろえた（端を延長・引き伸ばしなし）"
+        ]
+      }
+    },
+    {
       "id": "20261029-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-29T06:50:00+09:00",
@@ -2191,21 +2219,6 @@
           "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-5.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-6.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-7.jpg"
-        ]
-      },
-      {
-        "id": "20261028-yorukin-haken",
-        "account": "yorukin",
-        "publishAt": "2026-10-28T06:50:00+09:00",
-        "caption": "派遣で働く看護師さんも増えています。\n常勤とは決まりが違うところがあるので、始める前に知っておきたい5つをまとめました。くわしい条件は派遣会社に確認してください。\n\nあとで見返せるように保存しておくと便利です🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#派遣看護師 #看護師の働き方 #看護師 #ナース #看護師あるある #よるきんナース",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/05-haken-v2-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/05-haken-v2-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/05-haken-v2-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/05-haken-v2-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/05-haken-v2-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/05-haken-v2-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/c9b8f81a5ac60adc90359e1a521ee3a1bc0494fd/instagram/content/yorukin/images/05-haken-v2-7.jpg"
         ]
       },
       {
