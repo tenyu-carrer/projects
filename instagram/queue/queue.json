@@ -755,6 +755,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-10-23.jpg"
     },
     {
+      "id": "20261023-soundpro-intro",
+      "account": "soundpro",
+      "publishAt": "2026-10-23T07:50:00+09:00",
+      "caption": "初めての相手との自己紹介は、最初の印象を決める場面です。\n日本語をそのまま訳して素人っぽく聞こえる言い方を、言いかえと一緒に5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/0d4b3b2ecf8130aa5c74a50df36f30ff2f777d4f/instagram/content/soundpro/images/11-intro-5-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/0d4b3b2ecf8130aa5c74a50df36f30ff2f777d4f/instagram/content/soundpro/images/11-intro-5-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/0d4b3b2ecf8130aa5c74a50df36f30ff2f777d4f/instagram/content/soundpro/images/11-intro-5-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/0d4b3b2ecf8130aa5c74a50df36f30ff2f777d4f/instagram/content/soundpro/images/11-intro-5-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/0d4b3b2ecf8130aa5c74a50df36f30ff2f777d4f/instagram/content/soundpro/images/11-intro-5-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/0d4b3b2ecf8130aa5c74a50df36f30ff2f777d4f/instagram/content/soundpro/images/11-intro-5-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/0d4b3b2ecf8130aa5c74a50df36f30ff2f777d4f/instagram/content/soundpro/images/11-intro-5-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYdnxfneY",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-20T05:23:03.456Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差57.5）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "余計な記号を削除・取り消し線と番号を追加"
+        ]
+      }
+    },
+    {
       "id": "20261024-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-24T06:50:00+09:00",
@@ -2000,21 +2028,6 @@
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/10-apology-5-5.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/10-apology-5-6.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/10-apology-5-7.jpg"
-        ]
-      },
-      {
-        "id": "20261023-soundpro-intro",
-        "account": "soundpro",
-        "publishAt": "2026-10-23T07:50:00+09:00",
-        "caption": "初めての相手との自己紹介は、最初の印象を決める場面です。\n日本語をそのまま訳して素人っぽく聞こえる言い方を、言いかえと一緒に5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/11-intro-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/11-intro-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/11-intro-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/11-intro-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/11-intro-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/11-intro-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/11-intro-5-7.jpg"
         ]
       },
       {
