@@ -974,6 +974,34 @@
       }
     },
     {
+      "id": "20261026-soundpro-online",
+      "account": "soundpro",
+      "publishAt": "2026-10-26T07:50:00+09:00",
+      "caption": "オンライン会議では、音声や画面のちょっとしたやりとりで英語の差が出ます。\nよく使う場面の言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/583166be8d9e146648964d961f756f75e8509d9f/instagram/content/soundpro/images/14-online-5-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/583166be8d9e146648964d961f756f75e8509d9f/instagram/content/soundpro/images/14-online-5-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/583166be8d9e146648964d961f756f75e8509d9f/instagram/content/soundpro/images/14-online-5-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/583166be8d9e146648964d961f756f75e8509d9f/instagram/content/soundpro/images/14-online-5-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/583166be8d9e146648964d961f756f75e8509d9f/instagram/content/soundpro/images/14-online-5-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/583166be8d9e146648964d961f756f75e8509d9f/instagram/content/soundpro/images/14-online-5-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/583166be8d9e146648964d961f756f75e8509d9f/instagram/content/soundpro/images/14-online-5-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYpVUEhDs",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-21T14:19:23.697Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差32.7）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/21 の会議の型を土台に作り直し・議題の図は内容に合わないので削除"
+        ]
+      }
+    },
+    {
       "id": "20261027-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-27T06:50:00+09:00",
@@ -2155,21 +2183,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261026-soundpro-online",
-        "account": "soundpro",
-        "publishAt": "2026-10-26T07:50:00+09:00",
-        "caption": "オンライン会議では、音声や画面のちょっとしたやりとりで英語の差が出ます。\nよく使う場面の言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-7.jpg"
-        ]
-      },
       {
         "id": "20261028-soundpro-followup",
         "account": "soundpro",
