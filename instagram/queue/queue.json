@@ -1137,6 +1137,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-10-29.jpg"
     },
     {
+      "id": "20261029-soundpro-agree",
+      "account": "soundpro",
+      "publishAt": "2026-10-29T07:50:00+09:00",
+      "caption": "会議で賛成するとき、いつも Yes や Me too だけになっていませんか。\n場面に合わせた言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d76f37a8685f2b6c10154a2d488a7f6911d7e806/instagram/content/soundpro/images/17-agree-5-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d76f37a8685f2b6c10154a2d488a7f6911d7e806/instagram/content/soundpro/images/17-agree-5-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d76f37a8685f2b6c10154a2d488a7f6911d7e806/instagram/content/soundpro/images/17-agree-5-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d76f37a8685f2b6c10154a2d488a7f6911d7e806/instagram/content/soundpro/images/17-agree-5-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d76f37a8685f2b6c10154a2d488a7f6911d7e806/instagram/content/soundpro/images/17-agree-5-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d76f37a8685f2b6c10154a2d488a7f6911d7e806/instagram/content/soundpro/images/17-agree-5-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d76f37a8685f2b6c10154a2d488a7f6911d7e806/instagram/content/soundpro/images/17-agree-5-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYpj3ojSc",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-21T14:24:17.825Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差56.3）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/23の型を土台に作り直し"
+        ]
+      }
+    },
+    {
       "id": "20261030-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-30T06:50:00+09:00",
@@ -2211,21 +2239,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261029-soundpro-agree",
-        "account": "soundpro",
-        "publishAt": "2026-10-29T07:50:00+09:00",
-        "caption": "会議で賛成するとき、いつも Yes や Me too だけになっていませんか。\n場面に合わせた言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/17-agree-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/17-agree-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/17-agree-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/17-agree-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/17-agree-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/17-agree-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/17-agree-5-7.jpg"
-        ]
-      },
       {
         "id": "20261030-soundpro-clarify",
         "account": "soundpro",
