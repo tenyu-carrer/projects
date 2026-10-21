@@ -901,6 +901,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-10-25.jpg"
     },
     {
+      "id": "20261025-soundpro-negotiation",
+      "account": "soundpro",
+      "publishAt": "2026-10-25T07:50:00+09:00",
+      "caption": "値段や条件の相談は、言い方ひとつで相手の受け取り方が変わる場面です。\n直接すぎて素人っぽく聞こえる一言を、言いかえと一緒に5つまとめました。\n\n覚えたいものがあったら、保存しておいてくださいね📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8c2e16a87ba1cb6890d0897c8730d74948562dc9/instagram/content/soundpro/images/13-negotiation-5-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8c2e16a87ba1cb6890d0897c8730d74948562dc9/instagram/content/soundpro/images/13-negotiation-5-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8c2e16a87ba1cb6890d0897c8730d74948562dc9/instagram/content/soundpro/images/13-negotiation-5-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8c2e16a87ba1cb6890d0897c8730d74948562dc9/instagram/content/soundpro/images/13-negotiation-5-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8c2e16a87ba1cb6890d0897c8730d74948562dc9/instagram/content/soundpro/images/13-negotiation-5-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8c2e16a87ba1cb6890d0897c8730d74948562dc9/instagram/content/soundpro/images/13-negotiation-5-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/8c2e16a87ba1cb6890d0897c8730d74948562dc9/instagram/content/soundpro/images/13-negotiation-5-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYpZlCVzY",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-21T14:16:10.698Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差19.6）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/22 の型を土台に作り直し・05 の背景色を変えて見た目を分けた"
+        ]
+      }
+    },
+    {
       "id": "20261026-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-26T06:50:00+09:00",
@@ -2127,21 +2155,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261025-soundpro-negotiation",
-        "account": "soundpro",
-        "publishAt": "2026-10-25T07:50:00+09:00",
-        "caption": "値段や条件の相談は、言い方ひとつで相手の受け取り方が変わる場面です。\n直接すぎて素人っぽく聞こえる一言を、言いかえと一緒に5つまとめました。\n\n覚えたいものがあったら、保存しておいてくださいね📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/13-negotiation-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/13-negotiation-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/13-negotiation-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/13-negotiation-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/13-negotiation-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/13-negotiation-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/13-negotiation-5-7.jpg"
-        ]
-      },
       {
         "id": "20261026-soundpro-online",
         "account": "soundpro",
