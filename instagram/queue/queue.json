@@ -963,6 +963,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-10-27.jpg"
     },
     {
+      "id": "20261027-soundpro-schedule",
+      "account": "soundpro",
+      "publishAt": "2026-10-27T07:50:00+09:00",
+      "caption": "打ち合わせの日程を決めるやりとりは、毎週のように出てきます。\nよく使う場面の言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/12c20b48758b5d3189ff19464ed1e26ae954315f/instagram/content/soundpro/images/15-schedule-5-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/12c20b48758b5d3189ff19464ed1e26ae954315f/instagram/content/soundpro/images/15-schedule-5-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/12c20b48758b5d3189ff19464ed1e26ae954315f/instagram/content/soundpro/images/15-schedule-5-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/12c20b48758b5d3189ff19464ed1e26ae954315f/instagram/content/soundpro/images/15-schedule-5-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/12c20b48758b5d3189ff19464ed1e26ae954315f/instagram/content/soundpro/images/15-schedule-5-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/12c20b48758b5d3189ff19464ed1e26ae954315f/instagram/content/soundpro/images/15-schedule-5-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/12c20b48758b5d3189ff19464ed1e26ae954315f/instagram/content/soundpro/images/15-schedule-5-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHYpVauflU",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-21T14:07:30.098Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差48.1）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/20 の型を土台に作り直し・80%の飾りは内容に合わないので削除"
+        ]
+      }
+    },
+    {
       "id": "20261028-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-10-28T06:50:00+09:00",
@@ -2127,21 +2155,6 @@
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-5.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-6.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9674e1078ecb30754cedf56fc34644e29d4bfead/instagram/content/soundpro/images/14-online-5-7.jpg"
-        ]
-      },
-      {
-        "id": "20261027-soundpro-schedule",
-        "account": "soundpro",
-        "publishAt": "2026-10-27T07:50:00+09:00",
-        "caption": "打ち合わせの日程を決めるやりとりは、毎週のように出てきます。\nよく使う場面の言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/15-schedule-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/15-schedule-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/15-schedule-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/15-schedule-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/15-schedule-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/15-schedule-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/15-schedule-5-7.jpg"
         ]
       },
       {
