@@ -1272,6 +1272,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-11-01.jpg"
     },
     {
+      "id": "20261101-soundpro-presentation",
+      "account": "soundpro",
+      "publishAt": "2026-11-01T07:50:00+09:00",
+      "caption": "英語のプレゼンは、つなぎの一言で聞きやすさが変わります。\nよく使う場面の言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語プレゼン #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/ded1e1253f982259482c43b625e20ff94f9a3cee/instagram/content/soundpro/images/20-presentation-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/ded1e1253f982259482c43b625e20ff94f9a3cee/instagram/content/soundpro/images/20-presentation-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/ded1e1253f982259482c43b625e20ff94f9a3cee/instagram/content/soundpro/images/20-presentation-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/ded1e1253f982259482c43b625e20ff94f9a3cee/instagram/content/soundpro/images/20-presentation-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/ded1e1253f982259482c43b625e20ff94f9a3cee/instagram/content/soundpro/images/20-presentation-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/ded1e1253f982259482c43b625e20ff94f9a3cee/instagram/content/soundpro/images/20-presentation-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/ded1e1253f982259482c43b625e20ff94f9a3cee/instagram/content/soundpro/images/20-presentation-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHY4MB40x0",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:16:35.142Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差31.8）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/26 の型を土台に作り直し・02 の改行を直した"
+        ]
+      }
+    },
+    {
       "id": "20261102-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-02T06:50:00+09:00",
@@ -2295,21 +2323,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261101-soundpro-presentation",
-        "account": "soundpro",
-        "publishAt": "2026-11-01T07:50:00+09:00",
-        "caption": "英語のプレゼンは、つなぎの一言で聞きやすさが変わります。\nよく使う場面の言いかえを5つまとめました。\n\nあなたならどの言い方を使いますか？💬\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語プレゼン #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/20-presentation-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/20-presentation-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/20-presentation-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/20-presentation-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/20-presentation-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/20-presentation-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/20-presentation-5-7.jpg"
-        ]
-      },
       {
         "id": "20261102-soundpro-timeoff",
         "account": "soundpro",
