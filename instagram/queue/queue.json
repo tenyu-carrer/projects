@@ -1362,6 +1362,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-11-03.jpg"
     },
     {
+      "id": "20261103-soundpro-deadline",
+      "account": "soundpro",
+      "publishAt": "2026-11-03T07:50:00+09:00",
+      "caption": "締め切りに間に合わないときは、早めに・具体的に伝えるのが信頼につながります。\n延長をお願いするときの言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHY4BSLwWs",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:23:27.406Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差25.8）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/28 の型を土台に作り直し・04の説明文の折り返しを直した"
+        ]
+      }
+    },
+    {
       "id": "20261104-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-04T06:50:00+09:00",
@@ -2351,21 +2379,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261103-soundpro-deadline",
-        "account": "soundpro",
-        "publishAt": "2026-11-03T07:50:00+09:00",
-        "caption": "締め切りに間に合わないときは、早めに・具体的に伝えるのが信頼につながります。\n延長をお願いするときの言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/22-deadline-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/22-deadline-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/22-deadline-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/22-deadline-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/22-deadline-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/22-deadline-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/22-deadline-5-7.jpg"
-        ]
-      },
       {
         "id": "20261104-soundpro-disagree",
         "account": "soundpro",
