@@ -1227,6 +1227,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-10-31.jpg"
     },
     {
+      "id": "20261031-soundpro-handover",
+      "account": "soundpro",
+      "publishAt": "2026-10-31T07:50:00+09:00",
+      "caption": "異動や休みの前の引き継ぎは、言い方ひとつで相手の安心感が変わります。\nよく使う場面の言いかえを5つまとめました。\n\n覚えたいものがあったら、保存しておいてくださいね📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3c30ac0d24a18716a447fd47e5ff19ec37ca0f8a/instagram/content/soundpro/images/19-handover-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3c30ac0d24a18716a447fd47e5ff19ec37ca0f8a/instagram/content/soundpro/images/19-handover-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3c30ac0d24a18716a447fd47e5ff19ec37ca0f8a/instagram/content/soundpro/images/19-handover-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3c30ac0d24a18716a447fd47e5ff19ec37ca0f8a/instagram/content/soundpro/images/19-handover-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3c30ac0d24a18716a447fd47e5ff19ec37ca0f8a/instagram/content/soundpro/images/19-handover-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3c30ac0d24a18716a447fd47e5ff19ec37ca0f8a/instagram/content/soundpro/images/19-handover-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3c30ac0d24a18716a447fd47e5ff19ec37ca0f8a/instagram/content/soundpro/images/19-handover-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHY4ODlmfg",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:14:16.126Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差18.7）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/25 の型を土台に作り直し・04 の文字の大きさを調整"
+        ]
+      }
+    },
+    {
       "id": "20261101-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-01T06:50:00+09:00",
@@ -2267,21 +2295,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261031-soundpro-handover",
-        "account": "soundpro",
-        "publishAt": "2026-10-31T07:50:00+09:00",
-        "caption": "異動や休みの前の引き継ぎは、言い方ひとつで相手の安心感が変わります。\nよく使う場面の言いかえを5つまとめました。\n\n覚えたいものがあったら、保存しておいてくださいね📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英会話 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/19-handover-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/19-handover-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/19-handover-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/19-handover-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/19-handover-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/19-handover-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/19-handover-5-7.jpg"
-        ]
-      },
       {
         "id": "20261101-soundpro-presentation",
         "account": "soundpro",
