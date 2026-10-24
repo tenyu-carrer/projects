@@ -1491,6 +1491,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/0692277d3818e35f408fe55e588406588514710c/instagram/auto/images/worklife/2026-11-04.jpg"
     },
     {
+      "id": "20261104-soundpro-disagree",
+      "account": "soundpro",
+      "publishAt": "2026-11-04T07:50:00+09:00",
+      "caption": "反対するときほど、言い方で相手の受け取り方が大きく変わります。\n会議で使える、やわらかい反対の言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語会議 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHY4F0_-Ew",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:46:19.219Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差36.9）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・下の帯の誤字（ビジ方ス）を修正・取り消し線をそろえた・内容と関係ない橋の絵を削除"
+        ]
+      }
+    },
+    {
       "id": "20261105-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-05T06:50:00+09:00",
@@ -2463,21 +2491,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261104-soundpro-disagree",
-        "account": "soundpro",
-        "publishAt": "2026-11-04T07:50:00+09:00",
-        "caption": "反対するときほど、言い方で相手の受け取り方が大きく変わります。\n会議で使える、やわらかい反対の言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語会議 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/23-disagree-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/23-disagree-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/23-disagree-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/23-disagree-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/23-disagree-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/23-disagree-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/23-disagree-5-7.jpg"
-        ]
-      },
       {
         "id": "20261105-soundpro-jumpin",
         "account": "soundpro",
