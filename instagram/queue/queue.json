@@ -1536,6 +1536,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-11-05.jpg"
     },
     {
+      "id": "20261105-yorukin-k04-tekika",
+      "account": "yorukin",
+      "publishAt": "2026-11-05T06:50:00+09:00",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-7.jpg"
+      ],
+      "caption": "点滴の滴下数、計算のたびにちょっとドキドキしませんか？💧\n式と計算の例を、5つのステップでまとめました🧮\n\n輸液セットが成人用か小児用かで1mLの滴数が変わるので、まずそこから確認するのが安心です👀\n計算したあとも、指示と残量、刺入部をもう一度見るところまでがセットですね🌙\n\n保存して、夜勤のおともにどうぞ🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #点滴 #滴下計算 #新人看護師 #よるきんナース",
+      "canvaDesignId": "DAHY4Pe8klM",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T01:04:39.610Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差21.7）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・表紙と締めにフクロウ・逆順ページを並べ直し・数値を原稿と照合"
+        ]
+      }
+    },
+    {
       "id": "20261105-soundpro-jumpin",
       "account": "soundpro",
       "publishAt": "2026-11-05T07:50:00+09:00",
