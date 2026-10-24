@@ -1182,6 +1182,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-10-30.jpg"
     },
     {
+      "id": "20261030-yorukin-k01-vital",
+      "account": "yorukin",
+      "publishAt": "2026-10-30T06:50:00+09:00",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/2766b3e95e6fe08e2c20aa89519713f9f615f9a8/instagram/content/yorukin/images/k01-vital-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/2766b3e95e6fe08e2c20aa89519713f9f615f9a8/instagram/content/yorukin/images/k01-vital-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/2766b3e95e6fe08e2c20aa89519713f9f615f9a8/instagram/content/yorukin/images/k01-vital-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/2766b3e95e6fe08e2c20aa89519713f9f615f9a8/instagram/content/yorukin/images/k01-vital-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/2766b3e95e6fe08e2c20aa89519713f9f615f9a8/instagram/content/yorukin/images/k01-vital-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/2766b3e95e6fe08e2c20aa89519713f9f615f9a8/instagram/content/yorukin/images/k01-vital-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/2766b3e95e6fe08e2c20aa89519713f9f615f9a8/instagram/content/yorukin/images/k01-vital-canva-7.jpg"
+      ],
+      "caption": "夜勤の申し送り前に、ふと「この数字って正常だっけ？」と迷うこと、ありませんか🌙\n成人のバイタルサインの目安を5つ、すぐ見返せる形にまとめました📝\n\n数字はあくまで目安なので、その人のふだんの値と比べて見るのが大事です🩺\n新人さんにも、久しぶりに現場へ戻る方にも役立ててもらえたらうれしいです☺️\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #バイタルサイン #新人看護師 #看護師あるある #よるきんナース",
+      "canvaDesignId": "DAHY4ODxQQY",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:27:50.802Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差40.1）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・表紙と締めにフクロウ・ページ逆順を出力時に直した"
+        ]
+      }
+    },
+    {
       "id": "20261030-soundpro-clarify",
       "account": "soundpro",
       "publishAt": "2026-10-30T07:50:00+09:00",
