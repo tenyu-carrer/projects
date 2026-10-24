@@ -1536,6 +1536,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-11-05.jpg"
     },
     {
+      "id": "20261105-soundpro-jumpin",
+      "account": "soundpro",
+      "publishAt": "2026-11-05T07:50:00+09:00",
+      "caption": "英語の会議では、黙っていると「意見がない人」と思われがちです。\n発言に入るタイミングで使える言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語会議 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHY4DlC6WY",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T01:02:00.111Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差41.9）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・03の取り消し線をそろえた・逆順ページを並べ直し"
+        ]
+      }
+    },
+    {
       "id": "20261106-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-06T06:50:00+09:00",
@@ -2547,21 +2575,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261105-soundpro-jumpin",
-        "account": "soundpro",
-        "publishAt": "2026-11-05T07:50:00+09:00",
-        "caption": "英語の会議では、黙っていると「意見がない人」と思われがちです。\n発言に入るタイミングで使える言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語会議 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-7.jpg"
-        ]
-      },
       {
         "id": "20261107-soundpro-propose",
         "account": "soundpro",
