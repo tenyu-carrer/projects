@@ -1553,6 +1553,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-11-06.jpg"
     },
     {
+      "id": "20261106-soundpro-trouble",
+      "account": "soundpro",
+      "publishAt": "2026-11-06T07:50:00+09:00",
+      "caption": "トラブルの報告は、言い方ひとつで相手の安心感が変わります。\n落ち着いて伝えるための言いかえを5つまとめました。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHY4D3GYFg",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:53:44.890Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差66.5）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・01の説明文を読める大きさに・下の帯の文字を全ページ確認"
+        ]
+      }
+    },
+    {
       "id": "20261107-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-07T06:50:00+09:00",
@@ -2504,21 +2532,6 @@
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-5.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-6.jpg",
           "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/24-jumpin-5-7.jpg"
-        ]
-      },
-      {
-        "id": "20261106-soundpro-trouble",
-        "account": "soundpro",
-        "publishAt": "2026-11-06T07:50:00+09:00",
-        "caption": "トラブルの報告は、言い方ひとつで相手の安心感が変わります。\n落ち着いて伝えるための言いかえを5つまとめました。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/25-trouble-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/25-trouble-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/25-trouble-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/25-trouble-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/25-trouble-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/25-trouble-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/9f67bf93203aed0f66bcde9490f8c0384b17698b/instagram/content/soundpro/images/25-trouble-5-7.jpg"
         ]
       },
       {
