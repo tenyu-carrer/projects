@@ -1300,6 +1300,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-11-01.jpg"
     },
     {
+      "id": "20261101-yorukin-k02-jcs",
+      "account": "yorukin",
+      "publishAt": "2026-11-01T06:50:00+09:00",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/a6843465eee5abc8cb2f6645f5e644f46234bcd9/instagram/content/yorukin/images/k02-jcs-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/a6843465eee5abc8cb2f6645f5e644f46234bcd9/instagram/content/yorukin/images/k02-jcs-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/a6843465eee5abc8cb2f6645f5e644f46234bcd9/instagram/content/yorukin/images/k02-jcs-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/a6843465eee5abc8cb2f6645f5e644f46234bcd9/instagram/content/yorukin/images/k02-jcs-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/a6843465eee5abc8cb2f6645f5e644f46234bcd9/instagram/content/yorukin/images/k02-jcs-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/a6843465eee5abc8cb2f6645f5e644f46234bcd9/instagram/content/yorukin/images/k02-jcs-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/a6843465eee5abc8cb2f6645f5e644f46234bcd9/instagram/content/yorukin/images/k02-jcs-canva-7.jpg"
+      ],
+      "caption": "「JCSって何けただっけ…」と、記録の前に手が止まったことはありませんか？🤔\n意識レベルの見方（JCS）を、5つのポイントでまとめました📋\n\nいちばん大事なのは「刺激なしで目を開けているか」から順に見ること👀\n慣れないうちは、迷ったら先輩と一緒に確認するのがいちばん安心です🌙\n\n保存して、夜勤のおともにどうぞ🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #JCS #意識レベル #新人看護師 #よるきんナース",
+      "canvaDesignId": "DAHY4EhQmHA",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:39:19.335Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差20.2）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・表紙と締めにフクロウ・「皿」の誤字をⅢに修正・空ページ除外・01の色を変更"
+        ]
+      }
+    },
+    {
       "id": "20261101-soundpro-presentation",
       "account": "soundpro",
       "publishAt": "2026-11-01T07:50:00+09:00",
