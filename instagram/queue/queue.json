@@ -1598,6 +1598,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-11-07.jpg"
     },
     {
+      "id": "20261107-yorukin-k05-sbar",
+      "account": "yorukin",
+      "publishAt": "2026-11-07T06:50:00+09:00",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-7.jpg"
+      ],
+      "caption": "急変かも…と思ってドクターに電話するとき、何から話せばいいか頭が真っ白になったことはありませんか😥\nそんなときに助けてくれる「SBAR」の型を5つのポイントでまとめました📝\n\nS・B・A・Rの順に話すだけで、相手が知りたいことが伝わりやすくなります📞\n最後の「復唱」まで入れて、ひとつの流れとして覚えておくと安心です🌙\n\n保存して、いざというときに見返してくださいね🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #SBAR #申し送り #新人看護師 #よるきんナース",
+      "canvaDesignId": "DAHY4CGEPsk",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:57:19.954Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差21.0）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・表紙と締めにフクロウ・表紙の「Sbar」を「SBAR」に修正・05の空の吹き出しにフクロウ"
+        ]
+      }
+    },
+    {
       "id": "20261108-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-08T06:50:00+09:00",
