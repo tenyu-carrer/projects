@@ -1418,6 +1418,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-11-03.jpg"
     },
     {
+      "id": "20261103-yorukin-k03-gcs",
+      "account": "yorukin",
+      "publishAt": "2026-11-03T06:50:00+09:00",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-7.jpg"
+      ],
+      "caption": "JCSのつぎは、GCSの見方です🌙\nE・V・Mそれぞれの点数と、合計の考え方を5つにまとめました📝\n\n合計点だけでなく「E3V4M6」のように分けて書いておくと、次の人が変化に気づきやすくなります✍️\n夜勤明けのすきま時間に、さらっと見返してみてくださいね☕️\n\n▼JCSの投稿もあわせてどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #GCS #意識レベル #新人看護師 #よるきんナース",
+      "canvaDesignId": "DAHY4OMCqgQ",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:42:21.502Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差25.7）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "Canva で新規作成・表紙と締めにフクロウ・重複した締めページを除外"
+        ]
+      }
+    },
+    {
       "id": "20261103-soundpro-deadline",
       "account": "soundpro",
       "publishAt": "2026-11-03T07:50:00+09:00",
