@@ -1317,6 +1317,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/0692277d3818e35f408fe55e588406588514710c/instagram/auto/images/worklife/2026-11-02.jpg"
     },
     {
+      "id": "20261102-soundpro-timeoff",
+      "account": "soundpro",
+      "publishAt": "2026-11-02T07:50:00+09:00",
+      "caption": "休みの連絡は短くても、伝え方で信頼感が変わります。\nよく使う場面の言いかえを5つまとめました。\n\n覚えたいものがあったら、保存しておいてくださいね📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-7.jpg"
+      ],
+      "canvaDesignId": "DAHY4EZCK9k",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-10-24T00:20:46.332Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差48.6）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "10/27 の型を土台に作り直し・表紙と05の文字の重なりを直した"
+        ]
+      }
+    },
+    {
       "id": "20261103-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-03T06:50:00+09:00",
@@ -2323,21 +2351,6 @@
   "held": {
     "_readme": "2026-10-19 品質保証のため保留（5つのポイントのページが全部同じ見た目）。Canva で作り直したら items に戻す。ここは投稿されない",
     "items": [
-      {
-        "id": "20261102-soundpro-timeoff",
-        "account": "soundpro",
-        "publishAt": "2026-11-02T07:50:00+09:00",
-        "caption": "休みの連絡は短くても、伝え方で信頼感が変わります。\nよく使う場面の言いかえを5つまとめました。\n\n覚えたいものがあったら、保存しておいてくださいね📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-        "imageUrls": [
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-1.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-2.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-3.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-4.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-5.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-6.jpg",
-          "https://raw.githubusercontent.com/tenyu-carrer/projects/e8914be50b3f47f89f3c4379dc9275c405958604/instagram/content/soundpro/images/21-timeoff-5-7.jpg"
-        ]
-      },
       {
         "id": "20261103-soundpro-deadline",
         "account": "soundpro",
