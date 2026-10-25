@@ -3,7 +3,7 @@
 // 出力：instagram/auto/posts/<account>/<日付>.json と instagram/auto/images/<account>/<日付>(-1|-2).jpg
 // すでにある日付は作り直さない（予約済みの投稿を変えないため）。--force で作り直す（未投稿の日だけに使う）
 // 必要なもの：playwright（Chromium）。PLAYWRIGHT_MODULE / CHROMIUM_PATH で場所を指定できる
-import {readFileSync,writeFileSync,existsSync,mkdirSync} from 'node:fs';
+import {readFileSync,writeFileSync,existsSync,mkdirSync,readdirSync} from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 
@@ -46,11 +46,29 @@ export function fortuneContent(date){
  const adv={work:pick(r,fortune.birthdayAdvice.work),love:pick(r,fortune.birthdayAdvice.love),money:pick(r,fortune.birthdayAdvice.money)};
  return {date,sign:s,message:s.messages[i],advice:s.advice[i],detail:s.detail[i],color:pick(r,s.colors),birthdays:{work,love,money},birthdayAdvice:adv,variant:variantOf('fortune',date)};
 }
-export function worklifeContent(date){
+// 一度出した言葉は二度と使わない（2026-10-26 オーナー指示「重複は無しでちゃんと」）。
+// それより前の日付の posts/worklife/*.json に出てくる言葉（説明文の1段落目）は飛ばして、次の候補を使う。
+// 候補がすべて使用済みなら止める＝content/worklife.json に新しい文面を足す合図。
+const leadOf=caption=>String(caption||'').split(/\n\s*\n/)[0].replace(/\s/g,'');
+export function usedWorklifeBefore(date){
+ const dir=path.join(ROOT,'posts','worklife');
+ const used=new Set();
+ if(!existsSync(dir))return used;
+ for(const f of readdirSync(dir)){
+  if(!f.endsWith('.json')||f.slice(0,10)>=date)continue;
+  try{used.add(leadOf(JSON.parse(readFileSync(path.join(dir,f),'utf8')).caption));}catch{}
+ }
+ return used;
+}
+export function worklifeContent(date,used=usedWorklifeBefore(date)){
  const wd=new Date(date+'T12:00:00Z').getUTCDay();
  const list=worklife.byWeekday[String(wd)];
- const e=list[Math.floor(dayIndex(date)/7)%list.length];
- return {date,...e,variant:variantOf('worklife',date)};
+ const start=Math.floor(dayIndex(date)/7)%list.length;
+ for(let k=0;k<list.length;k++){
+  const e=list[(start+k)%list.length];
+  if(!used.has(e.text.replace(/\s/g,'')))return {date,...e,variant:variantOf('worklife',date)};
+ }
+ throw new Error(`worklife ${date}：${WEEK[wd]}曜の言葉をすべて使い切りました。content/worklife.json に新しい文面を足してください`);
 }
 
 // ---- 画像のデザイン（Canva のひな形の位置・色・大きさに合わせてある） ----
