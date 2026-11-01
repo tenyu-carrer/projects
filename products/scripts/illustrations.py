@@ -6,8 +6,15 @@ Layouts: phone, timeline, calendar, chat, wave, cards.
 import math
 from PIL import Image, ImageDraw, ImageFont
 
-FONT = r"C:\Windows\Fonts\YuGothM.ttc"
-FONTB = r"C:\Windows\Fonts\YuGothB.ttc"
+import os as _os
+def _pick(*paths):
+    for _p in paths:
+        if _os.path.exists(_p):
+            return _p
+    raise FileNotFoundError("日本語フォントが見つかりません: " + ", ".join(paths))
+# Windows（游ゴシック）でも Mac（ヒラギノ）でも動くようにする
+FONT = _pick(r"C:\Windows\Fonts\YuGothM.ttc", "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc", "/System/Library/Fonts/Hiragino Sans GB.ttc", "/Library/Fonts/Arial Unicode.ttf")
+FONTB = _pick(r"C:\Windows\Fonts\YuGothB.ttc", "/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc", "/System/Library/Fonts/Hiragino Sans GB.ttc", "/Library/Fonts/Arial Unicode.ttf")
 INK = "#1f2a37"
 SUB = "#5b6472"
 THEMES = {
