@@ -18,9 +18,9 @@
 </head>
 <body>
   <main>
-    <nav><a href="product.html?id=003">← 商品003の教材へ戻る</a></nav>
+    <nav><a id="back" href="index.html">← 教材へ戻る</a></nav>
     <h1 id="title">教材ファイルを読み込み中…</h1>
-    <p class="notice">この教材は試作版です。実在の連絡先・QR・印刷条件に置き換え、点検を終えるまで、そのまま印刷・配布しないでください。</p>
+    <p class="notice">この教材は試作版です。事実・連絡先・値段などを自分の情報に置き換え、点検を終えるまで、そのまま公開・配布しないでください。</p>
     <button id="copy" type="button">本文をコピー</button>
     <pre id="body" aria-live="polite"></pre>
   </main>
@@ -28,9 +28,11 @@
     const file = new URLSearchParams(location.search).get('file') || '';
     const title = document.getElementById('title');
     const body = document.getElementById('body');
-    if (!file.startsWith('assets/downloads/003/') || file.includes('..')) {
+    const match = file.match(/^assets\/downloads\/(\d{3})\//);
+    if (match) document.getElementById('back').href = `product.html?id=${match[1]}#downloads`;
+    if (!match || file.includes('..')) {
       title.textContent = '開けないファイルです';
-      body.textContent = '許可された003教材ファイルを指定してください。';
+      body.textContent = '教材の付属ファイルを、教材ページの「開く」から開いてください。';
     } else {
       title.textContent = decodeURIComponent(file.split('/').pop());
       fetch(file).then((response) => {

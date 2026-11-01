@@ -164,7 +164,8 @@ function buildProductMockup(productId = '001') {
 
 function buildPromptTool(section, index) {
   const inputs = currentProduct?.lesson?.promptInputs || { target: '忙しい会社員', theme: '朝の時間の作り方', purpose: ['保存', '共感', '行動'] };
-  const purposeOptions = inputs.purpose.map((value) => `<option>${escapeHtml(value)}</option>`).join('');
+  const purposes = Array.isArray(inputs.purpose) ? inputs.purpose : [inputs.purpose || '目的'];
+  const purposeOptions = purposes.map((value) => `<option>${escapeHtml(value)}</option>`).join('');
   return `<div class="prompt-tool">
     <div class="prompt-form" aria-label="プロンプト入力欄">
       <label>${escapeHtml(inputs.targetLabel || '誰に向けて？')}<input id="prompt-target" value="${escapeHtml(inputs.target)}"></label>
@@ -194,13 +195,23 @@ function buildEditorGuide() {
   </div>`;
 }
 
+function isCanvaCourse(id = currentProduct?.id) { return Number(id) <= 20; }
+
 function buildExampleOutput(profile) {
-  return `<div class="output-example"><div class="output-example-head"><span>完成イメージ</span><strong>プロンプトから、ここまで具体化</strong></div><ul>${profile.output.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul><p>そのまま採用せず、事実・固有名詞・数字を自分の原稿と照合してからCanvaへ移します。</p></div>`;
+  return `<div class="output-example"><div class="output-example-head"><span>完成イメージ</span><strong>プロンプトから、ここまで具体化</strong></div><ul>${profile.output.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul><p>そのまま採用せず、事実・固有名詞・数字を自分の原稿と照合してから${isCanvaCourse() ? 'Canvaへ移します' : '使います'}。</p></div>`;
 }
 
 function buildRichSteps(items) {
   const profile = profileFor();
-  const tips = [
+  const tips = !isCanvaCourse() ? [
+    '最初に、誰に向けて何を作るかを1行で書きます。',
+    'AIへの指示は、設計シートの【】を埋めてから使います。',
+    'AIの答えは下書き。事実・数字は自分で確かめます。',
+    '体験や現場の情報は、人が書き足します。',
+    '付属の見本ファイルと見比べて、抜けを確かめます。',
+    '公開前チェックを1つずつ通します。',
+    `保存条件：${profile.export}`
+  ] : [
     '最初に完成サイズを確定。途中で変えると配置が崩れます。',
     'テンプレートは見た目より、情報量が近いものを選びます。',
     '先に文字だけを置き、読む順番を整えます。',
@@ -220,8 +231,10 @@ function sectionHtml(section, index) {
     const profile = profileFor();
     const challenge = currentProduct?.id === '003'
       ? { title: 'まずは紙で、情報の順番を試す。', note: 'この体験ではCanvaを開かず、誰に何を伝えるかを10分で決めます。', steps: ['相手を決める', '情報を並べる', '5秒テスト'] }
-      : { title: 'まずは、10分で1枚つくってみる。', note: '正解を探すより、最初の1枚を完成させることがゴールです。', steps: ['Canvaを開く', '文字を置く', '保存する'] };
-    inner = `<p>${escapeHtml(section.body)}</p><div class="practice-brief"><span>練習用のお題</span><h3>迷わないように、最初の条件を固定します</h3><ul>${profile.brief.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul></div><div class="quick-challenge"><span>10 MINUTE CHALLENGE</span><strong>${challenge.title}</strong><p>${challenge.note}</p><div class="challenge-steps"><b>${challenge.steps[0]}</b><i>→</i><b>${challenge.steps[1]}</b><i>→</i><b>${challenge.steps[2]}</b></div></div>${buildEditorGuide()}`;
+      : isCanvaCourse()
+        ? { title: 'まずは、10分で1枚つくってみる。', note: '正解を探すより、最初の1枚を完成させることがゴールです。', steps: ['Canvaを開く', '文字を置く', '保存する'] }
+        : { title: 'まずは、10分で1つ試してみる。', note: '下のプロンプト集から1本選び、【】を書きかえて結果を確かめるところまでがゴールです。', steps: ['プロンプトを選ぶ', '【】を書きかえる', '結果を確かめる'] };
+    inner = `<p>${escapeHtml(section.body)}</p><div class="practice-brief"><span>練習用のお題</span><h3>迷わないように、最初の条件を固定します</h3><ul>${profile.brief.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul></div><div class="quick-challenge"><span>10 MINUTE CHALLENGE</span><strong>${challenge.title}</strong><p>${challenge.note}</p><div class="challenge-steps"><b>${challenge.steps[0]}</b><i>→</i><b>${challenge.steps[1]}</b><i>→</i><b>${challenge.steps[2]}</b></div></div>${isCanvaCourse() ? buildEditorGuide() : ''}`;
   } else if (index === 2) {
     const generatedStudyIds = ['007', '008', '009', '010'];
     const mockupCaption = currentProduct?.id === '003'
@@ -397,13 +410,14 @@ async function renderProduct() {
       </section>
       <section class="course-overview">
         <article><span>FOR YOU</span><h2>この教材がおすすめの人</h2><ul>${profileFor(product).audience.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul></article>
-        <article><span>YOU WILL GET</span><h2>教材に入っているもの</h2><ul>${product.id === '003' ? '<li>架空の参考モックアップ（QR未検証・印刷不可）</li><li>Canva操作位置の模式図と7手順</li>' : ['007', '008', '009', '010'].includes(product.id) ? '<li>AI生成の教材参考画像（拡大表示対応）</li><li>制作画面例と7工程の詳しい手順</li>' : '<li>完成見本画像（拡大表示対応）</li><li>Canva画面例と7工程の詳しい手順</li>'}<li>入力式・ワンクリックコピーのプロンプト</li><li>失敗例・修正方法・完成チェック</li></ul></article>
+        <article><span>YOU WILL GET</span><h2>教材に入っているもの</h2><ul>${product.id === '003' ? '<li>架空の参考モックアップ（QR未検証・印刷不可）</li><li>Canva操作位置の模式図と7手順</li>' : ['007', '008', '009', '010'].includes(product.id) ? '<li>AI生成の教材参考画像（拡大表示対応）</li><li>制作画面例と7工程の詳しい手順</li>' : isCanvaCourse(product.id) ? '<li>完成見本画像（拡大表示対応）</li><li>Canva画面例と7工程の詳しい手順</li>' : '<li>見本の図解画像・表（拡大表示・ダウンロード対応）</li><li>7章の手順と設計シート</li>'}<li>入力式・ワンクリックコピーのプロンプト</li><li>失敗例・修正方法・完成チェック</li></ul></article>
       </section>
       <section class="course-roadmap"><div><span>LESSON ROADMAP</span><h2>完成までの道筋</h2><p>読むだけではなく、各レッスンで手を動かして1つの完成物を仕上げます。</p></div><ol>${product.lesson.sections.map((section, index) => `<li><a href="#section-${index}"><b>${String(index + 1).padStart(2, '0')}</b><span>${escapeHtml(section.title)}</span><small>${index === 0 ? '準備' : index === 6 ? '検品' : '実践'}</small></a></li>`).join('')}</ol></section>
       ${product.lesson.downloads?.length ? `<section class="download-library" id="downloads"><div><span>DOWNLOADS</span><h2>実際に使える付属ファイル</h2><p>説明だけではなく、制作と検品に使うファイルをそのまま開けます。</p></div><div>${product.lesson.downloads.map((item) => `<a href="${escapeHtml(downloadableHref(item.url))}" target="_blank" rel="noopener"><b>${escapeHtml(item.label)}</b><small>${escapeHtml(item.note)}</small><span>開く ↗</span></a>`).join('')}</div></section>` : ''}
+      ${product.lesson.promptLibrary?.length ? `<section class="download-library prompt-library" id="prompts"><div><span>PROMPTS</span><h2>この教材のプロンプト集（全${product.lesson.promptLibrary.length}本）</h2><p>【】の中を自分の内容に書きかえて使います。AIの答えは、事実・数字を必ず自分で確かめてから使ってください。</p></div><div class="prompt-library-list">${product.lesson.promptLibrary.map((text, i) => `<div class="prompt-box"><div class="prompt-toolbar"><span>PROMPT ${String(i + 1).padStart(2, '0')}</span><button class="copy-button" type="button" data-copy="library-prompt-${i}">コピーする</button></div><pre id="library-prompt-${i}">${escapeHtml(text)}</pre></div>`).join('')}</div></section>` : ''}
       ${product.lesson.sections.map(sectionHtml).join('')}
       <section class="official-links"><div><span>REFERENCE</span><h2>公式情報を確認する</h2><p>サイズ・保存形式・素材の利用条件は、公開前に公式情報で確認してください。</p></div><div>${product.lesson.officialLinks.map((link) => `<a href="${escapeHtml(link.url)}" target="_blank" rel="noopener">${escapeHtml(link.label)} <span>↗</span></a>`).join('')}</div></section>
-      <p class="source-note">原本：${escapeHtml(product.source)}　／　教材確認日：2026-10-23　／　実機制作・QR・印刷の確認前の試作教材です。</p>`;
+      <p class="source-note">原本：${escapeHtml(product.source)}　／　${isCanvaCourse(product.id) ? '教材確認日：2026-10-23　／　実機制作・QR・印刷の確認前の試作教材です。' : `${escapeHtml(product.sourceStatus || '実際の投稿・販売での確認前の試作教材です。')}`}</p>`;
     enableLessonInteractions();
     if (location.hash) {
       requestAnimationFrame(() => document.querySelector(location.hash)?.scrollIntoView({ block: 'start' }));

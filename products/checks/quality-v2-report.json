@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T03:38:17.183Z",
+  "generatedAt": "2026-11-01T03:59:31.852Z",
   "standard": "QUALITY-STANDARD-V2",
   "results": [
     {
@@ -3256,6 +3256,116 @@
     {
       "id": "060-D",
       "characters": 6998,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "061-D",
+      "characters": 6153,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "062-D",
+      "characters": 6351,
       "attachmentCount": 6,
       "score": 100,
       "status": "自動検査合格（目視・実機は別）",
