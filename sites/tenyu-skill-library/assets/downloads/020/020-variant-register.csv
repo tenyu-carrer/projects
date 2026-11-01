@@ -1,0 +1,7 @@
+variant_id,parent_id,change_axis,position,colorway,prompt_version,source,rights_status,similarity_status,target_item,spec_status,visual_status,decision,reason
+020-W-L,020-MASTER-01,position,left,warm,p01,local-shapes,checked-internal,distinct-in-set,unassigned,not-checked,checked-board,hold,item未選定
+020-W-C,020-MASTER-01,position,center,warm,p01,local-shapes,checked-internal,distinct-in-set,unassigned,not-checked,checked-board,candidate,基準案
+020-W-R,020-MASTER-01,position,right,warm,p01,local-shapes,checked-internal,distinct-in-set,unassigned,not-checked,checked-board,hold,item未選定
+020-C-L,020-MASTER-01,position,left,cool,p01,local-shapes,checked-internal,distinct-in-set,unassigned,not-checked,checked-board,hold,配色比較
+020-C-C,020-MASTER-01,position,center,cool,p01,local-shapes,checked-internal,distinct-in-set,unassigned,not-checked,checked-board,candidate,配色比較
+020-C-R,020-MASTER-01,position,right,cool,p01,local-shapes,checked-internal,distinct-in-set,unassigned,not-checked,checked-board,hold,商品未選定

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">雨あがりのちいさなはこ — 絵本企画見本</title>
+  <desc id="desc">雨上がりの庭で、小鳥が種を見つける架空の絵本企画を示すイラスト</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dcecf0"/><stop offset="1" stop-color="#f6f0df"/></linearGradient>
+    <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#91b29c"/><stop offset="1" stop-color="#5f8276"/></linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <circle cx="956" cy="168" r="70" fill="#f5d99c" opacity=".88"/>
+  <path d="M0 454 Q210 360 425 458 T850 436 T1200 412 V760 H0Z" fill="url(#hill)"/>
+  <path d="M0 555 Q260 475 510 570 T1000 535 T1200 548 V760 H0Z" fill="#789987"/>
+  <path d="M0 645 Q250 580 520 660 T1050 630 T1200 650 V760 H0Z" fill="#55766a"/>
+  <g fill="#f6f0df" opacity=".78"><ellipse cx="202" cy="520" rx="92" ry="22"/><ellipse cx="923" cy="585" rx="120" ry="24"/></g>
+  <g transform="translate(405 375)">
+    <ellipse cx="0" cy="0" rx="128" ry="108" fill="#d78758"/>
+    <ellipse cx="30" cy="40" rx="80" ry="58" fill="#f1d9b5"/>
+    <path d="M-73-65 Q-25-185 29-80 Q82-175 105-55Z" fill="#bd704e"/>
+    <circle cx="55" cy="-7" r="9" fill="#35474b"/>
+    <path d="M103 18 l54 16 -52 20Z" fill="#d9a65a"/>
+    <path d="M-53 90 q-20 42 -48 46 M-7 100 q-2 38 -24 50" fill="none" stroke="#d9a65a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-105-18 q-70-36-90 15 q42 51 106 30" fill="#c97a54"/>
+  </g>
+  <g transform="translate(665 515)">
+    <path d="M-92 15 h184 l-18 110 h-148Z" fill="#bd8b62"/>
+    <path d="M-104 14 h208 v18 h-208Z" fill="#d9b989"/>
+    <path d="M-4-15 q9-40 40-59 q-3 39-40 59Z" fill="#6c9a76"/>
+    <ellipse cx="-2" cy="-7" rx="12" ry="19" fill="#594b3d" transform="rotate(-25)"/>
+  </g>
+  <g fill="#dcecf0" opacity=".82"><path d="M143 264 q0 23-13 39 q-13-16-13-39 a13 13 0 0 1 26 0"/><path d="M808 304 q0 20-12 35 q-12-15-12-35 a12 12 0 0 1 24 0"/></g>
+  <rect x="56" y="54" width="1088" height="652" rx="28" fill="none" stroke="#fffaf0" stroke-width="4" opacity=".8"/>
+  <text x="72" y="104" font-family="sans-serif" font-size="20" letter-spacing="4" fill="#48665d">012 · AI PICTURE BOOK WORKSHOP</text>
+  <text x="72" y="168" font-family="serif" font-weight="700" font-size="46" fill="#27463f">雨あがりの ちいさな はこ</text>
+  <text x="74" y="210" font-family="sans-serif" font-size="20" fill="#48665d">企画用ビジュアル見本 — 完成絵本・印刷検証ではありません</text>
+  <text x="72" y="675" font-family="sans-serif" font-size="18" fill="#fffaf0">発見 → 迷い → 工夫 → 変化　｜　人物・ページ・権利を点検して一冊へ</text>
+</svg>

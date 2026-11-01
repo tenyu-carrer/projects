@@ -1,0 +1,4 @@
+edit_id,source_id,source_in,source_out,timeline_in,timeline_out,keep_reason,audio,subtitle,status
+E01,SYNTH-01,00:00.000,00:02.000,00:00.000,00:02.000,朝の場面とカップを示す,silent,none,study
+E02,SYNTH-01,00:02.000,00:04.000,00:02.000,00:04.000,注ぐ動作の変化を示す,silent,none,study
+E03,SYNTH-01,00:04.000,00:06.000,00:04.000,00:06.000,湯気で完成を示す,silent,none,study

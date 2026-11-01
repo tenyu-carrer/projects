@@ -5,7 +5,7 @@
   ],
   "tools_existing": [],
   "needs_check": [
-    "Suno の規約：無料プランは商用利用不可の可能性 → 有料プランの条件を公式で確認",
+    "Suno の規約・料金は2026-10-22確認済み。販売直前に再確認する",
     "歌詞の著作権・配信サービス（YouTube など）の AI 音楽の扱い"
   ],
   "plan": {
@@ -15,6 +15,14 @@
     "D": "曲の作り方と使い方・売り方の講座"
   },
   "no": "036",
-  "terms_urls": [],
-  "commercial_use": "不明（未確認）"
+  "terms_urls": [
+    "https://suno.com/terms",
+    "https://suno.com/pricing",
+    "https://help.suno.com/en/articles/9601601",
+    "https://help.suno.com/en/articles/9601665",
+    "https://help.suno.com/en/articles/2425729",
+    "https://help.suno.com/en/articles/2410177",
+    "https://help.suno.com/en/articles/13926209"
+  ],
+  "commercial_use": "条件付き可（有料プラン加入中に生成し、正規にダウンロードした曲。無料プランの曲・Remixは非商用。販売先の規約も別途確認）"
 }

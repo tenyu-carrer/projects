@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2520" height="2992" viewBox="0 0 2520 2992">
+  <title>Morning Walk geometric T-shirt practice artwork</title>
+  <desc>Original geometric practice motif: sunrise, path, and three leaves on a transparent background.</desc>
+  <defs>
+    <clipPath id="sunClip"><rect x="510" y="370" width="1500" height="700" rx="40"/></clipPath>
+  </defs>
+  <g id="sun" clip-path="url(#sunClip)">
+    <circle cx="1260" cy="1090" r="650" fill="#F4B942"/>
+  </g>
+  <path d="M530 1260 C900 1080 1590 1080 1990 1260" fill="none" stroke="#17324D" stroke-width="115" stroke-linecap="round"/>
+  <path d="M600 1530 C950 1300 1600 1360 1900 1620 C1570 1660 1410 1860 1260 2510 C1110 1870 930 1650 600 1530Z" fill="#17324D"/>
+  <path d="M1260 2510 C1190 2130 1110 1810 900 1550" fill="none" stroke="#F7F2E8" stroke-width="70" stroke-linecap="round"/>
+  <g fill="#3F7D63">
+    <path d="M690 1820 C390 1700 330 1450 450 1260 C740 1330 850 1530 690 1820Z"/>
+    <path d="M1830 1830 C2120 1710 2190 1450 2070 1260 C1780 1330 1670 1540 1830 1830Z"/>
+    <path d="M1480 2170 C1710 2070 1790 1850 1700 1680 C1460 1740 1360 1930 1480 2170Z"/>
+  </g>
+  <g fill="none" stroke="#F7F2E8" stroke-width="34" stroke-linecap="round">
+    <path d="M470 1300 L690 1780"/><path d="M2050 1300 L1830 1790"/><path d="M1680 1720 L1480 2130"/>
+  </g>
+</svg>
+

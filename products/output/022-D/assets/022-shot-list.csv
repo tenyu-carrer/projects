@@ -1,0 +1,5 @@
+shot_id,timeline_in,timeline_out,role,visual,audio,subtitle,rights,status
+S01,00:00.000,00:02.000,冒頭,整った机の完成状態,silent,none,local-shapes,study
+S02,00:02.000,00:04.500,実演1,カードを中央へ移動,silent,none,local-shapes,study
+S03,00:04.500,00:07.000,実演2,植物とカップを整える,silent,none,local-shapes,study
+S04,00:07.000,00:09.000,結果とループ,完成状態から冒頭へ近づく,silent,none,local-shapes,study

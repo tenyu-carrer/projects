@@ -9,29 +9,46 @@
       "tier_label": "無料（体験版・入門教材・サンプル）",
       "genre_name": "CanvaでSNS投稿画像を作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "実践講座｜Suno AIでオリジナル曲を作る方法",
+      "target": "音楽経験がなくてもSunoでオリジナル曲を作り、利用条件を確認して使いたい初心者",
+      "deliverables": [
+        "products/output/036-D/講座.md",
+        "products/output/036-D/実践テンプレート.md",
+        "products/output/036-D/販売・権利チェックシート.md",
+        "products/output/036-D/動作確認.md"
+      ],
       "price_hypothesis_jpy": 0,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
-        "issues": []
+        "issues": [
+          "Sunoアカウントでの実曲生成・再生成・ダウンロード確認が未実施"
+        ]
       },
       "rights": {
-        "services": [],
-        "terms_urls": [],
-        "checked_at": null,
-        "commercial_use": "不明",
-        "resale": "不明",
-        "notes": null
+        "services": [
+          "Suno"
+        ],
+        "terms_urls": [
+          "https://suno.com/terms",
+          "https://suno.com/pricing",
+          "https://help.suno.com/en/articles/9601601",
+          "https://help.suno.com/en/articles/9601665",
+          "https://help.suno.com/en/articles/2425729",
+          "https://help.suno.com/en/articles/2410177",
+          "https://help.suno.com/en/articles/13926209"
+        ],
+        "checked_at": "2026-10-22",
+        "commercial_use": "条件付き可",
+        "resale": "講座の再販売は禁止。受講者が作った曲はSunoと販売先の条件を満たす場合に限り商用利用可",
+        "notes": "無料プランの曲は非商用。有料プラン加入中に生成し正規ダウンロードした曲のみ商用利用の対象。Remixは非商用。著作権保護は保証されない。"
       },
-      "buyer_terms": null,
+      "buyer_terms": "購入者本人の学習・制作に利用可。講座本文と付属テンプレートの再配布・再販売は禁止。生成曲の利用はSuno、入力素材、販売先の最新規約に従う。",
       "utage": {
         "funnel_id": null,
         "step_id": null,
@@ -52,7 +69,12 @@
         "approved_by": null,
         "approved_at": null
       },
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-22",
+          "event": "036-D試作を作成。公式情報を確認。実曲生成テストは未実施のため検査合格にはしていない。"
+        }
+      ]
     },
     {
       "id": "001-B",
@@ -165,15 +187,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "CanvaでSNS投稿画像を作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜CanvaでSNS投稿画像を作る方法",
+      "target": "Canva初心者",
+      "deliverables": ["products/output/001-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -373,15 +395,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "Canvaでチラシ・ポスターを作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜Canvaでチラシ・ポスターを作る方法",
+      "target": "Canva初心者、小規模事業者、イベント担当者",
+      "deliverables": ["products/output/002-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -581,15 +603,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "Canvaで名刺・ショップカードを作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜Canvaで名刺・ショップカードを作る方法",
+      "target": "個人事業主、店舗運営者、Canva初心者",
+      "deliverables": ["products/output/003-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -789,15 +811,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "Canvaでプレゼン資料を作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜Canvaでプレゼン資料を作る方法",
+      "target": "提案・説明資料を初めて作る人",
+      "deliverables": ["products/output/004-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -997,15 +1019,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "Canvaで電子書籍の表紙を作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜Canvaで電子書籍の表紙を作る方法",
+      "target": "電子書籍やPDF教材の表紙を自作したい初心者",
+      "deliverables": ["products/output/005-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -1205,15 +1227,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "AIでロゴをデザインする方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜AIでロゴをデザインする方法",
+      "target": "ブランドや活動のロゴ案を作りたい初心者",
+      "deliverables": ["products/output/006-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -1413,15 +1435,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "AIでイラストを作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜AIでイラストを作る方法",
+      "target": "画像生成AIで用途に合うイラストを作りたい初心者",
+      "deliverables": ["products/output/007-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -1621,15 +1643,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "AIで漫画を作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜AIで漫画を作る方法",
+      "target": "4コマ漫画をAIとCanvaで作りたい初心者",
+      "deliverables": ["products/output/008-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -1829,15 +1851,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "AIでLINEスタンプを作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜AIでLINEスタンプを作る方法",
+      "target": "オリジナルの静止画LINEスタンプを作りたい初心者",
+      "deliverables": ["products/output/009-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,
@@ -2037,15 +2059,15 @@
       "tier_label": "釣り竿の作り方（実践講座・制作方法・販売方法）",
       "genre_name": "AIでキャラクターを作る方法",
       "part": "第1部｜AI画像・デザイン・グッズ制作",
-      "product_name": null,
-      "target": null,
-      "deliverables": [],
+      "product_name": "完全パック｜AIでキャラクターを作る方法",
+      "target": "一貫したオリジナルキャラクターを作りたい初心者",
+      "deliverables": ["products/output/010-D/完全パック.md"],
       "price_hypothesis_jpy": null,
       "cost": {
         "external_jpy": null,
         "notes": null
       },
-      "status": "企画",
+      "status": "試作",
       "quality": {
         "checked_at": null,
         "result": null,

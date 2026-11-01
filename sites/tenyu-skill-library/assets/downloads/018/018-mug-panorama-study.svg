@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3102" height="1260" viewBox="0 0 3102 1260">
+  <title>Mug panorama layout study</title>
+  <desc>Original geometric sunrise and leaves on a transparent background. Practice material, not a print-tested product.</desc>
+  <g fill="#F3B63F"><circle cx="720" cy="610" r="330"/><circle cx="2382" cy="360" r="82"/></g>
+  <path d="M310 860 C680 620 1030 690 1370 850 C1680 990 2070 880 2720 590" fill="none" stroke="#193852" stroke-width="105" stroke-linecap="round"/>
+  <g fill="#45866D">
+    <path d="M2270 520 C2460 310 2740 330 2830 500 C2660 710 2420 710 2270 520Z"/>
+    <path d="M2210 820 C2400 620 2680 660 2750 850 C2550 1020 2320 990 2210 820Z"/>
+    <path d="M1430 570 C1570 430 1760 450 1830 590 C1690 740 1510 720 1430 570Z"/>
+  </g>
+  <g fill="#F7F1E5"><circle cx="1230" cy="420" r="34"/><circle cx="1360" cy="350" r="22"/><circle cx="1500" cy="360" r="28"/></g>
+</svg>

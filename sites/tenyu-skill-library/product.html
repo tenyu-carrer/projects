@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="天祐AIスキル商品001の体験教材です。">
+  <title>商品001 | 天祐 AI Skill Library</title>
+  <link rel="stylesheet" href="assets/styles.css?v=20261022-5">
+</head>
+<body data-page="product">
+  <header class="site-header lesson-header">
+    <a class="brand" href="index.html" aria-label="商品一覧へ戻る">
+      <span class="brand-mark">天</span>
+      <span><strong>TENYU</strong><small>AI SKILL LIBRARY</small></span>
+    </a>
+    <div class="header-course-state"><span>COURSE</span><strong id="header-progress">0% 完了</strong></div>
+    <a class="back-link" href="index.html"><span>←</span> 教材一覧</a>
+  </header>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+
+  <main class="lesson-shell">
+    <aside class="lesson-nav" aria-label="教材メニュー">
+      <div class="course-label"><span>無料教材</span><b>初級</b></div>
+      <p class="eyebrow" id="side-course-number">COURSE</p>
+      <h2 id="side-title">SNS投稿画像</h2>
+      <div class="nav-progress"><span><i id="nav-progress-bar"></i></span><small id="nav-progress-text">0 / 0 完了</small></div>
+      <nav id="lesson-menu"></nav>
+      <div class="support-card">
+        <span>この教材のゴール</span>
+        <strong id="side-goal">作品を1つ完成</strong>
+        <small id="side-duration">目安時間：約60分</small>
+      </div>
+    </aside>
+
+    <article id="lesson-content" class="lesson-content">
+      <div class="status-message">教材を読み込んでいます…</div>
+    </article>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite">コピーしました</div>
+  <dialog id="image-dialog" class="image-dialog">
+    <button type="button" id="image-dialog-close" aria-label="画像を閉じる">×</button>
+    <img id="image-dialog-image" alt="完成見本の拡大表示">
+  </dialog>
+  <script src="assets/app.js?v=20261023-4" defer></script>
+</body>
+</html>

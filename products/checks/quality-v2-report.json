@@ -1,0 +1,3312 @@
+{
+  "generatedAt": "2026-11-01T03:38:17.183Z",
+  "standard": "QUALITY-STANDARD-V2",
+  "results": [
+    {
+      "id": "001-D",
+      "characters": 6390,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "002-D",
+      "characters": 6185,
+      "attachmentCount": 7,
+      "score": 90,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": false
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": [
+        "権利・安全・収益非保証"
+      ]
+    },
+    {
+      "id": "003-D",
+      "characters": 6894,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "004-D",
+      "characters": 6973,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "005-D",
+      "characters": 6827,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "006-D",
+      "characters": 7206,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "007-D",
+      "characters": 6638,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "008-D",
+      "characters": 6130,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "009-D",
+      "characters": 6701,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "010-D",
+      "characters": 6224,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "011-D",
+      "characters": 6210,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "012-D",
+      "characters": 6775,
+      "attachmentCount": 3,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "013-D",
+      "characters": 6217,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "014-D",
+      "characters": 6013,
+      "attachmentCount": 4,
+      "score": 90,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": false
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": [
+        "権利・安全・収益非保証"
+      ]
+    },
+    {
+      "id": "015-D",
+      "characters": 6763,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "016-D",
+      "characters": 7757,
+      "attachmentCount": 4,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "017-D",
+      "characters": 9652,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "018-D",
+      "characters": 8169,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "019-D",
+      "characters": 7913,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "020-D",
+      "characters": 6263,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "021-D",
+      "characters": 6151,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "022-D",
+      "characters": 6129,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "023-D",
+      "characters": 6066,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "024-D",
+      "characters": 6072,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "025-D",
+      "characters": 6091,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "026-D",
+      "characters": 6266,
+      "attachmentCount": 7,
+      "score": 90,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": false
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": [
+        "権利・安全・収益非保証"
+      ]
+    },
+    {
+      "id": "027-D",
+      "characters": 6198,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "028-D",
+      "characters": 6051,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "029-D",
+      "characters": 6224,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "030-D",
+      "characters": 6090,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "031-D",
+      "characters": 6089,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "032-D",
+      "characters": 6107,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "033-D",
+      "characters": 6128,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "034-D",
+      "characters": 6045,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "035-D",
+      "characters": 6053,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "036-D",
+      "characters": 8594,
+      "attachmentCount": 9,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "037-D",
+      "characters": 6115,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "038-D",
+      "characters": 6070,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "039-D",
+      "characters": 6054,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "040-D",
+      "characters": 6027,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "041-D",
+      "characters": 6092,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "042-D",
+      "characters": 6005,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "043-D",
+      "characters": 6063,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "044-D",
+      "characters": 6038,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "045-D",
+      "characters": 6065,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "046-D",
+      "characters": 6059,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "047-D",
+      "characters": 6033,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "048-D",
+      "characters": 6015,
+      "attachmentCount": 5,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "049-D",
+      "characters": 6263,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "050-D",
+      "characters": 6186,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "051-D",
+      "characters": 6353,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "052-D",
+      "characters": 6147,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "053-D",
+      "characters": 7529,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "054-D",
+      "characters": 6560,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "055-D",
+      "characters": 7201,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "056-D",
+      "characters": 8018,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "057-D",
+      "characters": 7606,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "058-D",
+      "characters": 6658,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "059-D",
+      "characters": 6791,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    },
+    {
+      "id": "060-D",
+      "characters": 6998,
+      "attachmentCount": 6,
+      "score": 100,
+      "status": "自動検査合格（目視・実機は別）",
+      "checks": [
+        {
+          "name": "本文6000文字以上",
+          "points": 20,
+          "pass": true
+        },
+        {
+          "name": "A・B・C・Dの役割",
+          "points": 15,
+          "pass": true
+        },
+        {
+          "name": "プロンプト5本以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "トラブル10件以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "検品チェック8項目以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "公式URLと確認日",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "権利・安全・収益非保証",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "実在する付属ファイル3点以上",
+          "points": 10,
+          "pass": true
+        },
+        {
+          "name": "状態表示",
+          "points": 5,
+          "pass": true
+        }
+      ],
+      "reasons": []
+    }
+  ]
+}

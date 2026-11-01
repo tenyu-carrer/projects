@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>教材ファイル | 天祐 AI Skill Library</title>
+  <style>
+    :root { color-scheme: light; font-family: "Yu Gothic UI", "Meiryo", sans-serif; color: #202a36; background: #f5f3ef; }
+    body { margin: 0; padding: 32px 18px 72px; }
+    main { max-width: 940px; margin: 0 auto; }
+    nav { margin-bottom: 20px; } a { color: #294b67; }
+    h1 { font-size: clamp(1.35rem, 4vw, 2rem); line-height: 1.45; }
+    .notice { padding: 12px 16px; border-left: 4px solid #bd8a3f; background: #fffaf0; line-height: 1.7; }
+    pre { margin-top: 20px; padding: clamp(18px, 4vw, 36px); border: 1px solid #e4dfd5; border-radius: 12px; background: white; white-space: pre-wrap; overflow-wrap: anywhere; font: 1rem/1.9 "Yu Gothic UI", "Meiryo", sans-serif; }
+    button { padding: 10px 14px; border: 0; border-radius: 8px; color: white; background: #213c55; cursor: pointer; }
+    @media print { body { padding: 0; background: white; } nav, .notice, button { display: none; } pre { border: 0; padding: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="product.html?id=003">← 商品003の教材へ戻る</a></nav>
+    <h1 id="title">教材ファイルを読み込み中…</h1>
+    <p class="notice">この教材は試作版です。実在の連絡先・QR・印刷条件に置き換え、点検を終えるまで、そのまま印刷・配布しないでください。</p>
+    <button id="copy" type="button">本文をコピー</button>
+    <pre id="body" aria-live="polite"></pre>
+  </main>
+  <script>
+    const file = new URLSearchParams(location.search).get('file') || '';
+    const title = document.getElementById('title');
+    const body = document.getElementById('body');
+    if (!file.startsWith('assets/downloads/003/') || file.includes('..')) {
+      title.textContent = '開けないファイルです';
+      body.textContent = '許可された003教材ファイルを指定してください。';
+    } else {
+      title.textContent = decodeURIComponent(file.split('/').pop());
+      fetch(file).then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.arrayBuffer();
+      }).then((bytes) => {
+        body.textContent = new TextDecoder('utf-8').decode(bytes);
+      }).catch((error) => {
+        title.textContent = '教材を読み込めませんでした';
+        body.textContent = `ファイルを開けませんでした（${error.message}）。教材ページへ戻ってください。`;
+      });
+    }
+    document.getElementById('copy').addEventListener('click', async () => {
+      await navigator.clipboard.writeText(body.textContent);
+      document.getElementById('copy').textContent = 'コピーしました';
+    });
+  </script>
+</body>
+</html>

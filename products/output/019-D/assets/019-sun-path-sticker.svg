@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="630" viewBox="0 0 630 630">
+  <title>Sun path sticker study</title>
+  <desc>Original bold geometric practice motif on transparent background.</desc>
+  <circle cx="315" cy="270" r="175" fill="#F3B63F"/>
+  <path d="M145 365 C235 300 380 300 485 365 C410 395 355 455 315 545 C270 455 225 405 145 365Z" fill="#193852"/>
+  <path d="M235 400 C150 365 120 295 155 235 C245 250 285 320 235 400Z" fill="#45866D"/>
+  <path d="M395 400 C480 365 510 295 475 235 C385 250 345 320 395 400Z" fill="#45866D"/>
+  <path d="M315 530 C300 470 285 430 245 380" fill="none" stroke="#F7F1E5" stroke-width="22" stroke-linecap="round"/>
+</svg>

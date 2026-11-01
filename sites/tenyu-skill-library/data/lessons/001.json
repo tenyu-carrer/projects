@@ -1,0 +1,13 @@
+{
+  "id": "001",
+  "sourceStatus": "試作・品質基準Ver.2",
+  "lesson": {
+    "downloads": [
+      {"label":"完成見本PNG","note":"1080×1080pxの投稿見本","url":"assets/examples/001-sns-post.png"},
+      {"label":"編集画面ガイド","note":"触る場所が分かる画面例","url":"assets/examples/001-editor-screen-v2.png"},
+      {"label":"SNS投稿設計シート","note":"対象・テーマ・行動を整理","url":"assets/downloads/001/SNS投稿設計シート.md"},
+      {"label":"プロンプト集","note":"見出し・短縮・検査・展開の6本","url":"assets/downloads/001/プロンプト集.md"},
+      {"label":"100点検品シート","note":"スマホ表示・事実・権利を確認","url":"assets/downloads/001/100点検品シート.md"}
+    ]
+  }
+}
