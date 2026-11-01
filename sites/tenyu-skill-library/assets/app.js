@@ -147,7 +147,7 @@ function buildProductMockup(productId = '001') {
   };
   const previewImage = currentProduct?.id === productId ? currentProduct.previewImage : previewMap[productId];
   if (previewImage) {
-    const generatedStudyIds = ['007', '008', '009', '010'];
+    const generatedStudyIds = ['007', '008', '009', '010', ...Array.from({ length: 21 }, (_, i) => String(28 + i).padStart(3, '0'))];
     const label = productId === '003'
       ? '架空レイアウト参考画像（QR未検証・印刷不可）'
       : generatedStudyIds.includes(productId)
@@ -236,7 +236,7 @@ function sectionHtml(section, index) {
         : { title: 'まずは、10分で1つ試してみる。', note: '下のプロンプト集から1本選び、【】を書きかえて結果を確かめるところまでがゴールです。', steps: ['プロンプトを選ぶ', '【】を書きかえる', '結果を確かめる'] };
     inner = `<p>${escapeHtml(section.body)}</p><div class="practice-brief"><span>練習用のお題</span><h3>迷わないように、最初の条件を固定します</h3><ul>${profile.brief.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul></div><div class="quick-challenge"><span>10 MINUTE CHALLENGE</span><strong>${challenge.title}</strong><p>${challenge.note}</p><div class="challenge-steps"><b>${challenge.steps[0]}</b><i>→</i><b>${challenge.steps[1]}</b><i>→</i><b>${challenge.steps[2]}</b></div></div>${isCanvaCourse() ? buildEditorGuide() : ''}`;
   } else if (index === 2) {
-    const generatedStudyIds = ['007', '008', '009', '010'];
+    const generatedStudyIds = ['007', '008', '009', '010', ...Array.from({ length: 21 }, (_, i) => String(28 + i).padStart(3, '0'))];
     const mockupCaption = currentProduct?.id === '003'
       ? '架空の参考モックアップ｜QR未検証・印刷不可'
       : generatedStudyIds.includes(currentProduct?.id)
@@ -410,7 +410,7 @@ async function renderProduct() {
       </section>
       <section class="course-overview">
         <article><span>FOR YOU</span><h2>この教材がおすすめの人</h2><ul>${profileFor(product).audience.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul></article>
-        <article><span>YOU WILL GET</span><h2>教材に入っているもの</h2><ul>${product.id === '003' ? '<li>架空の参考モックアップ（QR未検証・印刷不可）</li><li>Canva操作位置の模式図と7手順</li>' : ['007', '008', '009', '010'].includes(product.id) ? '<li>AI生成の教材参考画像（拡大表示対応）</li><li>制作画面例と7工程の詳しい手順</li>' : isCanvaCourse(product.id) ? '<li>完成見本画像（拡大表示対応）</li><li>Canva画面例と7工程の詳しい手順</li>' : '<li>見本の図解画像・表（拡大表示・ダウンロード対応）</li><li>7章の手順と設計シート</li>'}<li>入力式・ワンクリックコピーのプロンプト</li><li>失敗例・修正方法・完成チェック</li></ul></article>
+        <article><span>YOU WILL GET</span><h2>教材に入っているもの</h2><ul>${product.id === '003' ? '<li>架空の参考モックアップ（QR未検証・印刷不可）</li><li>Canva操作位置の模式図と7手順</li>' : ['007', '008', '009', '010'].includes(product.id) ? '<li>AI生成の教材参考画像（拡大表示対応）</li><li>制作画面例と7工程の詳しい手順</li>' : (Number(product.id) >= 28 && Number(product.id) <= 48) ? '<li>内容が一目で分かる教材イラスト（拡大表示対応）</li><li>見本の図解画像・表と7章の手順・設計シート</li>' : isCanvaCourse(product.id) ? '<li>完成見本画像（拡大表示対応）</li><li>Canva画面例と7工程の詳しい手順</li>' : '<li>見本の図解画像・表（拡大表示・ダウンロード対応）</li><li>7章の手順と設計シート</li>'}<li>入力式・ワンクリックコピーのプロンプト</li><li>失敗例・修正方法・完成チェック</li></ul></article>
       </section>
       <section class="course-roadmap"><div><span>LESSON ROADMAP</span><h2>完成までの道筋</h2><p>読むだけではなく、各レッスンで手を動かして1つの完成物を仕上げます。</p></div><ol>${product.lesson.sections.map((section, index) => `<li><a href="#section-${index}"><b>${String(index + 1).padStart(2, '0')}</b><span>${escapeHtml(section.title)}</span><small>${index === 0 ? '準備' : index === 6 ? '検品' : '実践'}</small></a></li>`).join('')}</ol></section>
       ${product.lesson.downloads?.length ? `<section class="download-library" id="downloads"><div><span>DOWNLOADS</span><h2>実際に使える付属ファイル</h2><p>説明だけではなく、制作と検品に使うファイルをそのまま開けます。</p></div><div>${product.lesson.downloads.map((item) => `<a href="${escapeHtml(downloadableHref(item.url))}" target="_blank" rel="noopener"><b>${escapeHtml(item.label)}</b><small>${escapeHtml(item.note)}</small><span>開く ↗</span></a>`).join('')}</div></section>` : ''}

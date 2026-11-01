@@ -5183,7 +5183,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/028/028-long-to-short-map.png",
+      "previewImage": "assets/examples/028-cover-illust.jpg",
       "lesson": {
         "goal": "1本の長尺から、単独で意味が通るショートを3本作り、元動画へ戻れる形で公開準備できる。",
         "deliverable": "切り抜き設計シート・章要約・候補表・縦型編集版3本・字幕・公開前チェック",
@@ -5380,7 +5380,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/029/029-motion-board.png",
+      "previewImage": "assets/examples/029-cover-illust.jpg",
       "lesson": {
         "goal": "伝えたいこと1つを15秒のアニメーション動画にし、6秒・30秒版にも作り替えられる。",
         "deliverable": "設計シート・3場面構成表・動き表CSV・15秒動画・長さ違い構成案・公開前チェック",
@@ -5577,7 +5577,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/030/030-avatar-layout.png",
+      "previewImage": "assets/examples/030-cover-illust.jpg",
       "lesson": {
         "goal": "AIアバターが話す30秒の説明動画を、権利とAI表示に配慮して作り、公開前の確認まで終える。",
         "deliverable": "設計シート・30秒原稿・秒割り台本CSV・動画・説明文・公開前チェック",
@@ -5774,7 +5774,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/031/031-pr-storyboard.png",
+      "previewImage": "assets/examples/031-cover-illust.jpg",
       "lesson": {
         "goal": "根拠のある言葉と実物の使用場面で伝える30秒のPR動画を作り、表現のルールを守って公開準備できる。",
         "deliverable": "設計シート・表現チェック表・絵コンテ・撮影リスト・30秒/15秒動画・説明欄・公開前チェック",
@@ -5975,7 +5975,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/032/032-ad-variants.png",
+      "previewImage": "assets/examples/032-cover-illust.jpg",
       "lesson": {
         "goal": "冒頭だけを変えた15秒の広告動画を3案作り、ポリシーと表現を確認したうえで配信テストの計画を立てる。",
         "deliverable": "設計シート・冒頭3案と共通後半・縦横比別配置・表現チェック表・ポリシー確認メモ・テスト計画表",
@@ -6177,7 +6177,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/033/033-narration-flow.png",
+      "previewImage": "assets/examples/033-cover-illust.jpg",
       "lesson": {
         "goal": "説明文を耳で聞いて分かる原稿に直し、音声合成で30秒のナレーションを作って動画と字幕に合わせる。",
         "deliverable": "設計シート・読み上げ用原稿・字幕用原稿・読み指定シートCSV・音声ファイル・書き出し版・公開前チェック",
@@ -6374,7 +6374,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/034/034-localize-flow.png",
+      "previewImage": "assets/examples/034-cover-illust.jpg",
       "lesson": {
         "goal": "日本語の30秒動画を、意味のずれを点検したうえで英語の字幕付き版にし、吹き替えの準備までする。",
         "deliverable": "設計シート・対訳表・翻訳字幕・画面内文字の一覧・翻訳した題名と説明文・吹き替え原稿・公開前チェック",
@@ -6570,7 +6570,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/035/035-script-structure.png",
+      "previewImage": "assets/examples/035-cover-illust.jpg",
       "lesson": {
         "goal": "AIで60秒動画の台本を作り、事実確認と話し言葉の点検をして、撮影に使える2列台本に仕上げる。",
         "deliverable": "設計シート・骨組み台本・つかみ3案・2列台本・事実確認リスト・15秒版と3分版・公開前チェック",
@@ -6768,7 +6768,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/036/036-song-plan.png",
+      "previewImage": "assets/examples/036-cover-illust.jpg",
       "lesson": {
         "goal": "Sunoで目的に合ったオリジナル曲を1曲作り、1か所ずつ直して記録し、権利と販売の条件を確認できる。",
         "deliverable": "設計メモ・歌詞・Styles・完成曲・制作記録・権利確認メモ",
@@ -6992,7 +6992,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/037/037-bgm-map.png",
+      "previewImage": "assets/examples/037-cover-illust.jpg",
       "lesson": {
         "goal": "使う場所に合った歌なしBGMをSunoで作り、動画に合わせて音量と切り替えを整え、使ってよい範囲を記録する。",
         "deliverable": "使う場所メモ・Styles3案・BGM音源・キューシート・書き出し動画・利用範囲の記録・公開前チェック",
@@ -7192,7 +7192,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/038/038-lyric-structure.png",
+      "previewImage": "assets/examples/038-cover-illust.jpg",
       "lesson": {
         "goal": "自分の思い出から具体的な言葉を集め、AIを手伝いにして1曲分の歌詞を作り、似ていないか・歌いやすいかを点検する。",
         "deliverable": "設計シート・具体的な言葉リスト・歌詞（1番・2番）・歌詞シートCSV・類似確認記録・歌いやすさ点検・公開前チェック",
@@ -7390,7 +7390,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/039/039-podcast-flow.png",
+      "previewImage": "assets/examples/039-cover-illust.jpg",
       "lesson": {
         "goal": "番組の企画と毎回の型を決め、1回目（15分）を録音・編集して配信の準備を整える。",
         "deliverable": "設計シート・エピソード計画表・進行表・音声ファイル・説明文とチャプター・同意の記録・公開前チェック",
@@ -7588,7 +7588,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/040/040-audio-chain.png",
+      "previewImage": "assets/examples/040-cover-illust.jpg",
       "lesson": {
         "goal": "録音した声の雑音を見分け、録音で防ぎ、弱い処理から試して聞き比べ、声が自然なまま聞きやすく整える。",
         "deliverable": "雑音チェック表・録音前の工夫メモ・処理記録CSV・聞き比べメモ・書き出し音声・設定メモ・公開前チェック",
@@ -7784,7 +7784,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/041/041-ig-autopost-flow.png",
+      "previewImage": "assets/examples/041-cover-illust.jpg",
       "lesson": {
         "goal": "投稿を作り置き→人が確認→予約・自動で投稿の流れにし、1週間分を準備して、間違いを出さない仕組みを持つ。",
         "deliverable": "設計シート・1か月テーマ表・1週間の投稿キュー・確認記録・予約設定記録・止める方法・公開前チェック",
@@ -7976,7 +7976,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/042/042-threads-week.png",
+      "previewImage": "assets/examples/042-cover-illust.jpg",
       "lesson": {
         "goal": "テーマと読んでほしい人を決め、型を回しながら1週間分を作り置きし、事実の確認と人の確認を通してから出せる。",
         "deliverable": "設計シート・知りたいことリスト・1週間の投稿計画表・確認済みの投稿7本・返事の方針・反応の記録・公開前チェック",
@@ -8169,7 +8169,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/043/043-x-post-plan.png",
+      "previewImage": "assets/examples/043-cover-illust.jpg",
       "lesson": {
         "goal": "ブログや日々の気づきを素材に、1投稿1メッセージの短い投稿を1週間分作り、事実と言い過ぎを点検してから出せる。",
         "deliverable": "設計シート・素材リスト・1週間分の下書き・素材との対応表・事実確認記録・返信の方針・公開前チェック",
@@ -8363,7 +8363,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/044/044-fb-post-map.png",
+      "previewImage": "assets/examples/044-cover-illust.jpg",
       "lesson": {
         "goal": "Facebookページの1か月の投稿計画を作り、背景や人柄が伝わる投稿を1週間分作り置きして、許可と事実を確認してから予約できる。",
         "deliverable": "設計シート・1か月の計画・確認済みの1週間分・許可の記録・予約の記録・返事の方針・公開前チェック",
@@ -8554,7 +8554,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/045/045-pin-layout.png",
+      "previewImage": "assets/examples/045-cover-illust.jpg",
       "lesson": {
         "goal": "テーマに合うボードを作り、1つの記事から見せ方の違うピンを3枚作って、リンク先と一致していることを確かめてから出せる。",
         "deliverable": "設計シート・ボード一覧・1か月のピン計画表・縦長ピン3パターン・照合記録・権利の記録・公開前チェック",
@@ -8745,7 +8745,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/046/046-channel-plan.png",
+      "previewImage": "assets/examples/046-cover-illust.jpg",
       "lesson": {
         "goal": "チャンネルのテーマと見てほしい人を決め、最初の10本を計画し、題名・サムネイル・説明文・振り返りを毎回同じ手順で回せる。",
         "deliverable": "チャンネル設計シート・チャンネル名と説明文・10本の計画表・1本目の題名とサムネイルと説明文・権利の記録・振り返り表・公開前チェック",
@@ -8936,7 +8936,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/047/047-tiktok-cards.png",
+      "previewImage": "assets/examples/047-cover-illust.jpg",
       "lesson": {
         "goal": "テーマを決めて企画を10個出し、企画カードで撮影の準備をして、権利と広告表示を確かめてから投稿できる。",
         "deliverable": "設計シート・企画10個・企画カード3枚・撮影リスト・説明文とハッシュタグ・広告表示の記録・公開前チェック",
@@ -9127,7 +9127,7 @@
         "mode": "sample",
         "utageProductId": null
       },
-      "previewImage": "assets/downloads/048/048-sns-calendar.png",
+      "previewImage": "assets/examples/048-cover-illust.jpg",
       "lesson": {
         "goal": "使っているSNSの予定を1つの表にまとめ、1か月の投稿カレンダーを作り、状態の欄で進み具合を管理できる。",
         "deliverable": "設計シート・話題リスト・1か月の投稿カレンダー・素材の準備リスト・書き分けの方針・状態の管理記録・公開前チェック",
