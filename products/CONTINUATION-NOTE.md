@@ -61,3 +61,38 @@
 - 新しい番号を作ったら必ず：build-item.py → sync-lessons.mjs → course-quality.mjs（全件100）→ ブラウザで全教材の点検（エラー表示なし・プロンプト1本以上・付属ファイル全部200）。ファイルがあるだけでは「見られる」ことにならない。
 - サイトの確認：`cd sites/tenyu-skill-library && python -m http.server 8790 --bind 127.0.0.1` → http://127.0.0.1:8790/ 。ネット公開：https://tenyu-skill-library.vercel.app/ （2026-11-01 オーナーが本番公開。更新は sites/tenyu-skill-library で npx vercel@latest deploy --prod --yes をオーナーが実行）。
 - 2026-11-01 オーナー指摘「028〜048の表紙が表の画像ばかりで適当、008（漫画）009（LINEスタンプ）のように内容が一目で分かる絵にして」→ Canvaの画像生成で21枚作り、`sites/tenyu-skill-library/assets/examples/NNN-cover-illust.jpg` を各 lessons/NNN.json の previewImage に設定。書き出しは Canvaデザイン「天祐AIスキル教材用空白ページ」(DAHZpVDZtrg) に置いてPNG出力。今後の新しい番号も、表紙は「そのテーマを最もよく示す絵」をCanvaで作る（表やカードだけの図にしない）。build-item.py を --force で作り直すと previewImage が戻るので注意。
+
+## 2026-11-04（Claude・古川さんのMacへ移行）
+
+### 今日やったこと（完了）
+- 引き継ぎ資料5ファイルを `/Users/user/tenyu-skill180-backup-20261104/` に控え、GitHubの内容と同じことを確認（変更なし）。
+- GitHub：アカウント Charmeg、push権限あり、ブランチ `claude/content-products`。pushはしていない。
+- 制作データ1,045ファイルを全部取得（回線が毎秒約33KBと遅く、一括取得が止まったため40件ずつ19回に分けて取得）。
+- Mac に Node.js v26.13.0（Homebrew）と Pillow 11.3.0（pip --user）を入れた（無料）。
+- `build-item.py` の保存場所がWindows（C:\Users\yyuki\…）に固定されていてMacで動かなかったので、ファイルの位置から自動で決めるように修正し commit（a5087c9、未push）。
+- コピー上で 065 を作り直して確認：文章・データは元と同じ。図はMacのフォント（ヒラギノ）で正しく表示。
+- sync-lessons.mjs：65件同期OK（コピー上で確認。本物ではまだ実行していない）。全65教材でプロンプト1本以上。
+- 手元サイト：全65教材の付属ファイル・表紙が開ける（HTTP 200）。ブラウザでの目視点検は未実施。
+
+### 分かったこと（注意）
+- Macでは course-quality.mjs で 41件100点・24件80点（028, 030〜035, 037〜048, 050, 052, 061, 063, 064）。理由は「本文6000文字以上」だけ。Windowsは改行を2文字（CRLF）で数えていたため、Mac（LF）では行数分少なく出る（例：028は6051→5872、差179＝行数）。
+- オーナー判断（2026-11-04）：既存24件は**現状維持**（書き足さない・検査プログラムも変えない）。
+- 066以降は、**Macで数えて6000文字以上**にする。
+- Macで sync-lessons.mjs を本物に実行すると products.json の改行（\r\n→\n）がそろい、036 の重複プロンプト1本（改行違いの同じ文）がまとまる。中身は減らない。
+- Macには `python` が無い。`python3` を使う。
+
+### 未完了
+- 066 の制作（オーナー指示で未着手）。
+- 049〜065 の表紙を絵（Canva）にする作業。
+- a5087c9 の push（オーナー承認待ち）。
+
+### 次回 066 から再開する手順
+1. このメモ・`products/PRODUCTION-TRACKER.md`・`products/sources/065.md` を読む。
+2. `products/master-v1.0.md` で「066｜AIで電子書籍を執筆する方法」を照合。
+3. 電子書籍の公式ページ（Kindleダイレクト・パブリッシングのヘルプなど）を実際に開いて仕様・規約を確認（開けなければ「使う時点で確認」と書く）。
+4. `products/sources/066.md` を065をまねて書く（D完全パックはMacで6000文字以上）。
+5. `python3 products/scripts/build-item.py products/sources/066.md`
+6. `node sites/tenyu-skill-library/scripts/sync-lessons.mjs`
+7. `node products/scripts/course-quality.mjs`（066が100点。既存24件の80点は現状維持なので直さない）
+8. 表紙の絵（CLAUDE.md 4章）→ サイトをブラウザで全教材点検（CLAUDE.md 5章）。
+9. 進捗表とこのメモを更新して commit。push・公開はオーナー承認後。
