@@ -8,7 +8,8 @@ JSON (lesson json, downloads auto-filled), PNG (diagram spec json -> NNN-D/asset
 import json, os, re, shutil, sys
 from PIL import Image, ImageDraw, ImageFont
 
-ROOT = r"C:\Users\yyuki\天祐プロジェクト\projects-content"
+# リポジトリの場所は、このファイルの位置（products/scripts）から自動で決める（Windows・Mac共通）
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 OUT = os.path.join(ROOT, "products", "output")
 SITE = os.path.join(ROOT, "sites", "tenyu-skill-library")
 import os as _os
