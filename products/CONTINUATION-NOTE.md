@@ -1,8 +1,58 @@
 # 天祐AIスキル商品180｜再開メモ
 
+## 2026-11-08 時点のまとめ（次回はまずここを読む）
+
+### 今の状態
+- 制作済み：001〜066（A/B/C/D・付属ファイル・Webデータ）。次は **067「AIでKindle出版を進める方法」**（着手は古川さんの指示を待つ）。
+- 品質検査（`node products/scripts/course-quality.mjs`、Mac）：**100点42件・80点24件**。80点の24件（028, 030〜035, 037〜048, 050, 052, 061, 063, 064）は「本文6000文字以上」だけが不足（WindowsとMacの改行の数え方の差）。オーナー判断で**現状維持**（書き足さない・検査も変えない）。066以降はMacで6000文字以上にする。
+- サイト点検（2026-11-08）：手元サイトで全66教材を Chrome の画面なしモードで表示 → エラーなし・プロンプト集1本以上・付属ファイル全部開ける・表紙あり（66/66）。
+- GitHub：ブランチ `claude/content-products`（https://github.com/tenyu-carrer/projects/tree/claude/content-products ）。2026-11-08 時点で手元とGitHubは同じ（この再開メモの更新commitまで push 済み）。
+  - 45e6726：066の制作一式（11-07 push）
+  - c7b9a70：066の表紙をA案に差し替え・`.gitignore` に `.DS_Store`（11-08 push）
+- 本番サイト https://tenyu-skill-library.vercel.app/ は **未更新**（066は本番に出ていない）。本番公開はオーナーが行う。
+
+### 066の表紙（2026-11-08 確定）
+- 採用：`sites/tenyu-skill-library/assets/examples/066-cover-illust-v3.jpg`（A案「女性とAIロボットが執筆」、1200×897）。066.json と products.json の previewImage をこれにした。
+- 残してある元画像：`066-cover-illust.jpg`（Pythonで描いた最初の絵。不採用）、`066-cover-illust-v2.jpg`（Canva生成・水彩風。不採用、Gitには入れていない＝手元だけ）。A〜D案の元画像は作業用の一時フォルダにあり、次回は消えている可能性がある。
+- Canva：作業用デザイン「066 表紙書き出し用（作業コピー）」（DAHaPf_UqhU）が古川さんのCanvaに残っている（1ページ目は複製元ポスターのまま）。不要なら古川さんが削除。CanvaのAI利用枠は1回使用。
+
+### 画像の作り方（2026-11-08 決定）
+- **表紙**：手元のMacで生成（無料・回数制限なし）。CanvaのAIは予備（使う前に必ず古川さんに確認）。表紙にPythonの図やカードを並べた画像は使わない。
+- **図解・説明図**：今までどおり build-item.py（Python）で自動作成してよい。
+- 環境（古川さんのMac：Apple M1・メモリ16GB）：
+  - `uv`（Homebrew、0.13.7）、`mflux` 0.24.0（`uv tool install --force --python 3.12 --upgrade mflux`。Mac標準のPython 3.9だと古い0.2.1が入るので注意）
+  - モデル：`mflux-community/z-image-turbo-mflux-q4`（5.9GB、Hugging Faceのキャッシュに保存済み）。元モデル Tongyi-MAI/Z-Image-Turbo（Apache-2.0）をmfluxコミュニティが変換したもの（公式の公開ではないと明記あり）。
+  - 1枚 約5分10〜20秒、メモリ最大 約5.9GB。
+  - 生成コマンド：
+    `~/.local/bin/mflux-generate-z-image-turbo --model mflux-community/z-image-turbo-mflux-q4 --base-model z-image-turbo --prompt "…" --width 1216 --height 912 --steps 9 --seed 1066 --compute-precision float16 --low-ram --output NNN-cover.png`
+    → 1200×900に縮小し、上1px・下2px切って 1200×897 のJPG（`assets/examples/NNN-cover-illust.jpg`）。
+- **表紙の制作ルール（古川さんの指示）**：
+  - 1商品につき**原則1枚**生成。品質が足りないときだけ作り直す（同じ指示文でシード違いを何枚も作らない）。
+  - 絵柄の基準は066のA案：はっきりした線・淡い色・白背景・茶色い髪の女性（黄色いセーター）と白い丸いロボット（黒い画面の顔）。
+  - 教材の内容に合わせて**構図・視点・登場人物・道具を変える**。直前の数件の表紙と並べて、似た表紙が続かないようにする。
+  - 指示文の最後に必ず「No text, no letters, no numbers, no logos, no watermark.」。
+  - 合格条件：縮小してもテーマが分かる／文字・ロゴなし／手・顔・道具が崩れていない／028〜048・066と並べて浮かない。満たさなければ表紙に設定せず「表紙未完了」と記録する。
+  - 使った道具・モデル・指示文・作った日を制作ログに残す。
+
+### 未完了・確認待ち
+- **商用利用のライセンス確認（古川さん）**：mflux-community版 Z-Image-Turbo（表示はApache-2.0）で作った表紙を販売用に使ってよいかの最終判断。**判断が済むまで販売用として公開しない。**
+- **Vercelのお試し版は閲覧制限あり**：push すると自動で作られる（https://tenyu-skill-library-git-claude-content-products-tenyu-carrier.vercel.app ）。開くとVercelのログインが必要で、Claudeからは中身を見られない。見るにはオーナーのVercelアカウントの権限が必要。
+- 本番公開（オーナー判断。sites/tenyu-skill-library で npx vercel@latest deploy --prod --yes をオーナーが実行する決まり）。
+- 049〜065の表紙が図のまま（絵にする作業。上の新しい方法で作れる。着手は指示待ち）。001〜027も絵柄がそろっていない。
+- 文化庁「AIと著作権に関する考え方について」PDFの本文確認（取得時に文字化けで読めなかった）。
+- 品質検査レポート `products/checks/quality-v2-report.json` は検査のたびに日時が変わる。日時だけの変更なら commit しない。
+
+### 次回の再開手順
+1. このまとめと `products/PRODUCTION-TRACKER.md` を読む。`git status` と `git log -3` で手元とGitHubが同じか確かめる。
+2. 古川さんの指示を確認（067に進むか、049〜065の表紙か、など）。
+3. 067を作る場合：065・066の原稿（`products/sources/066.md`）をまねる → 公式ページで仕様確認（KDPのヘルプなど）→ `python3 products/scripts/build-item.py products/sources/067.md` → `node sites/tenyu-skill-library/scripts/sync-lessons.mjs` → `node products/scripts/course-quality.mjs`（067が100点）。Web教材の章（sections）は**7つ**（サイトが「7章」と表示するため）。
+4. 表紙は上の「画像の作り方」で1枚生成 → 目で点検 → `assets/examples/067-cover-illust.jpg` → `data/lessons/067.json` の previewImage を設定 → sync-lessons.mjs。build-item.py を --force で作り直すと previewImage が図に戻るので必ず確認。
+5. サイトを手元で開いて全教材を点検：`cd sites/tenyu-skill-library && python3 -m http.server 8790 --bind 127.0.0.1`。Chromeの画面なしモードは500pxより狭く表示できない。一度に多く開くと空のページが返ることがあるので、問題が出た番号は1件ずつ確かめ直す。
+6. 進捗表とこのメモを更新 → commit。push・公開・課金は古川さんの承認後。push はこのMacでは `git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin claude/content-products`（gh に Charmeg でログイン済み。force push しない）。
+
 ## 次の作業
 
-- 次の商品：067「AIでKindle出版を進める方法」（`products/master-v1.0.md` の順番を維持）。2026-11-07 に066を制作済み。067は古川さんの指示があるまで着手しない
+- 次の商品：067「AIでKindle出版を進める方法」（`products/master-v1.0.md` の順番を維持）。001〜066は制作済み・GitHub保存済み。067は古川さんの指示があるまで着手しない（詳しくは下の「2026-11-08 時点のまとめ」）
 - 2026-10-31（Claude）：028〜043を制作（第2部完了・第3部041〜043）。各番号にA/B/C/D・設計図PNG・CSV見本・公開前チェック・制作ログ・Webデータ。全番号の完全パックに「自動化と収益化（第3段階）」の章を入れた（オーナー指示：無料→作り方→自動化・マネタイズの3段階）。036は既存の講座.md（10/22公式確認）を残したまま完全パック.mdにまとめた
 - 015〜027はA/B/C/Dの草案、実素材、Webデータまで作成済み。015と016の各Canva草案には誤記があるため、校閲前の参考素材として扱う。
 - 017は2026-10-23にSUZURI公式の入稿仕様、販売手順、原価・トリブン、禁止事項、権利情報を確認し根拠URLを記録済み。実アカウントへの入稿、印刷、注文、販売は未実施。
@@ -115,8 +165,8 @@
 - この環境（古川さんのMac）にはブラウザ操作の道具とCanvaの道具が無い。ブラウザ点検はChromeの画面なしモードで代用した。
 
 ### 未完了
-- 066の commit は済み・push は未実施（古川さんの承認待ち）。a5087c9 なども未push。
+- 066の commit は済み・push は未実施（古川さんの承認待ち）。a5087c9 なども未push。→ 2026-11-07 に push 済み（45e6726）
 - 公開（Vercel）・販売・投稿は未実施。
-- 066の表紙をCanvaで作り直すか（オーナー判断）。049〜065 の表紙を絵にする作業は残ったまま。
+- 066の表紙をCanvaで作り直すか（オーナー判断）。049〜065 の表紙を絵にする作業は残ったまま。 → 066は2026-11-08にA案（手元のMacで生成）へ差し替え済み（c7b9a70）
 - 文化庁「AIと著作権に関する考え方について」PDFの本文確認。
 - 067 は未着手（指示待ち）。
