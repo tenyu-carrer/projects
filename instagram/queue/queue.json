@@ -3,377 +3,6 @@
   "lastRun": "2026-11-14T23:11:20Z",
   "items": [
     {
-      "id": "20261102-fortune-auto",
-      "account": "fortune",
-      "publishAt": "2026-11-02T06:50:00+09:00",
-      "caption": "【11月2日（月）今日の運勢】\n総合運1位は…うお座♓\n\n感受性とやさしさが魅力のうお座さん。\n直感を信じて吉。感性が冴える日。心がときめくものを選ぶと吉。\n\n▶ 今日のひとこと：人の話にゆっくり耳を傾けて\nラッキーカラー：パールホワイト\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：3月26日生まれ（メモをとると成果に）\n恋愛運1位：5月1日生まれ（笑顔のあいさつが鍵）\n金運1位：1月4日生まれ（ていねいな管理が吉）\n\n今日も自分のペースでいきましょう🌙\n\n#占い #今日の運勢 #星座占い #うお座 #誕生日占い",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-02-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-02-2.jpg"
-      ]
-    },
-    {
-      "id": "20261102-worklife-auto",
-      "account": "worklife",
-      "publishAt": "2026-11-02T06:50:00+09:00",
-      "caption": "資格より先に今の仕事でできることを数えよう。\n\n資格は役に立ちますが、取るまでに時間がかかります。\nいまの仕事でできることにも、\n次の職場で生かせる力が入っています。\n\n小さな一歩でいいので、今日はこれを👇\n今の仕事で「人に教えられること」を3つ書き出してみてください\n\n📝 もっとくわしく知りたい人は、プロフィールのリンクからどうぞ\n\n読んでくれてありがとう。今日もおつかれさまです🌿\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #転職 #強みの見つけ方",
-      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/0692277d3818e35f408fe55e588406588514710c/instagram/auto/images/worklife/2026-11-02.jpg"
-    },
-    {
-      "id": "20261102-soundpro-timeoff",
-      "account": "soundpro",
-      "publishAt": "2026-11-02T07:50:00+09:00",
-      "caption": "休みの連絡は短くても、伝え方で信頼感が変わります。\nよく使う場面の言いかえを5つまとめました。\n\n覚えたいものがあったら、保存しておいてくださいね📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1f21822484d0415bed91c903567521d82a4f9fb5/instagram/content/soundpro/images/21-timeoff-canva-7.jpg"
-      ],
-      "canvaDesignId": "DAHY4EZCK9k",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T00:20:46.332Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差48.6）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "10/27 の型を土台に作り直し・表紙と05の文字の重なりを直した"
-        ]
-      }
-    },
-    {
-      "id": "20261103-fortune-auto",
-      "account": "fortune",
-      "publishAt": "2026-11-03T06:50:00+09:00",
-      "caption": "【11月3日（火）今日の運勢】\n総合運1位は…さそり座♏\n\n集中力と深い情が魅力のさそり座さん。\nひとつに絞ると吉。心を許せる人との話が、迷いを晴らしてくれるかも。\n\n▶ 今日のひとこと：信頼できる人に相談を\nラッキーカラー：ボルドー\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：9月25日生まれ（チームの声を聞いて吉）\n恋愛運1位：10月27日生まれ（感謝を言葉にして）\n金運1位：9月14日生まれ（欲しい物リストを作って）\n\n素敵な一日になりますように🌙\n\n#占い #今日の運勢 #星座占い #さそり座 #誕生日占い",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-03-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-03-2.jpg"
-      ]
-    },
-    {
-      "id": "20261103-worklife-auto",
-      "account": "worklife",
-      "publishAt": "2026-11-03T06:50:00+09:00",
-      "caption": "求人票は給与の内訳まで見ておこう。\n\n同じ月給でも、基本給と手当の割合は会社によって違います。\n内訳を知っておくと、\n入社後の「思っていたのと違う」を減らせます。\n\nむずかしく考えずに、これだけどうぞ👇\n気になる求人を1つ開いて、基本給・手当・残業代の書き方を確かめてみてください\n\n📝 もっとくわしく知りたい人は、プロフィールのリンクからどうぞ\n\nあとで見返せるように、保存しておくと便利です📌\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #転職 #求人票",
-      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-11-03.jpg"
-    },
-    {
-      "id": "20261103-yorukin-k03-gcs",
-      "account": "yorukin",
-      "publishAt": "2026-11-03T06:50:00+09:00",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/d840c28f3db405b20c0c2bfb2e5d831d3dc8629c/instagram/content/yorukin/images/k03-gcs-canva-7.jpg"
-      ],
-      "caption": "JCSのつぎは、GCSの見方です🌙\nE・V・Mそれぞれの点数と、合計の考え方を5つにまとめました📝\n\n合計点だけでなく「E3V4M6」のように分けて書いておくと、次の人が変化に気づきやすくなります✍️\n夜勤明けのすきま時間に、さらっと見返してみてくださいね☕️\n\n▼JCSの投稿もあわせてどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #GCS #意識レベル #新人看護師 #よるきんナース",
-      "canvaDesignId": "DAHY4OMCqgQ",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T00:42:21.502Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差25.7）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "Canva で新規作成・表紙と締めにフクロウ・重複した締めページを除外"
-        ]
-      }
-    },
-    {
-      "id": "20261103-soundpro-deadline",
-      "account": "soundpro",
-      "publishAt": "2026-11-03T07:50:00+09:00",
-      "caption": "締め切りに間に合わないときは、早めに・具体的に伝えるのが信頼につながります。\n延長をお願いするときの言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3e90877d14349a7baa3c93a64963795f624dfdd5/instagram/content/soundpro/images/22-deadline-canva-7.jpg"
-      ],
-      "canvaDesignId": "DAHY4BSLwWs",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T00:23:27.406Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差25.8）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "10/28 の型を土台に作り直し・04の説明文の折り返しを直した"
-        ]
-      }
-    },
-    {
-      "id": "20261104-fortune-auto",
-      "account": "fortune",
-      "publishAt": "2026-11-04T06:50:00+09:00",
-      "caption": "【11月4日（水）今日の運勢】\n総合運1位は…やぎ座♑\n\n責任感と着実さが魅力のやぎ座さん。\n計画を立てると運が開く日。長い目で考えた計画が、うまく動き出しそうです。\n\n▶ 今日のひとこと：今週の目標を1つだけ書き出して\nラッキーカラー：ダークグリーン\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：6月22日生まれ（早めの報告が評価に）\n恋愛運1位：9月3日生まれ（共通の話題で盛り上がる）\n金運1位：1月15日生まれ（予定外の出費に注意）\n\n今日も自分のペースでいきましょう🌙\n\n#占い #今日の運勢 #星座占い #やぎ座 #誕生日占い",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-04-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-04-2.jpg"
-      ]
-    },
-    {
-      "id": "20261104-worklife-auto",
-      "account": "worklife",
-      "publishAt": "2026-11-04T06:50:00+09:00",
-      "caption": "学ぶ前に作ってみる。手が覚えていく。\n\n勉強だけを続けると、\n「まだ早い」と始めるのが遅れがちです。\n小さく作ってみると、足りないことが分かります。\n\n小さな一歩でいいので、今日はこれを👇\n学びたいことを1つ選び、30分で小さな作品を1つ作ってみてください\n\n📝 もっとくわしく知りたい人は、プロフィールのリンクからどうぞ\n\nあなたはどうですか？よかったらコメントで教えてください💬\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #複業 #副業 #スキルの学び方",
-      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/0692277d3818e35f408fe55e588406588514710c/instagram/auto/images/worklife/2026-11-04.jpg"
-    },
-    {
-      "id": "20261104-soundpro-disagree",
-      "account": "soundpro",
-      "publishAt": "2026-11-04T07:50:00+09:00",
-      "caption": "反対するときほど、言い方で相手の受け取り方が大きく変わります。\n会議で使える、やわらかい反対の言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語会議 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3b07fac2b3f05c81d4a26f4aad1893550c41f6e0/instagram/content/soundpro/images/23-disagree-canva-7.jpg"
-      ],
-      "canvaDesignId": "DAHY4F0_-Ew",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T00:46:19.219Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差36.9）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "Canva で新規作成・下の帯の誤字（ビジ方ス）を修正・取り消し線をそろえた・内容と関係ない橋の絵を削除"
-        ]
-      }
-    },
-    {
-      "id": "20261105-fortune-auto",
-      "account": "fortune",
-      "publishAt": "2026-11-05T06:50:00+09:00",
-      "caption": "【11月5日（木）今日の運勢】\n総合運1位は…しし座♌\n\n明るさと存在感が魅力のしし座さん。\n笑顔が幸運を呼ぶ日。目立とうとしなくても、自然体のあなたに人が集まりそうです。\n\n▶ 今日のひとこと：背伸びしすぎず等身大で\nラッキーカラー：サンイエロー\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：1月20日生まれ（机の上を整えて吉）\n恋愛運1位：12月19日生まれ（素直な一言が効く日）\n金運1位：11月28日生まれ（買う前にひと呼吸）\n\nいい流れに乗れる一日になりますように🌈\n\n#占い #今日の運勢 #星座占い #しし座 #誕生日占い",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-05-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-05-2.jpg"
-      ]
-    },
-    {
-      "id": "20261105-worklife-auto",
-      "account": "worklife",
-      "publishAt": "2026-11-05T06:50:00+09:00",
-      "caption": "本業が先。複業は余った力でちょうどいい。\n\n複業で疲れて本業に響くと、どちらも続きません。\n「余力でやる」と決めておくと、\n長く続けやすくなります。\n\nむずかしく考えずに、これだけどうぞ👇\n複業に使う時間の上限を、1週間あたりで決めてみてください\n\n📝 もっとくわしく知りたい人は、プロフィールのリンクからどうぞ\n\n一人で抱えこまず、少しずつでいきましょう🍀\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #複業 #副業 #両立",
-      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/6cf96de64ee8dd0016e0f75a676fcf5cf8f93c8f/instagram/auto/images/worklife/2026-11-05.jpg"
-    },
-    {
-      "id": "20261105-yorukin-k04-tekika",
-      "account": "yorukin",
-      "publishAt": "2026-11-05T06:50:00+09:00",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/4062aa24e3be9b4683c026bbb8db824286c13337/instagram/content/yorukin/images/k04-tekika-canva-7.jpg"
-      ],
-      "caption": "点滴の滴下数、計算のたびにちょっとドキドキしませんか？💧\n式と計算の例を、5つのステップでまとめました🧮\n\n輸液セットが成人用か小児用かで1mLの滴数が変わるので、まずそこから確認するのが安心です👀\n計算したあとも、指示と残量、刺入部をもう一度見るところまでがセットですね🌙\n\n保存して、夜勤のおともにどうぞ🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #点滴 #滴下計算 #新人看護師 #よるきんナース",
-      "canvaDesignId": "DAHY4Pe8klM",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T01:04:39.610Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差21.7）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "Canva で新規作成・表紙と締めにフクロウ・逆順ページを並べ直し・数値を原稿と照合"
-        ]
-      }
-    },
-    {
-      "id": "20261105-soundpro-jumpin",
-      "account": "soundpro",
-      "publishAt": "2026-11-05T07:50:00+09:00",
-      "caption": "英語の会議では、黙っていると「意見がない人」と思われがちです。\n発言に入るタイミングで使える言いかえを5つまとめました。\n\n使う前に、保存しておくと便利です📌\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語会議 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/fd9533747cb686f645ef6457da626c933e77f850/instagram/content/soundpro/images/24-jumpin-canva-7.jpg"
-      ],
-      "canvaDesignId": "DAHY4DlC6WY",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T01:02:00.111Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差41.9）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "Canva で新規作成・03の取り消し線をそろえた・逆順ページを並べ直し"
-        ]
-      }
-    },
-    {
-      "id": "20261106-fortune-auto",
-      "account": "fortune",
-      "publishAt": "2026-11-06T06:50:00+09:00",
-      "caption": "【11月6日（金）今日の運勢】\n総合運1位は…ふたご座♊\n\n好奇心と会話力が魅力のふたご座さん。\n軽やかな動きが鍵になる日。あれこれ手を広げたくなる日。優先順位を1つ決めると動きやすくなります。\n\n▶ 今日のひとこと：予定は詰めこみすぎずに\nラッキーカラー：ミントグリーン\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：10月25日生まれ（新しい提案が通りそう）\n恋愛運1位：5月24日生まれ（共通の話題で盛り上がる）\n金運1位：10月4日生まれ（財布の中を整理して）\n\n今日も自分のペースでいきましょう🌙\n\n#占い #今日の運勢 #星座占い #ふたご座 #誕生日占い",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-06-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-06-2.jpg"
-      ]
-    },
-    {
-      "id": "20261106-worklife-auto",
-      "account": "worklife",
-      "publishAt": "2026-11-06T06:50:00+09:00",
-      "caption": "ごほうびは大きくなくていい。好きな一杯で心は満ちる。\n\n特別なことをしなくても大丈夫。\nお気に入りの飲み物や甘いものが、\n一週間の疲れをやさしくほどいてくれます。\n\n小さな一歩でいいので、今日はこれを👇\n今日の帰り道や夕食後に、自分のための小さなごほうびを1つ用意してみてください\n\n明日のあなたが、ちょっとラクになりますように🌙\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #金曜日 #ごほうび",
-      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-11-06.jpg"
-    },
-    {
-      "id": "20261106-soundpro-trouble",
-      "account": "soundpro",
-      "publishAt": "2026-11-06T07:50:00+09:00",
-      "caption": "トラブルの報告は、言い方ひとつで相手の安心感が変わります。\n落ち着いて伝えるための言いかえを5つまとめました。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語メール #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/239f735de0044e393872ae5fb07c312ae2c4f559/instagram/content/soundpro/images/25-trouble-canva-7.jpg"
-      ],
-      "canvaDesignId": "DAHY4D3GYFg",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T00:53:44.890Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差66.5）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "Canva で新規作成・01の説明文を読める大きさに・下の帯の文字を全ページ確認"
-        ]
-      }
-    },
-    {
-      "id": "20261107-fortune-auto",
-      "account": "fortune",
-      "publishAt": "2026-11-07T06:50:00+09:00",
-      "caption": "【11月7日（土）今日の運勢】\n総合運1位は…いて座♐\n\n自由さと前向きさが魅力のいて座さん。\n思い切った一歩が吉。新しい体験がツキを運んできそう。小さな冒険を楽しんで。\n\n▶ 今日のひとこと：いつもと違う道を通ってみて\nラッキーカラー：オレンジ\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：7月16日生まれ（得意分野で力を発揮）\n恋愛運1位：9月9日生まれ（小さな気づかいが◎）\n金運1位：5月5日生まれ（買う前にひと呼吸）\n\nいい流れに乗れる一日になりますように🌈\n\n#占い #今日の運勢 #星座占い #いて座 #誕生日占い",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-07-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-07-2.jpg"
-      ]
-    },
-    {
-      "id": "20261107-worklife-auto",
-      "account": "worklife",
-      "publishAt": "2026-11-07T06:50:00+09:00",
-      "caption": "外の空気を吸いに行こう。少し歩くだけで気分は変わる。\n\n家の中にいると、気持ちがこもりがち。\n外に出て少し歩くだけで、\n頭も心もすっきりします。\n\n今日のおすすめはこれです✨\n今日は10分だけ、近所を散歩してみてください\n\nあなたはどうですか？よかったらコメントで教えてください💬\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #休日 #散歩",
-      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-11-07.jpg"
-    },
-    {
-      "id": "20261107-yorukin-k05-sbar",
-      "account": "yorukin",
-      "publishAt": "2026-11-07T06:50:00+09:00",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/1630f18e480d93d1733fa4329d6cdbdf9d0c8e97/instagram/content/yorukin/images/k05-sbar-canva-7.jpg"
-      ],
-      "caption": "急変かも…と思ってドクターに電話するとき、何から話せばいいか頭が真っ白になったことはありませんか😥\nそんなときに助けてくれる「SBAR」の型を5つのポイントでまとめました📝\n\nS・B・A・Rの順に話すだけで、相手が知りたいことが伝わりやすくなります📞\n最後の「復唱」まで入れて、ひとつの流れとして覚えておくと安心です🌙\n\n保存して、いざというときに見返してくださいね🦉\n\n▼ほかの投稿もどうぞ👉 @yorukin_nurse\n\n#看護師 #ナース #看護師の勉強 #SBAR #申し送り #新人看護師 #よるきんナース",
-      "canvaDesignId": "DAHY4CGEPsk",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T00:57:19.954Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差21.0）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "Canva で新規作成・表紙と締めにフクロウ・表紙の「Sbar」を「SBAR」に修正・05の空の吹き出しにフクロウ"
-        ]
-      }
-    },
-    {
-      "id": "20261107-soundpro-propose",
-      "account": "soundpro",
-      "publishAt": "2026-11-07T07:50:00+09:00",
-      "caption": "同じ提案でも、伝え方しだいで通りやすさが変わります。\n会議やメールで使える提案の言いかえを5つまとめました。\n\n明日の会議やメールで、さっそくどうぞ✨\n\n▼ほかの言いかえはこちら👉 @sound_pro_english\n\n#ビジネス英語 #ビジネス英会話 #英語会議 #英語学習 #英語フレーズ #仕事で使える英語 #素人に見えないビジネス英語",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/f53190a98e66c5a6fbe76f034f8f10577a57ad0f/instagram/content/soundpro/images/26-propose-canva-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/f53190a98e66c5a6fbe76f034f8f10577a57ad0f/instagram/content/soundpro/images/26-propose-canva-2.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/f53190a98e66c5a6fbe76f034f8f10577a57ad0f/instagram/content/soundpro/images/26-propose-canva-3.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/f53190a98e66c5a6fbe76f034f8f10577a57ad0f/instagram/content/soundpro/images/26-propose-canva-4.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/f53190a98e66c5a6fbe76f034f8f10577a57ad0f/instagram/content/soundpro/images/26-propose-canva-5.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/f53190a98e66c5a6fbe76f034f8f10577a57ad0f/instagram/content/soundpro/images/26-propose-canva-6.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/f53190a98e66c5a6fbe76f034f8f10577a57ad0f/instagram/content/soundpro/images/26-propose-canva-7.jpg"
-      ],
-      "canvaDesignId": "DAHY4Nmhji8",
-      "qa": {
-        "passed": true,
-        "checkedAt": "2026-10-24T01:02:52.204Z",
-        "by": "Claude（品質管理部）",
-        "checks": [
-          "Canva製",
-          "ポイントごとに違う見た目",
-          "check-carousel.mjs 合格（差21.5）",
-          "全ページ目視：文字切れ・誤字なし・順番正しい",
-          "Canva で新規作成・取り消し線をそろえた・小さい説明文を大きく・逆順ページを並べ直し"
-        ]
-      }
-    },
-    {
-      "id": "20261108-fortune-auto",
-      "account": "fortune",
-      "publishAt": "2026-11-08T06:50:00+09:00",
-      "caption": "【11月8日（日）今日の運勢】\n総合運1位は…てんびん座♎\n\nバランス感覚と品のよさが魅力のてんびん座さん。\nおしゃれを楽しむと吉。お気に入りの服や小物を身につけると、気分も運気も上向きに。\n\n▶ 今日のひとこと：迷ったら第一印象を信じて\nラッキーカラー：ピンク\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：11月2日生まれ（机の上を整えて吉）\n恋愛運1位：7月6日生まれ（小さな気づかいが◎）\n金運1位：1月17日生まれ（欲しい物リストを作って）\n\nピンときた人は、ぜひ試してみてね☺️\n\n#占い #今日の運勢 #星座占い #てんびん座 #誕生日占い",
-      "imageUrls": [
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-08-1.jpg",
-        "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/fortune/2026-11-08-2.jpg"
-      ]
-    },
-    {
-      "id": "20261108-worklife-auto",
-      "account": "worklife",
-      "publishAt": "2026-11-08T06:50:00+09:00",
-      "caption": "今週の予定を5分だけ眺めてみよう。心の準備になる。\n\n予定をざっと見ておくだけで、\n「知らなかった」の慌てが減ります。\nたった5分が、一週間の安心につながります。\n\n今日はこれだけでOKです👇\n今夜5分だけ、来週の予定をカレンダーで眺めてみてください\n\n一人で抱えこまず、少しずつでいきましょう🍀\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #日曜日 #段取り",
-      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/3bc96889fe487dd767c09353da089af81d79ccad/instagram/auto/images/worklife/2026-11-08.jpg"
-    },
-    {
       "id": "20261109-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-09T06:50:00+09:00",
@@ -1392,6 +1021,125 @@
       "publishAt": "2027-01-07T06:50:00+09:00",
       "caption": "複業の時間は家族の予定と並べて決めよう。\n\n家族の予定とぶつかると、\n気持ちよく続けにくくなります。\n先に重ねて見ると、無理のない時間が見つかります。\n\nむずかしく考えずに、これだけどうぞ👇\n家族の予定が書かれたカレンダーに、複業の時間を1つ書き足してみてください\n\n📝 もっとくわしく知りたい人は、プロフィールのリンクからどうぞ\n\nできた日は、自分をほめてあげてくださいね😊\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #複業 #副業 #家族との両立",
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/45fa7a131290c01e3a38e86de73d61101a67e9e4/instagram/auto/images/worklife/2027-01-07.jpg"
+    },
+    {
+      "id": "20270108-fortune-auto",
+      "account": "fortune",
+      "publishAt": "2027-01-08T06:50:00+09:00",
+      "caption": "【1月8日（金）今日の運勢】\n総合運1位は…みずがめ座♒\n\nひらめきと独自性が魅力のみずがめ座さん。\n自分らしさが評価される日。あなたらしい視点が、周りの助けになる日です。\n\n▶ 今日のひとこと：意見が違っても受けとめて\nラッキーカラー：ラベンダー\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：6月12日生まれ（チームの声を聞いて吉）\n恋愛運1位：12月5日生まれ（共通の話題で盛り上がる）\n金運1位：12月23日生まれ（欲しい物リストを作って）\n\nあなたの星座は何位でしたか？✨\n\n#占い #今日の運勢 #星座占い #みずがめ座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-08-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-08-2.jpg"
+      ]
+    },
+    {
+      "id": "20270108-worklife-auto",
+      "account": "worklife",
+      "publishAt": "2027-01-08T06:50:00+09:00",
+      "caption": "今週いちばんがんばった場面を思い出そう。\n\nがんばった場面を思い出すと、\n自分の力に気づくことができます。\nそれが来週の支えになります。\n\n今日はこれだけでOKです👇\n今週いちばんがんばった場面を1つ、短く書き留めてみてください\n\n一人で抱えこまず、少しずつでいきましょう🍀\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #金曜日 #ふり返り",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/worklife/2027-01-08.jpg"
+    },
+    {
+      "id": "20270109-fortune-auto",
+      "account": "fortune",
+      "publishAt": "2027-01-09T06:50:00+09:00",
+      "caption": "【1月9日（土）今日の運勢】\n総合運1位は…やぎ座♑\n\n責任感と着実さが魅力のやぎ座さん。\n計画を立てると運が開く日。長い目で考えた計画が、うまく動き出しそうです。\n\n▶ 今日のひとこと：今週の目標を1つだけ書き出して\nラッキーカラー：ネイビー\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：3月10日生まれ（メモをとると成果に）\n恋愛運1位：2月18日生まれ（笑顔のあいさつが鍵）\n金運1位：2月26日生まれ（欲しい物リストを作って）\n\n今日もいいことがありますように🍀\n\n#占い #今日の運勢 #星座占い #やぎ座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-09-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-09-2.jpg"
+      ]
+    },
+    {
+      "id": "20270109-worklife-auto",
+      "account": "worklife",
+      "publishAt": "2027-01-09T06:50:00+09:00",
+      "caption": "休みの日は「ちゃんと」をお休みにしよう。\n\n休日まできちんとしようとすると、\n心が休まりません。\nゆるく過ごす日があるから、また頑張れます。\n\n今日のおすすめはこれです✨\n今日は「やらなきゃ」を1つ手放して、のんびり過ごしてみてください\n\n明日のあなたが、ちょっとラクになりますように🌙\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #土曜日 #セルフケア",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/worklife/2027-01-09.jpg"
+    },
+    {
+      "id": "20270110-fortune-auto",
+      "account": "fortune",
+      "publishAt": "2027-01-10T06:50:00+09:00",
+      "caption": "【1月10日（日）今日の運勢】\n総合運1位は…かに座♋\n\n思いやりとやさしさが魅力のかに座さん。\n身近な人との絆が深まる日。身近な人との会話が、心を温めてくれそう。素直な気持ちを言葉にしてみて。\n\n▶ 今日のひとこと：家族や友人に「ありがとう」を\nラッキーカラー：シルバー\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：7月16日生まれ（新しい提案が通りそう）\n恋愛運1位：4月27日生まれ（笑顔のあいさつが鍵）\n金運1位：11月29日生まれ（レシートを見直して）\n\n今日もいいことがありますように🍀\n\n#占い #今日の運勢 #星座占い #かに座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-10-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-10-2.jpg"
+      ]
+    },
+    {
+      "id": "20270110-worklife-auto",
+      "account": "worklife",
+      "publishAt": "2027-01-10T06:50:00+09:00",
+      "caption": "来週の自分にひとことエールを書いておこう。\n\n未来の自分に向けた言葉は、\n疲れた日に思った以上の支えになります。\n短い一言で大丈夫です。\n\nむずかしく考えずに、これだけどうぞ👇\n手帳やスマホのメモに、来週の自分へのひとことを書いておいてください\n\nしんどい日は、無理しなくて大丈夫ですよ☕️\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #日曜日 #来週も頑張ろう",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/worklife/2027-01-10.jpg"
+    },
+    {
+      "id": "20270111-fortune-auto",
+      "account": "fortune",
+      "publishAt": "2027-01-11T06:50:00+09:00",
+      "caption": "【1月11日（月）今日の運勢】\n総合運1位は…しし座♌\n\n明るさと存在感が魅力のしし座さん。\nあなたらしさが輝く日。自分の得意分野で力を発揮しやすい日。遠慮せずアイデアを出してみて。\n\n▶ 今日のひとこと：得意なことを人前で見せて\nラッキーカラー：サンイエロー\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：8月1日生まれ（期限を1日早めに）\n恋愛運1位：12月11日生まれ（感謝を言葉にして）\n金運1位：8月3日生まれ（ポイント活用が吉）\n\nあなたの星座は何位でしたか？✨\n\n#占い #今日の運勢 #星座占い #しし座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-11-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-11-2.jpg"
+      ]
+    },
+    {
+      "id": "20270111-worklife-auto",
+      "account": "worklife",
+      "publishAt": "2027-01-11T06:50:00+09:00",
+      "caption": "1週間の働いた時間を記録しよう。本音が見える。\n\n「忙しい」と感じる理由は、\n時間を書き出すとはっきりします。\n転職で変えたいことの材料になります。\n\n小さな一歩でいいので、今日はこれを👇\n今週、毎日の始業と終業の時刻を手帳かスマホにメモしてみてください\n\n📝 もっとくわしく知りたい人は、プロフィールのリンクからどうぞ\n\n読んでくれてありがとう。今日もおつかれさまです🌿\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #転職 #働き方",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/worklife/2027-01-11.jpg"
+    },
+    {
+      "id": "20270112-fortune-auto",
+      "account": "fortune",
+      "publishAt": "2027-01-12T06:50:00+09:00",
+      "caption": "【1月12日（火）今日の運勢】\n総合運1位は…さそり座♏\n\n集中力と深い情が魅力のさそり座さん。\n本音が伝わる日。静かな時間に考えを整理すると、次の一手が見えてきます。\n\n▶ 今日のひとこと：一人の時間も大切に\nラッキーカラー：ブラック\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：5月15日生まれ（得意分野で力を発揮）\n恋愛運1位：5月2日生まれ（小さな気づかいが◎）\n金運1位：12月17日生まれ（衝動買いはひと晩待って）\n\n素敵な一日になりますように🌙\n\n#占い #今日の運勢 #星座占い #さそり座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-12-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-12-2.jpg"
+      ]
+    },
+    {
+      "id": "20270112-worklife-auto",
+      "account": "worklife",
+      "publishAt": "2027-01-12T06:50:00+09:00",
+      "caption": "面接の前に話す内容を声に出して練習しよう。\n\n頭の中では話せても、\n声に出すと詰まるところが見つかります。\n一度でも声に出すと、当日の安心感が違います。\n\n今日のおすすめはこれです✨\n自己紹介を1分で、声に出して1回だけ話してみてください\n\n👉 くわしいやり方は、プロフィールのリンクに置いてあります\n\nできた日は、自分をほめてあげてくださいね😊\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #転職 #面接対策",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/worklife/2027-01-12.jpg"
+    },
+    {
+      "id": "20270113-fortune-auto",
+      "account": "fortune",
+      "publishAt": "2027-01-13T06:50:00+09:00",
+      "caption": "【1月13日（水）今日の運勢】\n総合運1位は…うお座♓\n\n感受性とやさしさが魅力のうお座さん。\n癒やしの時間が幸運に。がんばった心と体をいたわると、明日の運気も上向きに。\n\n▶ 今日のひとこと：早めに休んで心を充電\nラッキーカラー：パールホワイト\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：12月22日生まれ（メモをとると成果に）\n恋愛運1位：9月17日生まれ（笑顔のあいさつが鍵）\n金運1位：10月20日生まれ（予定外の出費に注意）\n\nあなたの星座は何位でしたか？✨\n\n#占い #今日の運勢 #星座占い #うお座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-13-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-13-2.jpg"
+      ]
+    },
+    {
+      "id": "20270113-worklife-auto",
+      "account": "worklife",
+      "publishAt": "2027-01-13T06:50:00+09:00",
+      "caption": "できあがったものは保存しておこう。次の自信になる。\n\n作ったものを残しておくと、\n自分の成長が目に見えるようになります。\n人に見せる見本にもなります。\n\n今日はこれだけでOKです👇\nこれまでに作ったものを、1つのフォルダにまとめてみてください\n\n👉 くわしいやり方は、プロフィールのリンクに置いてあります\n\nしんどい日は、無理しなくて大丈夫ですよ☕️\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #複業 #副業 #実績づくり",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/worklife/2027-01-13.jpg"
+    },
+    {
+      "id": "20270114-fortune-auto",
+      "account": "fortune",
+      "publishAt": "2027-01-14T06:50:00+09:00",
+      "caption": "【1月14日（木）今日の運勢】\n総合運1位は…てんびん座♎\n\nバランス感覚と品のよさが魅力のてんびん座さん。\n調和がツキを呼ぶ日。決めごとは、みんなの声を聞いてからだとうまくまとまりそう。\n\n▶ 今日のひとこと：人の意見を聞いてから決断を\nラッキーカラー：パステルグリーン\n\n▶ 2枚目は誕生日別ラッキー運\n仕事運1位：2月28日生まれ（確認をひとつ増やして）\n恋愛運1位：5月4日生まれ（自分磨きが魅力に）\n金運1位：4月15日生まれ（身近な節約が実りそう）\n\n素敵な一日になりますように🌙\n\n#占い #今日の運勢 #星座占い #てんびん座 #誕生日占い",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-14-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/fortune/2027-01-14-2.jpg"
+      ]
+    },
+    {
+      "id": "20270114-worklife-auto",
+      "account": "worklife",
+      "publishAt": "2027-01-14T06:50:00+09:00",
+      "caption": "やらないことを決めるのも複業の大事な準備。\n\nできることを全部やろうとすると、\n時間も気持ちも足りなくなります。\nやらないことを決めると、集中できます。\n\n今日のおすすめはこれです✨\n今は手を出さないことを1つ決めて、メモに書いておいてください\n\n👉 くわしいやり方は、プロフィールのリンクに置いてあります\n\n読んでくれてありがとう。今日もおつかれさまです🌿\n\n#前向きな言葉 #ワークライフバランス #今日のひとこと #複業 #副業 #時間の使い方",
+      "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/815b6330e12e8aa713cf55614c07c98304a527e1/instagram/auto/images/worklife/2027-01-14.jpg"
     }
   ],
   "held": {
