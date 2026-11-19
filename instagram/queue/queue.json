@@ -207,6 +207,34 @@
       "imageUrl": "https://raw.githubusercontent.com/tenyu-carrer/projects/28895f17c697fe9c65842a73ca52593b3a5fa6ca/instagram/auto/images/worklife/2026-11-20.jpg"
     },
     {
+      "id": "20261120-gallery-002",
+      "account": "gallery",
+      "publishAt": "2026-11-20T08:00:00+09:00",
+      "imageUrls": [
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/06a1243ccc2232f82758dbecc0fe92e2768074aa/instagram/content/gallery/images/gallery-002-1.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/06a1243ccc2232f82758dbecc0fe92e2768074aa/instagram/content/gallery/images/gallery-002-2.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/06a1243ccc2232f82758dbecc0fe92e2768074aa/instagram/content/gallery/images/gallery-002-3.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/06a1243ccc2232f82758dbecc0fe92e2768074aa/instagram/content/gallery/images/gallery-002-4.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/06a1243ccc2232f82758dbecc0fe92e2768074aa/instagram/content/gallery/images/gallery-002-5.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/06a1243ccc2232f82758dbecc0fe92e2768074aa/instagram/content/gallery/images/gallery-002-6.jpg",
+        "https://raw.githubusercontent.com/tenyu-carrer/projects/06a1243ccc2232f82758dbecc0fe92e2768074aa/instagram/content/gallery/images/gallery-002-7.jpg"
+      ],
+      "caption": "【保存必須】デザイン経験ゼロでも、人が集まるチラシが作れる方法｜No.002📄\n\n「チラシって、何から書けばいいの…？」\nいちばん悩むのは見出し。ここをAIに任せると、一気にラクになります✨\n\n▼どうぞパクってください（コピペOK）\n――――――――――\nイベントチラシの見出しを5案作ってください。\n対象：〇〇（例：小学生の子どもがいる親子）\n内容：〇〇（例：秋のパン作り教室）\n誰向けかと参加内容が想像できる案に。\n誇張や元にない数字は使わないでください。\n――――――――――\n\n見出しが決まったら、Canvaのチラシに入れるだけ🖌️\n日時・場所・料金・申込方法は、本文と分けて「別の枠」にまとめるのがコツ📦\nパッと見て「何の催し？いつ？どこ？」が分かれば合格です👀\n\n※例のイベントは架空です\n※日付・料金・住所は、印刷前に必ず自分の目で確かめてね\n\n📩 テンプレと作り方の全手順がほしい人は\nいいね＆フォローして、コメント欄に「好きな動物」を送ってね🐾\nあとで試せるように保存しておいてね🔖\n\n#AI活用術 #ChatGPT #Canva #チラシ作り #AIツール",
+      "canvaDesignId": "DAHbVDuwByI",
+      "qa": {
+        "passed": true,
+        "checkedAt": "2026-11-19T04:34:31.587Z",
+        "by": "Claude（品質管理部）",
+        "checks": [
+          "Canva製",
+          "ポイントごとに違う見た目",
+          "check-carousel.mjs 合格（差42.6）",
+          "全ページ目視：文字切れ・誤字なし・順番正しい",
+          "オーナーOK（2026-11-19「どんどん進めてね」）・締めの @ai_tool_gallery 修正済み"
+        ]
+      }
+    },
+    {
       "id": "20261121-fortune-auto",
       "account": "fortune",
       "publishAt": "2026-11-21T06:50:00+09:00",
