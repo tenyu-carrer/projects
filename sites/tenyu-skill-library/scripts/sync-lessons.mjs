@@ -41,7 +41,7 @@ for (const product of data.products) {
     if (!/\.md$/i.test(item.url || '')) continue;
     const file = path.join(siteRoot, decodeURI(item.url));
     if (!fs.existsSync(file)) continue;
-    const text = fs.readFileSync(file, 'utf8');
+    const text = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
     for (const match of text.matchAll(promptBlock)) {
       const body = match[1].trim();
       if (body && !prompts.includes(body)) prompts.push(body);
@@ -51,7 +51,7 @@ for (const product of data.products) {
   const dPack = path.join(outputRoot, `${product.id}-D`, '完全パック.md');
   if (product.webStatus === 'sample' && fs.existsSync(dPack)) {
     const textBlock = new RegExp(`${FENCE}text\\r?\\n([\\s\\S]*?)${FENCE}`, 'g');
-    for (const match of fs.readFileSync(dPack, 'utf8').matchAll(textBlock)) {
+    for (const match of fs.readFileSync(dPack, 'utf8').replace(/\r\n/g, '\n').matchAll(textBlock)) {
       const body = match[1].trim();
       if (body && !prompts.includes(body)) prompts.push(body);
     }
