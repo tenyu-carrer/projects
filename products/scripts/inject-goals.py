@@ -93,8 +93,14 @@ def apply(path, spec, dry, src_mode=False):
 
 
 def main():
-    spec = json.load(open(sys.argv[1], encoding="utf-8"))
+    data = json.load(open(sys.argv[1], encoding="utf-8"))
     dry = "--dry" in sys.argv
+    specs = data if isinstance(data, list) else [data]
+    for spec in specs:  # 1ファイルに複数番号をまとめて書いてもよい
+        run_one(spec, dry)
+
+
+def run_one(spec, dry):
     nid = spec["id"]
     total = apply(os.path.join(OUT, f"{nid}-D", "完全パック.md"), spec, dry)
     s = os.path.join(SRC, f"{nid}.md")
