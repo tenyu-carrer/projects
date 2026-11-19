@@ -12,6 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 OUT = os.path.join(ROOT, "products", "output")
 SRC = os.path.join(ROOT, "products", "sources")
 MARK = "この手順でできるようになること"
+MARKS = ("この手順でできるようになること", "この章でできるようになること")
 
 
 def level(line):
@@ -20,7 +21,9 @@ def level(line):
 
 
 def transform(text, spec):
-    if MARK in text:
+    unit = spec.get("unit", "手順")
+    mark = f"この{unit}でできるようになること"
+    if any(m in text for m in MARKS):
         raise SystemExit(f"{spec['id']}: すでに差し込み済み")
     lines = text.split("\n")
     chs = spec["chapters"]
@@ -48,16 +51,16 @@ def transform(text, spec):
         if k >= len(lines) or lines[k].strip() != "":
             ex.append("")
         lines[k:k] = ex
-        lines[i + 1:i + 1] = ["", f"**{MARK}：{c['goal']}**"]
+        lines[i + 1:i + 1] = ["", f"**{mark}：{c['goal']}**"]
     # 進め方の表：最初の章見出しの直前
     first = idx[0]
     lv = level(lines[first])
     total = sum(int(c["min"]) for c in chs)
-    intro = spec.get("intro") or f"{len(chs)}の手順は、どれも「できるようになること」を1つだけ決め、最後に短い演習で確かめる形にしています（2026-11-19 改訂）。前の手順で作ったものを次の手順で使うので、上から順に進めてください。演習の合計は約{total}分です。"
+    intro = spec.get("intro") or f"{len(chs)}{'つ' if len(chs) < 10 else ''}の{unit}は、どれも「できるようになること」を1つだけ決め、最後に短い演習で確かめる形にしています（2026-11-19 改訂）。前の{unit}で作ったものを次の{unit}で使うので、上から順に進めてください。演習の合計は約{total}分です。"
     block = []
     if lv <= 2:
-        block += [f"{'#' * lv} 進め方：手順ごとの目標と演習", ""]
-    block += [intro, "", "| 手順 | できるようになること | 演習の時間 |", "|---|---|---|"]
+        block += [f"{'#' * lv} 進め方：{unit}ごとの目標と演習", ""]
+    block += [intro, "", f"| {unit} | できるようになること | 演習の時間 |", "|---|---|---|"]
     for n, c in enumerate(chs, 1):
         m = re.search(r"\d+", c["h"])
         label = c.get("n") or (m.group(0).lstrip("0") or "0" if m else str(n))
@@ -98,11 +101,11 @@ def main():
     if os.path.exists(s):
         apply(s, spec, dry, src_mode=True)
     if not dry:
-        update_lesson(nid, len(spec["chapters"]), total)
+        update_lesson(nid, len(spec["chapters"]), total, spec.get("unit", "手順"))
     print(f"{nid}: {len(spec['chapters'])}章・演習合計{total}分 {'(dry)' if dry else 'OK'}")
 
 
-def update_lesson(nid, n, total):
+def update_lesson(nid, n, total, unit="手順"):
     """教材サイトのデータ（data/lessons/NNN.json）に、演習の時間と、できるようになることを足す。"""
     p = os.path.join(ROOT, "sites", "tenyu-skill-library", "data", "lessons", f"{nid}.json")
     if not os.path.exists(p):
@@ -120,10 +123,10 @@ def update_lesson(nid, n, total):
     if "ミニ演習" not in dur:
         les["duration"] = (dur + "＋" if dur else "") + f"ミニ演習{n}個（約{total}分）"
     oc = les.setdefault("outcomes", [])
-    line = "手順ごとのミニ演習で、できたかを自分で確かめる"
+    line = f"{unit}ごとのミニ演習で、できたかを自分で確かめる"
     if line not in oc:
         oc.append(line)
-    note = f"{n}の手順に、それぞれ「できるようになること」を1つずつ決め、手順の終わりにミニ演習と合格の目安を置いています（2026-11-19 改訂）。講座本文（完全パック）の順に進めてください。"
+    note = f"{n}{'つ' if n < 10 else ''}の{unit}に、それぞれ「できるようになること」を1つずつ決め、{unit}の終わりにミニ演習と合格の目安を置いています（2026-11-19 改訂）。講座本文（完全パック）の順に進めてください。"
     secs = les.get("sections", [])
     tgt = next((s for s in secs if s.get("ordered")), None) or (secs[0] if secs else None)
     if tgt is not None and "ミニ演習" not in tgt.get("body", ""):
