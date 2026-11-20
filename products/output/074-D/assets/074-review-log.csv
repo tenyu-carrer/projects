@@ -1,0 +1,8 @@
+no,step,what,result,action
+1,訳し戻し,和菓子→お菓子全般,ずれあり,Japanese sweets (wagashi) に直した
+2,用語集,dorayaki に説明がない,合っていない,説明を足した
+3,事実,人気の（根拠なし）,元の文の問題,日本語も英語も消した
+4,固有名詞,Tsukimiya,合っている,-
+5,ネイティブ,Payment is cash only が硬い,不自然（架空）,Cash only. に直した
+6,ネイティブ,Please feel free は丁寧すぎる,不自然（架空）,Feel free to drop by. に直した
+注意,-,-,-,架空の記録。実在のお店ではありません
