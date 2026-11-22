@@ -105,7 +105,7 @@ function fortune1Html(c){
 <div class="t fit" style="top:748px;font:114px/1.4 S6;color:#e8b859">${esc(c.sign.name)}${sparkle}</div>
 <div class="t fit" style="top:940px;font:56px/1.4 S6;color:#e8b859">${esc(c.message)}</div>
 <div class="t fit" style="top:1022px;font:38px/1.4 S6;color:#f3dcaa">${esc(c.advice)}</div>
-<div class="t fit" style="top:1197px;font:42px/1.4 S6;color:#e8b859">ラッキーカラー：${esc(c.color)}</div>`);
+<div class="t fit" data-max="560" style="top:1197px;font:42px/1.4 S6;color:#e8b859">ラッキーカラー：${esc(c.color)}</div>`);
 }
 function fortune2Html(c){
  const {m,d}=md(c.date),tint=FORTUNE_VARIANTS[c.variant];
@@ -167,7 +167,7 @@ async function main(){
  const shot=async(html,file)=>{
   await tab.setContent(html);await tab.evaluate(()=>document.fonts.ready);
   // はみ出す文字は小さくして1行（またはボックス）に収める
-  await tab.evaluate(()=>{for(const el of document.querySelectorAll('.fit')){const inner=document.createElement('span');inner.style.display='inline-block';while(el.firstChild)inner.appendChild(el.firstChild);el.appendChild(inner);let s=parseFloat(getComputedStyle(el).fontSize);while(inner.offsetWidth>960&&s>20){s-=2;el.style.fontSize=s+'px';}}
+  await tab.evaluate(()=>{for(const el of document.querySelectorAll('.fit')){const inner=document.createElement('span');inner.style.display='inline-block';while(el.firstChild)inner.appendChild(el.firstChild);el.appendChild(inner);let s=parseFloat(getComputedStyle(el).fontSize);const max=Number(el.dataset.max)||960;while(inner.offsetWidth>max&&s>20){s-=2;el.style.fontSize=s+'px';}}
    for(const el of document.querySelectorAll('.fitbox')){let s=parseFloat(getComputedStyle(el).fontSize);el.style.whiteSpace='pre';while((el.scrollWidth>el.clientWidth||el.scrollHeight>el.clientHeight)&&s>30){s-=2;el.style.fontSize=s+'px';}}});
   mkdirSync(path.dirname(file),{recursive:true});await tab.screenshot({path:file,type:'jpeg',quality:92});
  };
